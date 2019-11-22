@@ -14,10 +14,11 @@ MonteCarloExpectation::~MonteCarloExpectation() {}
 
 double MonteCarloExpectation::getExpectation() {
     vector<double> vec_U = getVector();
+    double size = vec_U.size() ;
     double mean = 0;
-    for (int i = 0; i < vec_U.size(); ++i) {
+    for (int i = 0; i < size; ++i) {
         mean += vec_U[i];
     }
-    mean = mean/(vec_U.size());
+    mean = mean/(size);
     return mean;
 }
