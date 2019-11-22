@@ -16,7 +16,7 @@ public:
     MonteCarloExpectation();
     virtual ~MonteCarloExpectation();
 
-    virtual double GetExpectation(vector<double> vec_U) override;
+    virtual double getExpectation() override;
 };
 
 #endif /*MONTECARLOEXPECTATION_HPP*/

@@ -13,11 +13,10 @@ Expectation::Expectation(): pvec_U() {}
 Expectation::~Expectation() {}
 
 
-void Expectation::SetVector(vector<double> vec_U) {
+void Expectation::setVector(vector<double> vec_U) {
     pvec_U.clear();
     pvec_U.reserve(vec_U.size());
     for (int i = 0; i < vec_U.size(); ++i) {
         pvec_U.push_back(vec_U[i]);
     }
-
 }
