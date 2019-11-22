@@ -25,7 +25,10 @@ public:
 
     virtual double GetExpectation() = 0;
 
-protected:
+    // Get methods
+    vector<double> GetVector() const { return pvec_U; }
+
+private:
     vector<double> pvec_U;
 
 };

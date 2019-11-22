@@ -17,6 +17,7 @@
 #include <vector>
 
 #include "Expectation.hpp"
+#include "MonteCarloExpectation.hpp"
 
 int main(int argc, char *argv[]) {
 
