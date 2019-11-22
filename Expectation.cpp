@@ -1,6 +1,11 @@
-//
-// Created by emma-hoggett on 22/11/2019.
-//
+/*
+ * Expectation.cpp
+ *
+ *  Created on: Nov 22, 2019
+ * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
+ * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
+ */
+
 
 #include "Expectation.hpp"
 
@@ -9,11 +14,10 @@ Expectation::~Expectation() {}
 
 
 void Expectation::SetVector(vector<double> vec_U) {
-    vector<double>::const_iterator c;
     pvec_U.clear();
     pvec_U.reserve(vec_U.size());
-    for (c = vec_U.begin(); c!=vec_U.end(); c++){
-        pvec_U.push_back(c*);
+    for (int i = 0; i < vec_U.size(); ++i) {
+        pvec_U.push_back(vec_U[i]);
     }
-}
 
+}

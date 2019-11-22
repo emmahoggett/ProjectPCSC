@@ -1,9 +1,13 @@
-//
-// Created by emma-hoggett on 22/11/2019.
-//
+/*
+ * Expectation.hpp
+ *
+ *  Created on: Nov 22, 2019
+ * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
+ * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
+ */
 
-#ifndef EXPECTATION
-#define EXPECTATION
+#ifndef EXPECTATION_HPP_
+#define EXPECTATION_HPP_
 
 #include <iostream>
 #include <vector>
@@ -26,4 +30,4 @@ protected:
 
 };
 
-#endif //EXPECTATION
+#endif /*EXPECTATION_HPP_*/
