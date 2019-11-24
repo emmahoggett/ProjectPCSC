@@ -18,6 +18,7 @@
 
 #include "Expectation.hpp"
 #include "MonteCarloExpectation.hpp"
+#include "CentralLimitThm.hpp"
 
 int main(int argc, char *argv[]) {
 
