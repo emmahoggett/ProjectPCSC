@@ -5,6 +5,7 @@
 #ifndef MONTE_CARLO_RANDOM_VARIABLE_H
 #define MONTE_CARLO_RANDOM_VARIABLE_H
 
+#include <vector>
 class Random_variable {
 
 public:

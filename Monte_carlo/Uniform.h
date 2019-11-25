@@ -5,7 +5,7 @@
 #ifndef MONTE_CARLO_UNIFORM_GENERATOR_H
 #define MONTE_CARLO_UNIFORM_GENERATOR_H
 
-#include <vector>
+#include "Random_variable.h"
 
 class Uniform : public Random_variable {
 
@@ -24,6 +24,6 @@ protected:
 
 private:
     double mean_uniform ;
-    double sigma_uniform ;
+    double var_uniform ;
 };
 #endif //MONTE_CARLO_UNIFORM_GENERATOR_H

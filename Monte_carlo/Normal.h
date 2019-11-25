@@ -5,11 +5,13 @@
 #ifndef MONTE_CARLO_NORMAL_GENERATOR_H
 #define MONTE_CARLO_NORMAL_GENERATOR_H
 
+#include "Uniform.h"
+
 class Normal : public Uniform {
 public:
 
     Normal(const unsigned int N );
-    Normal(const unsigned int N , const double mu , const double sigma);
+    Normal(const unsigned int N , const double mu , const double var);
 
     // Get function
     std::vector<double> get_sample() const ;
@@ -21,7 +23,7 @@ private:
 
     // elles ont le meme nom que dans la classe mere ?
     double mean_normal ;
-    double sigma_normal ;
+    double var_normal ;
 };
 
 #endif //MONTE_CARLO_NORMAL_GENERATOR_H
