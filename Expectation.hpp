@@ -21,15 +21,8 @@ public:
     virtual ~Expectation();
 
     // Other public methods
-    void setVector(vector<double> vec_U);
 
     virtual double getExpectation() = 0;
-
-    // Get methods
-    vector<double> getVector() const { return pvec_U; }
-
-private:
-    vector<double> pvec_U;
 
 };
 

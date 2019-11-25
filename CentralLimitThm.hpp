@@ -26,8 +26,8 @@ public:
     // Other public methods
     virtual double getCentralLimitThm() = 0;
 
-    void setAlpha(double);
-    double getAlpha();
+    void setAlpha(double new_alpha);
+    double getAlpha()const { return p_alpha;}
 private:
     double p_alpha;
 };

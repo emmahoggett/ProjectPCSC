@@ -9,24 +9,28 @@
 #include "StandardCentralLimitThm.hpp"
 
 StandardCentralLimitThm::StandardCentralLimitThm() {
-    p_mu = getMean();
-    p_sigma = getVariance();
+    p_interval = new double [2];
 }
 
-double StandardCentralLimitThm::getCentralLimitThm() const {
-    vector <double> vec_U = getVector();
+void StandardCentralLimitThm::getCentralLimitThm(const Random_variable* sample, double expectation_sample) const {
+    vector<double> vec_U = sample-> get_sample();
     double size_N = vec_U.size();
-    double mean_samples = 0;
-    double variance_sample = 0;
+    double mu = sample -> get_mean();
+    double sigma = sample -> get_var();
+    double alpha = getAlpha();
 
-    for (int i = 0; i < size_N; ++i) {
-        mean_samples+= vec_U[i]/(i+1);
-    }
 
-    for (int j = 0; j < size_N; ++j) {
-        variance_sample+= pow(vec_U[j]-mean_samples, 2);
+    p_interval[0] = expectation_sample-alpha*sigma/pow(size_N,1/2);
+    p_interval[1] = expectation_sample+alpha*sigma/pow(size_N,1/2);
+
+    if ((mu >= p_interval[0]) && (mu <= p_interval[1])){
+        std::cout << "The central limit theorem is respected.\n"
+                     "Program finished sucessfully.\n"<< std::endl ;
     }
-    variance_sample = pow(variance_sample/(size_N-1),1/2);
+    else {
+        std::cout << "The central limit theorem isn't respected.\n"
+                     "Program finished sucessfully.\n"<< std::endl ;
+    }
 
 
 }
