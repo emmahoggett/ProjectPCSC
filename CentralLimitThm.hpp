@@ -12,7 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "MonteCarloExpectation.hpp"
+#include "Random_variable.hpp"
 
 using namespace std;
 
@@ -23,23 +23,12 @@ public:
     virtual ~CentralLimitThm();
 
     // Other public methods
-    void setVector(vector<double> vec_U);
-    void setMean(double mu);
-    void setVariance(double sigma);
-
     virtual double getCentralLimitThm() = 0;
 
-    // Get methods
-    vector<double> getVector() const { return pvec_U; }
-    double getMean()const{return p_mu;}
-    double getVariance()const{return p_sigma;}
-
-
+    void setAlpha(double new_alpha);
+    double getAlpha()const { return p_alpha;}
 private:
-    vector<double> pvec_U;
-    double p_mu;
-    double p_sigma;
-
+    double p_alpha;
 };
 
 #endif /*CENTRALLIMITTHM_HPP_*/

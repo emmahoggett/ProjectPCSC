@@ -21,13 +21,14 @@
 #include "CentralLimitThm.hpp"
 
 int main(int argc, char *argv[]) {
-    if (argc != 3) {
+    if (argc != 4) {
         std::cout << "Missing parameter. Please run as:\n"
-                  << "  ./main <mean_mu> <variance_sigma>\n"
+                  << "  ./main <mean_mu> <variance_sigma> <size_N>\n"
                   << "Aborting.\n";
         return 1;
     }
 
     double mu = std::atof(argv[1]);
     double sigma = std::atof(argv[2]);
+    double size_N = std::atof(argv[3]);
 }

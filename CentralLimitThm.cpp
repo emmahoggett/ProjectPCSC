@@ -8,21 +8,12 @@
 
 #include "CentralLimitThm.hpp"
 
-CentralLimitThm::CentralLimitThm(): pvec_U() {}
+CentralLimitThm::CentralLimitThm(){}
+
 CentralLimitThm::~CentralLimitThm() {}
 
-void CentralLimitThm::setVector(vector<double> vec_U) {
-    pvec_U.clear();
-    pvec_U.reserve(vec_U.size());
-    for (int i = 0; i < vec_U.size(); ++i) {
-        pvec_U.push_back(vec_U[i]);
-    }
+void CentralLimitThm::setAlpha(double new_alpha) {
+    p_alpha = new_alpha;
 }
 
 
-void CentralLimitThm::setMean(double mu) {
-    p_mu = mu;
-}
-void CentralLimitThm::setVariance(double sigma) {
-    p_sigma = sigma;
-}
