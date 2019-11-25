@@ -18,7 +18,16 @@
 
 #include "Expectation.hpp"
 #include "MonteCarloExpectation.hpp"
+#include "CentralLimitThm.hpp"
 
 int main(int argc, char *argv[]) {
+    if (argc != 3) {
+        std::cout << "Missing parameter. Please run as:\n"
+                  << "  ./main <mean_mu> <variance_sigma>\n"
+                  << "Aborting.\n";
+        return 1;
+    }
 
+    double mu = std::atof(argv[1]);
+    double sigma = std::atof(argv[2]);
 }

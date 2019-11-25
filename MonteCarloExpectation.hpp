@@ -6,8 +6,8 @@
  * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
  */
 
-#ifndef MONTECARLOEXPECTATION_HPP
-#define MONTECARLOEXPECTATION_HPP
+#ifndef MONTECARLOEXPECTATION_HPP_
+#define MONTECARLOEXPECTATION_HPP_
 
 #include "Expectation.hpp"
 
@@ -19,4 +19,4 @@ public:
     virtual double getExpectation() override;
 };
 
-#endif /*MONTECARLOEXPECTATION_HPP*/
+#endif /*MONTECARLOEXPECTATION_HPP_*/
