@@ -12,7 +12,6 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "MonteCarloExpectation.hpp"
 #include "Random_variable.hpp"
 
 using namespace std;

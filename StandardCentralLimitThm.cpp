@@ -14,9 +14,10 @@ StandardCentralLimitThm::StandardCentralLimitThm() {
 
 void StandardCentralLimitThm::getCentralLimitThm(const Random_variable* sample, double expectation_sample) const {
     vector<double> vec_U = sample-> get_sample();
-    double size_N = vec_U.size();
+    int size_N = vec_U.size();
     double mu = sample -> get_mean();
     double sigma = sample -> get_var();
+    sigma = pow(sigma, 1/2);
     double alpha = getAlpha();
 
 
