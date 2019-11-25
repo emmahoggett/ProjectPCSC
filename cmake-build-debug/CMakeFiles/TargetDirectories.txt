@@ -1,3 +1,0 @@
-/home/emma-hoggett/git_workspace/ProjectPCSC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/emma-hoggett/git_workspace/ProjectPCSC/cmake-build-debug/CMakeFiles/main.dir
-/home/emma-hoggett/git_workspace/ProjectPCSC/cmake-build-debug/CMakeFiles/edit_cache.dir
