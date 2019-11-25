@@ -4,18 +4,20 @@
 
 #ifndef MONTE_CARLO_NORMAL_GENERATOR_H
 #define MONTE_CARLO_NORMAL_GENERATOR_H
-class Normal_generator : public Uniform_generator {
+
+class Normal : public Uniform {
 public:
-    Normal_generator(const unsigned int N );
-    Normal_generator(const unsigned int N , const double mu , const double sigma)
+
+    Normal(const unsigned int N );
+    Normal(const unsigned int N , const double mu , const double sigma);
 
     // Get function
-    vector<double> Get_sample() const ;
-    virtual double Get_mean() const ;
-    virtual double Get_var() const ;
+    std::vector<double> get_sample() const ;
+    virtual double get_mean() const ;
+    virtual double get_var() const ;
 
 private:
-    vector<double> N_m ;
+    std::vector<double> N_m ;
 
     // elles ont le meme nom que dans la classe mere ?
     double mean_normal ;

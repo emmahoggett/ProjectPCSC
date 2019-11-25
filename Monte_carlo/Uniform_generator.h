@@ -7,20 +7,20 @@
 
 #include <vector>
 
-class Uniform_generator{
+class Uniform : public Random_variable {
 
 public:
     // Constructor definition
-    Uniform_generator( const unsigned int N ) ;
-    Uniform_generator( const unsigned int N , const double a , const double b )
+    Uniform( const unsigned int N ) ;
+    Uniform( const unsigned int N , const double a , const double b )
 
     // Get function
-    vector<double> Get_sample() const ;
-    virtual double Get_mean() const ;
-    virtual double Get_var() const ;
+    std::vector<double> get_sample() const ;
+    virtual double get_mean() const ;
+    virtual double get_var() const ;
 
 protected:
-    vector<double> U_m ;
+    std::vector<double> U_m ;
 
 private:
     double mean_uniform ;
