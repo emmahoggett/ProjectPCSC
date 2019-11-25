@@ -8,7 +8,11 @@
 
 #include "CentralLimitThm.hpp"
 
-CentralLimitThm::CentralLimitThm(): pvec_U() {}
+CentralLimitThm::CentralLimitThm(){
+    Random_variable* pRandVar;
+    pRandVar =;
+
+}
 CentralLimitThm::~CentralLimitThm() {}
 
 void CentralLimitThm::setVector(vector<double> vec_U) {

@@ -13,7 +13,7 @@ StandardCentralLimitThm::StandardCentralLimitThm() {
     p_sigma = getVariance();
 }
 
-double StandardCentralLimitThm::getCentralLimitThm(double Threshold = 1e-4) const {
+double StandardCentralLimitThm::getCentralLimitThm() const {
     vector <double> vec_U = getVector();
     double size_N = vec_U.size();
     double mean_samples = 0;

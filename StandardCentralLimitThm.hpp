@@ -19,10 +19,11 @@ public:
     virtual ~StandardCentralLimitThm();
 
     // Other public methods
-    virtual double getCentralLimitThm(double Threshold = 1e-4)const override ;
+    virtual void getCentralLimitThm(Random_variable* sample)const override ;
 private:
     double p_mu;
     double p_sigma;
+    double p_threshold;
 
 };
 #endif /*STANDARDCENTRALLIMITTHM_HPP_*/
