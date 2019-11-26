@@ -10,7 +10,7 @@
 #ifndef STANDARDCENTRALLIMITTHM_HPP_
 #define STANDARDCENTRALLIMITTHM_HPP_
 
-#include "CentralLimitThm.hpp"
+#include "AbstCentralLimitThm.hpp"
 
 class StandardCentralLimitThm: public CentralLimitThm{
 public:
