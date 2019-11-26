@@ -16,11 +16,11 @@
 
 using namespace std;
 
-class CentralLimitThm{
+class AbstCentralLimitThm{
 public:
     // Constructor and destructor
-    CentralLimitThm();
-    virtual ~CentralLimitThm();
+    AbstCentralLimitThm();
+    virtual ~AbstCentralLimitThm();
 
     // Other public methods
     virtual double getCentralLimitThm() = 0;

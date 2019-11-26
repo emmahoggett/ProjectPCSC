@@ -16,9 +16,9 @@
 #include <iostream>
 #include <vector>
 
-#include "Expectation.hpp"
+#include "AbstExpectation.hpp"
 #include "MonteCarloExpectation.hpp"
-#include "CentralLimitThm.hpp"
+#include "AbstCentralLimitThm.hpp"
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {

@@ -7,7 +7,8 @@
  */
 
 
-#include "Expectation.hpp"
+#include "AbstExpectation.hpp"
 
-Expectation::Expectation() {}
-Expectation::~Expectation() {}
+
+AbstExpectation::AbstExpectation() {}
+AbstExpectation::~AbstExpectation() {}

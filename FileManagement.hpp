@@ -9,4 +9,15 @@
 #ifndef FILEMANAGEMENT_HPP_
 #define FILEMANAGEMENT_HPP_
 
+#include <fstream>
+#include <string>
+#include <iostream>
+class FileManagement{
+public:
+    FileManagement();
+    virtual ~FileManagement();
+
+    std::ofstream createFile(std::string name);
+};
+
 #endif /*FILEMANAGEMENT_HPP_*/

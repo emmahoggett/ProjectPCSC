@@ -9,9 +9,9 @@
 #ifndef MONTECARLOEXPECTATION_HPP_
 #define MONTECARLOEXPECTATION_HPP_
 
-#include "Expectation.hpp"
+#include "AbstExpectation.hpp"
 
-class MonteCarloExpectation : public Expectation{
+class MonteCarloExpectation : public AbstExpectation{
 public:
     MonteCarloExpectation();
     virtual ~MonteCarloExpectation();

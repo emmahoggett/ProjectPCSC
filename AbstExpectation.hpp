@@ -6,19 +6,20 @@
  * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
  */
 
-#ifndef EXPECTATION_HPP_
-#define EXPECTATION_HPP_
+#ifndef ABSTEXPECTATION_HPP_
+#define ABSTEXPECTATION_HPP_
 
 #include <iostream>
 #include <vector>
+#include "Random_variable.h"
 
 using namespace std;
 
-class Expectation{
+class AbstExpectation{
 public:
     // Constructor and destructor
-    Expectation();
-    virtual ~Expectation();
+    AbstExpectation();
+    virtual ~AbstExpectation();
 
     // Other public methods
 
@@ -26,4 +27,4 @@ public:
 
 };
 
-#endif /*EXPECTATION_HPP_*/
+#endif /*ABSTEXPECTATION_HPP_*/

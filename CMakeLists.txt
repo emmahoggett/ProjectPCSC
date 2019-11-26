@@ -5,5 +5,5 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 # As you solve exercises, you need to add them here.
 # The syntax is add_executable(executable_name source_file_name)
 
-add_executable(main main.cpp Expectation.cpp MonteCarloExpectation.cpp CentralLimitThm.cpp
-        StandardCentralLimitThm.cpp Moment.cpp)
+add_executable(main main.cpp AbstExpectation.cpp MonteCarloExpectation.cpp AbstCentralLimitThm.cpp
+        StandardCentralLimitThm.cpp Moment.cpp FileManagement.cpp)

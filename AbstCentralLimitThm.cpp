@@ -6,13 +6,13 @@
  * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
  */
 
-#include "CentralLimitThm.hpp"
+#include "AbstCentralLimitThm.hpp"
 
-CentralLimitThm::CentralLimitThm(){}
+AbstCentralLimitThm::AbstCentralLimitThm(){}
 
-CentralLimitThm::~CentralLimitThm() {}
+AbstCentralLimitThm::~AbstCentralLimitThm() {}
 
-void CentralLimitThm::setAlpha(double new_alpha) {
+void AbstCentralLimitThm::setAlpha(double new_alpha) {
     p_alpha = new_alpha;
 }
 
