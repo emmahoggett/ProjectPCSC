@@ -12,6 +12,8 @@
 
 #include "AbstCentralLimitThm.hpp"
 #include "Random_variable.h"
+#include "Normal.h"
+#include "Uniform.h"
 
 class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:

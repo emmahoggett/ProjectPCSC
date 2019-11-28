@@ -14,6 +14,8 @@
 #include <vector>
 #include <cmath>
 #include "Random_variable.h"
+#include "Normal.h"
+#include "Uniform.h"
 
 using namespace std;
 class Moment{
@@ -21,7 +23,7 @@ public:
     Moment();
     virtual ~Moment();
 
-    void getMoment(ofstream& stream, const Random_variable* sample, const int order)const;
+    void getMoment(ofstream& stream, Random_variable* sample, const int order)const;
 
 };
 #endif /*MOMENT_HPP_*/

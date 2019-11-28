@@ -10,7 +10,7 @@
 #include <iostream>
 #include <cmath>
 #include <boost/math/special_functions/erf.hpp>
-Normal :: Normal(const unsigned int N ) :
+Normal :: Normal(unsigned int N ) :
 Uniform(N) ,mean_normal(0.0) , var_normal(1.0)
 {
     for (int i = 0; i < N; ++i) {
@@ -19,7 +19,7 @@ Uniform(N) ,mean_normal(0.0) , var_normal(1.0)
 }
 
 
-Normal :: Normal(const unsigned int N , const double mu , const double var):
+Normal :: Normal(unsigned int N , double mu , double var):
 Uniform(N) ,mean_normal(mu) , var_normal(var)
 {
     for (int i = 0; i < N; ++i) {

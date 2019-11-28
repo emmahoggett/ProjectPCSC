@@ -10,6 +10,9 @@
 #define MONTECARLOEXPECTATION_HPP_
 
 #include "AbstExpectation.hpp"
+#include "Random_variable.h"
+#include "Normal.h"
+#include "Uniform.h"
 
 class MonteCarloExpectation : public AbstExpectation{
 public:

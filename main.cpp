@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
-    Moment *pMoment = 0;
+    Moment *pMoment;
 
 
     pRandom_variable = new Normal(size_N, mu, sigma);
@@ -55,6 +55,9 @@ int main(int argc, char *argv[]) {
     double sample_expectation = pExpectation -> getExpectation(pRandom_variable);
 
     std::ofstream MomentFile("solution_Moment.csv");
+    MomentFile.setf(std::ios::scientific);
+    MomentFile.setf(std::ios::showpos);
+    MomentFile.precision(9);
     if (MomentFile.is_open()) {
         pMoment->getMoment(MomentFile, pRandom_variable, order);
         MomentFile.close();

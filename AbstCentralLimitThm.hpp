@@ -13,6 +13,8 @@
 #include <vector>
 #include <cmath>
 #include "Random_variable.h"
+#include "Normal.h"
+#include "Uniform.h"
 
 using namespace std;
 

@@ -14,11 +14,11 @@
 class Normal : public Uniform {
 public:
 
-    Normal(const unsigned int N );
-    Normal(const unsigned int N , const double mu , const double var);
+    Normal(unsigned int N );
+    Normal(unsigned int N , double mu , double var);
 
     // Get function
-    std::vector<double> get_sample() { return N_m;}
+    virtual std::vector<double> get_sample() { return N_m;}
     virtual double get_mean() { return mean_normal;}
     virtual double get_var() { return var_normal;}
 

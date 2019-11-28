@@ -25,11 +25,11 @@ void StandardCentralLimitThm::getCentralLimitThm(Random_variable* sample, double
 
     if ((mu >= p_interval[0]) && (mu <= p_interval[1])){
         std::cout << "The central limit theorem is respected.\n"
-                     "Program finished sucessfully.\n"<< std::endl ;
+                     "Program finished successfully.\n"<< std::endl ;
     }
     else {
         std::cout << "The central limit theorem isn't respected.\n"
-                     "Program finished sucessfully.\n"<< std::endl ;
+                     "Program finished successfully.\n"<< std::endl ;
     }
 
 

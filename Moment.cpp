@@ -12,7 +12,7 @@ Moment::Moment() {}
 
 Moment::~Moment() {}
 
-void Moment::getMoment(std::ofstream &stream, const Random_variable *sample, const int order) const {
+void Moment::getMoment(std::ofstream &stream, Random_variable *sample, const int order) const {
     double mean = sample -> get_mean();
     vector<double> vec_U = sample-> get_sample();
     int size_N = vec_U.size();
