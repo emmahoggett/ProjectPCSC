@@ -11,15 +11,16 @@
 #define STANDARDCENTRALLIMITTHM_HPP_
 
 #include "AbstCentralLimitThm.hpp"
+#include "Random_variable.h"
 
-class StandardCentralLimitThm: public CentralLimitThm{
+class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:
     // Constructor and destructor
     StandardCentralLimitThm();
     virtual ~StandardCentralLimitThm();
 
     // Other public methods
-    virtual void getCentralLimitThm(const Random_variable* sample, double expectation_sample, double alpha)const override ;
+    virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) override ;
 private:
     double* p_interval;
 

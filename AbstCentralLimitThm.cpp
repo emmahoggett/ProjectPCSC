@@ -12,8 +12,5 @@ AbstCentralLimitThm::AbstCentralLimitThm(){}
 
 AbstCentralLimitThm::~AbstCentralLimitThm() {}
 
-void AbstCentralLimitThm::setAlpha(double new_alpha) {
-    p_alpha = new_alpha;
-}
 
 

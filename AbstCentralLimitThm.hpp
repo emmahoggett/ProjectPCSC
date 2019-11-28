@@ -12,7 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "Random_variable.hpp"
+#include "Random_variable.h"
 
 using namespace std;
 
@@ -23,12 +23,8 @@ public:
     virtual ~AbstCentralLimitThm();
 
     // Other public methods
-    virtual double getCentralLimitThm() = 0;
+    virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) = 0;
 
-    void setAlpha(double new_alpha);
-    double getAlpha()const { return p_alpha;}
-private:
-    double p_alpha;
 };
 
 #endif /*CENTRALLIMITTHM_HPP_*/

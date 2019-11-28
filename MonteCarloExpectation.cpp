@@ -12,7 +12,7 @@ MonteCarloExpectation::MonteCarloExpectation() {}
 
 MonteCarloExpectation::~MonteCarloExpectation() {}
 
-double MonteCarloExpectation::getExpectation(const Random_variable* rvs) {
+double MonteCarloExpectation::getExpectation(Random_variable* rvs) {
     vector<double> vec_U = rvs-> get_sample();
     double size = vec_U.size() ;
     double mean = 0;

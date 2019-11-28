@@ -12,7 +12,7 @@ class Uniform : public Random_variable {
 public:
     // Constructor definition
     Uniform( const unsigned int N ) ;
-    Uniform( const unsigned int N , const double a , const double b )
+    Uniform( const unsigned int N , const double a , const double b );
 
     // Get function
     std::vector<double> get_sample() const ;

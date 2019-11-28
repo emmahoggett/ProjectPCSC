@@ -18,17 +18,59 @@
 
 #include "AbstExpectation.hpp"
 #include "MonteCarloExpectation.hpp"
+
 #include "AbstCentralLimitThm.hpp"
+#include "StandardCentralLimitThm.hpp"
+
+#include "Random_variable.h"
+#include "Uniform.h"
+#include "Normal.h"
+
+#include "Moment.hpp"
 
 int main(int argc, char *argv[]) {
-    if (argc != 4) {
+    if (argc != 6) {
         std::cout << "Missing parameter. Please run as:\n"
-                  << "  ./main <mean_mu> <variance_sigma> <size_N>\n"
+                  << "  ./main <mean_mu> <variance_sigma> <size_N> <alpha> <order>\n"
                   << "Aborting.\n";
         return 1;
     }
 
     double mu = std::atof(argv[1]);
     double sigma = std::atof(argv[2]);
-    double size_N = std::atof(argv[3]);
+    unsigned int size_N = std::atof(argv[3]);
+    double alpha = std::atof(argv[4]);
+    int order = std::atof(argv[5]);
+
+
+    Random_variable *pRandom_variable =0;
+    AbstCentralLimitThm *pCentralLimit = 0;
+    AbstExpectation *pExpectation = 0;
+    Moment *pMoment = 0;
+
+
+    pRandom_variable = new Normal(size_N, mu, sigma);
+
+    pExpectation = new MonteCarloExpectation;
+    double sample_expectation = pExpectation -> getExpectation(pRandom_variable);
+
+    std::ofstream MomentFile("solution_Moment.csv");
+    if (MomentFile.is_open()) {
+        pMoment->getMoment(MomentFile, pRandom_variable, order);
+        MomentFile.close();
+    } else {
+        std::cout << "Couldn't open solution_Moment.csv. Aborting." << std::endl;
+        return 1;
+    }
+
+
+
+
+    pCentralLimit = new StandardCentralLimitThm;
+    pCentralLimit -> getCentralLimitThm(pRandom_variable, sample_expectation,alpha);
+
+
+
+
+
 }

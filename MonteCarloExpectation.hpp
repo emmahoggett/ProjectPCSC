@@ -17,6 +17,9 @@ public:
     virtual ~MonteCarloExpectation();
 
     virtual double getExpectation(Random_variable* rvs) override;
+
+private:
+    double p_SampleExpectation;
 };
 
 #endif /*MONTECARLOEXPECTATION_HPP_*/

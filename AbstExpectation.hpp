@@ -23,7 +23,7 @@ public:
 
     // Other public methods
 
-    virtual double getExpectation() = 0;
+    virtual double getExpectation(Random_variable* rvs) = 0;
 
 };
 
