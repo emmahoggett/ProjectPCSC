@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Dependencies for target
+A_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
@@ -215,6 +218,12 @@ Project_BINARY_DIR:STATIC=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmak
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
+
+//The directory containing a CMake configuration file for googletest.
+googletest_DIR:PATH=googletest_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for gtest.
+gtest_DIR:PATH=gtest_DIR-NOTFOUND
 
 
 ########################

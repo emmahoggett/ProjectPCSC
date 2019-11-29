@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/test_google_test.cpp
+cmath
+-
+exception
+-
+gtest/gtest.h
+-
+

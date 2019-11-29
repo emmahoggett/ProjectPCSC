@@ -45,6 +45,12 @@ Random_variable.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Random_variable.h
 Uniform.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Uniform.h
+gtest/gtest.h
+-
+cmath
+-
+exception
+-
 Normal.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Normal.h
 
