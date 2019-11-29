@@ -19,6 +19,9 @@
 using namespace std;
 
 class AbstCentralLimitThm{
+    /*
+     * Abstract central limit theorem class
+     */
 public:
     // Constructor and destructor
     AbstCentralLimitThm();

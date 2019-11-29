@@ -18,13 +18,23 @@
 using namespace std;
 
 class AbstExpectation{
+    /*
+     * Abstract expectation class
+     */
 public:
     // Constructor and destructor
+    /**
+     *
+     */
     AbstExpectation();
     virtual ~AbstExpectation();
 
-    // Other public methods
 
+    /**
+     * Public virtual method that compute Expectation
+     * @param rvs
+     * @return
+     */
     virtual double getExpectation(Random_variable* rvs) = 0;
 
 };

@@ -15,10 +15,17 @@
 #include "Uniform.h"
 
 class MonteCarloExpectation : public AbstExpectation{
+    /*
+     * Child of AbstExpectation
+     * Override getExpectation which compute the Monte Carlo Expectation
+     *
+     */
 public:
+    // Constructor and destructor
     MonteCarloExpectation();
     virtual ~MonteCarloExpectation();
 
+    // Methods that compute the Monte Carlo Expectation
     virtual double getExpectation(Random_variable* rvs) override;
 
 private:

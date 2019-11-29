@@ -37,6 +37,7 @@ int main(int argc, char *argv[]) {
     }
 
     double mu = std::atof(argv[1]);
+
     double sigma = std::atof(argv[2]);
     unsigned int size_N = std::atof(argv[3]);
     double alpha = std::atof(argv[4]);
@@ -58,6 +59,7 @@ int main(int argc, char *argv[]) {
     MomentFile.setf(std::ios::scientific);
     MomentFile.setf(std::ios::showpos);
     MomentFile.precision(9);
+
     if (MomentFile.is_open()) {
         pMoment->getMoment(MomentFile, pRandom_variable, order);
         MomentFile.close();

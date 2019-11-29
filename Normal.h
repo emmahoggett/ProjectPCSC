@@ -6,14 +6,14 @@
  * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
  */
 
-#ifndef MONTE_CARLO_NORMAL_GENERATOR_H
-#define MONTE_CARLO_NORMAL_GENERATOR_H
+#ifndef NORMAL_GENERATOR_H_
+#define NORMAL_GENERATOR_H_
 
 #include "Uniform.h"
 
 class Normal : public Uniform {
 public:
-
+    // Constructor and destructor
     Normal(unsigned int N );
     Normal(unsigned int N , double mu , double var);
 
@@ -24,10 +24,8 @@ public:
 
 private:
     std::vector<double> N_m ;
-
-    // elles ont le meme nom que dans la classe mere ?
     double mean_normal ;
     double var_normal ;
 };
 
-#endif //MONTE_CARLO_NORMAL_GENERATOR_H
+#endif /*NORMAL_GENERATOR_H_*/
