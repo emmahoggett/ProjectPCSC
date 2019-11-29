@@ -17,11 +17,21 @@
 
 class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:
-    // Constructor and destructor
+    /**
+     * Constructor
+     */
     StandardCentralLimitThm();
+    /**
+     * Destructor
+     */
     virtual ~StandardCentralLimitThm();
 
-    // Other public methods
+    /**
+     * Check if the central limit theorem is completed
+     * @param sample : Random_variable pointer
+     * @param expectation_sample : Expectation given by the expectation methods
+     * @param alpha : variable given by the user between ]0,1[
+     */
     virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) override ;
 private:
     double* p_interval;
