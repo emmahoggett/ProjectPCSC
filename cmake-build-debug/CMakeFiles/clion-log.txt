@@ -1,0 +1,32 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
+-- Boost version: 1.65.1
+CMake Warning at CMakeLists.txt:9 (find_package):
+  By not providing "Findgtest.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gtest", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gtest" with any of
+  the following names:
+
+    gtestConfig.cmake
+    gtest-config.cmake
+
+  Add the installation prefix of "gtest" to CMAKE_PREFIX_PATH or set
+  "gtest_DIR" to a directory containing one of the above files.  If "gtest"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.10)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug

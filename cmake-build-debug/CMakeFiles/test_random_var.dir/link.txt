@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/test_random_var.dir/test_random_variable.o CMakeFiles/test_random_var.dir/Normal.o CMakeFiles/test_random_var.dir/Uniform.o  -o test_random_var 
