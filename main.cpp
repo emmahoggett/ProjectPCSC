@@ -15,6 +15,10 @@
 
 #include <iostream>
 #include <vector>
+#include <fstream>
+#include <string>
+#include <sstream>
+
 
 #include "AbstExpectation.hpp"
 #include "MonteCarloExpectation.hpp"
@@ -28,22 +32,57 @@
 
 #include "Moment.hpp"
 
+#include "Exception.hpp"
+
+int getSizeVector(){
+    double num;
+    std::cout <<"Size of the vector: \t";
+    std::cin >> num;
+    std::cin.ignore(80, '\n');
+    if (num == static_cast<int>(num)){
+        int size = static_cast<int>(num);
+        if (size <= 0){
+            throw (Exception("INPUT","N is unsigned"));
+        } else {
+            return size;
+        }
+    } else{
+        throw (Exception("INPUT","N is an integer"));
+    }
+}
+
+
+
 int main(int argc, char *argv[]) {
-    if (argc != 6) {
-        std::cout << "Missing parameter. Please run as:\n"
-                  << "  ./main <mean_mu> <variance_sigma> <size_N> <alpha> <order>\n"
-                  << "Aborting.\n";
-        return 1;
+
+    double mu;
+    std::cout <<"Value of mu: \t";
+    std::cin >> mu;
+    int order;
+    std::cout <<"Value of order: \t";
+    std::cin >> order;
+    double sigma;
+    std::cout <<"Value of sigma: \t";
+    std::cin >> sigma;
+    double alpha;
+    std::cout <<"Value of alpha: \t";
+    std::cin >> alpha;
+
+    int size_N;
+    try {
+        size_N = getSizeVector();
+    }
+    catch (Exception& err){
+        err.PrintDebug();
+        std::cout <<"Vector size N should be an unsigned integer\n";
+        std::cout <<"Give alternative unsigned integer \n";
+        size_N = getSizeVector();
+
     }
 
-    double mu = std::atof(argv[1]);
-
-    double sigma = std::atof(argv[2]);
-    unsigned int size_N = std::atof(argv[3]);
-    double alpha = std::atof(argv[4]);
-    int order = std::atof(argv[5]);
 
 
+    //std::cout << size_N <<'\n';
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
