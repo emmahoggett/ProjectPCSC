@@ -9,24 +9,28 @@
 #define MONTE_CARLO_UNIFORM_GENERATOR_H
 
 #include "Random_variable.h"
+#include "Exception.hpp"
+#include <iostream>
 
 class Uniform : public Random_variable {
 
 public:
     // Constructor definition
-    Uniform( const unsigned int N ) ;
-    Uniform( const unsigned int N , const double a , const double b );
+    Uniform() ;
+    Uniform(double a , double b );
 
     // Get function
     virtual std::vector<double> get_sample() { return U_m;}
     virtual double get_mean() { return mean_uniform;}
     virtual double get_var() { return var_uniform;}
 
-protected:
-    std::vector<double> U_m ;
+
+    virtual int getPosInt(double& num, std::string& type_val);
+    virtual int getSizeVector();
 
 private:
     double mean_uniform ;
     double var_uniform ;
+    std::vector<double> U_m ;
 };
 #endif //MONTE_CARLO_UNIFORM_GENERATOR_H

@@ -14,13 +14,16 @@
 class Normal : public Uniform {
 public:
     // Constructor and destructor
-    Normal(unsigned int N );
-    Normal(unsigned int N , double mu , double var);
+    Normal();
+    Normal(double mu);
 
     // Get function
     virtual std::vector<double> get_sample() { return N_m;}
     virtual double get_mean() { return mean_normal;}
     virtual double get_var() { return var_normal;}
+
+    virtual double getPosDouble(double& num, std::string& type_val)const;
+    double getVariance();
 
 private:
     std::vector<double> N_m ;
