@@ -12,6 +12,8 @@ StandardCentralLimitThm::StandardCentralLimitThm() {
     p_interval = new double [2];
 }
 
+StandardCentralLimitThm::~StandardCentralLimitThm() {}
+
 void StandardCentralLimitThm::getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) {
     vector<double> vec_U = sample-> get_sample();
     int size_N = vec_U.size();
