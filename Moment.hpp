@@ -30,7 +30,10 @@ public:
     virtual ~Moment();
 
     // Public method that compute moment of the sample until the order. The result is
-    void getMoment(ofstream& stream, Random_variable* sample, const int order)const;
+    void getMoment(ofstream& stream, Random_variable* sample)const;
+    int getPosInt(double& num, std::string& type_val)const;
+    int getOrder() const;
+
 
 };
 #endif /*MOMENT_HPP_*/
