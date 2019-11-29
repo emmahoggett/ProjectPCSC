@@ -123,6 +123,19 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named test_random_var
+
+# Build rule for target.
+test_random_var: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_random_var
+.PHONY : test_random_var
+
+# fast build rule for target.
+test_random_var/fast:
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/build
+.PHONY : test_random_var/fast
+
 # target to build an object file
 AbstCentralLimitThm.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstCentralLimitThm.o
@@ -186,16 +199,19 @@ MonteCarloExpectation.s:
 # target to build an object file
 Normal.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.o
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.o
 .PHONY : Normal.o
 
 # target to preprocess a source file
 Normal.i:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.i
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.i
 .PHONY : Normal.i
 
 # target to generate assembly for a file
 Normal.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.s
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.s
 .PHONY : Normal.s
 
 # target to build an object file
@@ -216,16 +232,19 @@ StandardCentralLimitThm.s:
 # target to build an object file
 Uniform.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.o
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.o
 .PHONY : Uniform.o
 
 # target to preprocess a source file
 Uniform.i:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.i
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.i
 .PHONY : Uniform.i
 
 # target to generate assembly for a file
 Uniform.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.s
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.s
 .PHONY : Uniform.s
 
 # target to build an object file
@@ -243,6 +262,21 @@ main.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.s
 .PHONY : main.s
 
+# target to build an object file
+test_random_variable.o:
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.o
+.PHONY : test_random_variable.o
+
+# target to preprocess a source file
+test_random_variable.i:
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.i
+.PHONY : test_random_variable.i
+
+# target to generate assembly for a file
+test_random_variable.s:
+	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.s
+.PHONY : test_random_variable.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,8 +284,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... main"
+	@echo "... test_random_var"
 	@echo "... AbstCentralLimitThm.o"
 	@echo "... AbstCentralLimitThm.i"
 	@echo "... AbstCentralLimitThm.s"
@@ -276,6 +311,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test_random_variable.o"
+	@echo "... test_random_variable.i"
+	@echo "... test_random_variable.s"
 .PHONY : help
 
 

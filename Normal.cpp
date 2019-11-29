@@ -5,11 +5,11 @@
 #include <iostream>
 #include <cmath>
 #include "boost/math/distributions/normal.hpp"
+
 Normal :: Normal(const unsigned int N ) :
 Uniform(N) ,mean_normal(0.0) , var_normal(1.0)
 {
     boost::math::normal dist(0.0,1.0) ;
-    quantile(dist , 0.7);
     for (int i = 0; i < N; ++i) {
         N_m.push_back( quantile(dist,U_m[i]) );
     }
@@ -19,8 +19,9 @@ Uniform(N) ,mean_normal(0.0) , var_normal(1.0)
 Normal :: Normal(const unsigned int N , const double mu , const double var) :
 Uniform(N) ,mean_normal(mu) , var_normal(var)
 {
+    boost::math::normal dist(mu,sqrt(var)) ;
     for (int i = 0; i < N; ++i) {
-        N_m.push_back( mu + sqrt(var)*sqrt(2)*erf(2*U_m[i]) );
+        N_m.push_back( quantile(dist,U_m[i]) );
     }
 }
 

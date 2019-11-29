@@ -12,4 +12,7 @@ int main()
     rvs->get_mean();
     rvs->get_var();
 
+    std::cout<<" the mean is "<<rvs->get_mean()<<std::endl ;
+    std::cout<<" the var is "<<rvs->get_var()<<std::endl ;
+
 }
