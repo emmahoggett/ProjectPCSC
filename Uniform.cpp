@@ -1,10 +1,6 @@
-/*
- * Uniform.cpp
- *
- *  Created on: Nov 22, 2019
- * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
- * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
- */
+//
+// Created by pierr on 25/11/2019.
+//
 
 #include "Uniform.h"
 #include <random>
@@ -38,4 +34,17 @@ mean_uniform((a+b)/2.0) , var_uniform(pow(a+b,2)/12.0)
         U_m.push_back(dis(gen));
     }
 
+}
+// Get function
+std::vector<double> Uniform :: get_sample() const
+{
+    return U_m;
+}
+double Uniform :: get_mean() const
+{
+    return mean_uniform;
+}
+double Uniform ::  get_var() const
+{
+    return var_uniform ;
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/main.dir/main.o CMakeFiles/main.dir/AbstExpectation.o CMakeFiles/main.dir/MonteCarloExpectation.o CMakeFiles/main.dir/AbstCentralLimitThm.o CMakeFiles/main.dir/StandardCentralLimitThm.o CMakeFiles/main.dir/Moment.o CMakeFiles/main.dir/Normal.o CMakeFiles/main.dir/Uniform.o  -o main 
