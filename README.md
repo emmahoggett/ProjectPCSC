@@ -21,7 +21,7 @@ The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the fo
 * Exception
 
 
-*note: Random_variable hasn't got a C++ file, because it is an abstract class*
+*Note: Random_variable hasn't got a C++ file, because it is an abstract class*
 
 
 ### Additional content
