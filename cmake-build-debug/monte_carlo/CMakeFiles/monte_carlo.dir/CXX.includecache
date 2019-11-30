@@ -40,6 +40,10 @@ Normal.h
 Uniform.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+string
+-
+
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp
 Moment.hpp
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp
@@ -79,10 +83,12 @@ Normal.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 iostream
 -
+vector
+-
 cmath
 -
-boost/math/distributions/normal.hpp
-/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/boost/math/distributions/normal.hpp
+boost/math/special_functions/erf.hpp
+-
 
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
@@ -119,4 +125,8 @@ cmath
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 Random_variable.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
+Exception.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+iostream
+-
 

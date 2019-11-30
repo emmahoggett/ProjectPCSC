@@ -9,6 +9,7 @@ set(HEADER_FILES
         Random_variable.h
         StandardCentralLimitThm.hpp
         Uniform.h
+        Exception.hpp
         )
 
 set(SOURCE_FILES
@@ -19,6 +20,7 @@ set(SOURCE_FILES
         Normal.cpp
         StandardCentralLimitThm.cpp
         Uniform.cpp
+        Exception.hpp
         )
 
 add_library(monte_carlo STATIC ${SOURCE_FILES} ${HEADER_FILES})

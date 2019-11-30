@@ -17,42 +17,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06f7381-2902-4aba-bad0-3f26ca782272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monte_carlo_test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monte_carlo_test/basic_test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstCentralLimitThm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstCentralLimitThm.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstExpectation.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstExpectation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moment.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moment.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarloExpectation.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarloExpectation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Normal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Normal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random_variable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StandardCentralLimitThm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StandardCentralLimitThm.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uniform.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uniform.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_google_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_random_variable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjectPCSC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjectPCSC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/monte_carlo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/monte_carlo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575021615395</updated>
       <workItem from="1575021616790" duration="797000" />
-      <workItem from="1575023703303" duration="9250000" />
+      <workItem from="1575023703303" duration="9856000" />
     </task>
     <servers />
   </component>
