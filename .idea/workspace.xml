@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="main" />
-      <config projectName="Project" targetName="test_random_var" />
+      <config projectName="ProjectPCSC" targetName="runBasicMonteCarloTests" />
+      <config projectName="ProjectPCSC" targetName="monte_carlo" />
+      <config projectName="ProjectPCSC" targetName="monte_carlo_run" />
+      <config projectName="ProjectPCSC" targetName="gtest_main" />
+      <config projectName="ProjectPCSC" targetName="gtest" />
+      <config projectName="ProjectPCSC" targetName="runBasicMonteCarloTests_2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,15 +17,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06f7381-2902-4aba-bad0-3f26ca782272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_google_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monte_carlo_test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monte_carlo_test/basic_test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstCentralLimitThm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstCentralLimitThm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstExpectation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstExpectation.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moment.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarloExpectation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarloExpectation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Normal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Normal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random_variable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardCentralLimitThm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardCentralLimitThm.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uniform.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uniform.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/test_random_variable.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/test_random_variable.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_random_var" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_random_var" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_random_variable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test_random_variable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_random_var.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_google_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_random_variable.cpp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +63,21 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UHltVKWGt6duBSdO0KuahILoGc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -53,46 +94,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.MysqrtTest.positive_doubles">
-    <configuration name="MysqrtTest.negative" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="google_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="google_test" TEST_CLASS="MysqrtTest" TEST_METHOD="negative" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="CMake Application.runBasicMonteCarloTests_2">
+    <configuration name="MysqrtTest.negative" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="google_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="google_test" TEST_CLASS="MysqrtTest" TEST_METHOD="negative" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MysqrtTest.positive_doubles" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="google_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="google_test" TEST_CLASS="MysqrtTest" TEST_METHOD="positive_doubles" TEST_MODE="SUITE_TEST">
+    <configuration name="MysqrtTest.positive_doubles" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="google_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="google_test" TEST_CLASS="MysqrtTest" TEST_METHOD="positive_doubles" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MysqrtTest.positive_integers" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="test_random_var" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="test_random_var" TEST_CLASS="MysqrtTest" TEST_METHOD="positive_integers" TEST_MODE="SUITE_TEST">
+    <configuration name="MysqrtTest.positive_integers" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="test_random_var" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="test_random_var" TEST_CLASS="MysqrtTest" TEST_METHOD="positive_integers" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="main">
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="gtest" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_random_var" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="test_random_var" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="test_random_var">
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monte_carlo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="monte_carlo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monte_carlo_run" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="monte_carlo_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="monte_carlo_run">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runBasicMonteCarloTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="runBasicMonteCarloTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="runBasicMonteCarloTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runBasicMonteCarloTests_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjectPCSC" TARGET_NAME="runBasicMonteCarloTests_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjectPCSC" RUN_TARGET_NAME="runBasicMonteCarloTests_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.main" />
-      <item itemvalue="CMake Application.test_random_var" />
+      <item itemvalue="CMake Application.monte_carlo_run" />
+      <item itemvalue="CMake Application.monte_carlo" />
+      <item itemvalue="CMake Application.runBasicMonteCarloTests" />
+      <item itemvalue="CMake Application.runBasicMonteCarloTests_2" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="Google Test.MysqrtTest.positive_integers" />
       <item itemvalue="Google Test.MysqrtTest.positive_doubles" />
       <item itemvalue="Google Test.MysqrtTest.negative" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.MysqrtTest.positive_doubles" />
         <item itemvalue="Google Test.MysqrtTest.positive_integers" />
+        <item itemvalue="Google Test.MysqrtTest.positive_doubles" />
         <item itemvalue="Google Test.MysqrtTest.negative" />
       </list>
     </recent_temporary>
@@ -108,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575021615395</updated>
       <workItem from="1575021616790" duration="797000" />
-      <workItem from="1575023703303" duration="2878000" />
+      <workItem from="1575023703303" duration="9250000" />
     </task>
     <servers />
   </component>

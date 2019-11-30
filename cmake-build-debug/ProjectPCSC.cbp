@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProjectPCSC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\monte_carlo_test\;CMake Files\monte_carlo_test\basic_test\;CMake Files\monte_carlo_test\lib\;CMake Files\monte_carlo_test\lib\googletest\;CMake Files\monte_carlo_test\lib\googletest\cmake\;CMake Files\monte_carlo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monte_carlo_run">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 monte_carlo_run"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monte_carlo_run/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 monte_carlo_run/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicMonteCarloTests">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 runBasicMonteCarloTests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicMonteCarloTests/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 runBasicMonteCarloTests/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicMonteCarloTests_2">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 runBasicMonteCarloTests_2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicMonteCarloTests_2/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 runBasicMonteCarloTests_2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monte_carlo">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monte_carlo/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/main.cpp">
+			<Option target="monte_carlo_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/test_google_test.cpp">
+			<Option target="runBasicMonteCarloTests"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/test_random_variable.cpp">
+			<Option target="runBasicMonteCarloTests_2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\monte_carlo_test\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\monte_carlo_test\basic_test\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\monte_carlo_test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\monte_carlo_test\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\monte_carlo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

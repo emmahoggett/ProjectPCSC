@@ -111,171 +111,109 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named monte_carlo_run
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+monte_carlo_run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_run
+.PHONY : monte_carlo_run
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+monte_carlo_run/fast:
+	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/build
+.PHONY : monte_carlo_run/fast
 
 #=============================================================================
-# Target rules for targets named test_random_var
+# Target rules for targets named runBasicMonteCarloTests
 
 # Build rule for target.
-test_random_var: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_random_var
-.PHONY : test_random_var
+runBasicMonteCarloTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runBasicMonteCarloTests
+.PHONY : runBasicMonteCarloTests
 
 # fast build rule for target.
-test_random_var/fast:
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/build
-.PHONY : test_random_var/fast
+runBasicMonteCarloTests/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build
+.PHONY : runBasicMonteCarloTests/fast
 
-# target to build an object file
-AbstCentralLimitThm.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstCentralLimitThm.o
-.PHONY : AbstCentralLimitThm.o
+#=============================================================================
+# Target rules for targets named runBasicMonteCarloTests_2
 
-# target to preprocess a source file
-AbstCentralLimitThm.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstCentralLimitThm.i
-.PHONY : AbstCentralLimitThm.i
+# Build rule for target.
+runBasicMonteCarloTests_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runBasicMonteCarloTests_2
+.PHONY : runBasicMonteCarloTests_2
 
-# target to generate assembly for a file
-AbstCentralLimitThm.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstCentralLimitThm.s
-.PHONY : AbstCentralLimitThm.s
+# fast build rule for target.
+runBasicMonteCarloTests_2/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
+.PHONY : runBasicMonteCarloTests_2/fast
 
-# target to build an object file
-AbstExpectation.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstExpectation.o
-.PHONY : AbstExpectation.o
+#=============================================================================
+# Target rules for targets named gtest
 
-# target to preprocess a source file
-AbstExpectation.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstExpectation.i
-.PHONY : AbstExpectation.i
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
-# target to generate assembly for a file
-AbstExpectation.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstExpectation.s
-.PHONY : AbstExpectation.s
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
-# target to build an object file
-Moment.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Moment.o
-.PHONY : Moment.o
+#=============================================================================
+# Target rules for targets named gtest_main
 
-# target to preprocess a source file
-Moment.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Moment.i
-.PHONY : Moment.i
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
 
-# target to generate assembly for a file
-Moment.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Moment.s
-.PHONY : Moment.s
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
-# target to build an object file
-MonteCarloExpectation.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MonteCarloExpectation.o
-.PHONY : MonteCarloExpectation.o
+#=============================================================================
+# Target rules for targets named monte_carlo
 
-# target to preprocess a source file
-MonteCarloExpectation.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MonteCarloExpectation.i
-.PHONY : MonteCarloExpectation.i
+# Build rule for target.
+monte_carlo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo
+.PHONY : monte_carlo
 
-# target to generate assembly for a file
-MonteCarloExpectation.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MonteCarloExpectation.s
-.PHONY : MonteCarloExpectation.s
+# fast build rule for target.
+monte_carlo/fast:
+	$(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/build
+.PHONY : monte_carlo/fast
 
-# target to build an object file
-Normal.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.o
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.o
-.PHONY : Normal.o
+main.o: main.cpp.o
 
-# target to preprocess a source file
-Normal.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.i
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.i
-.PHONY : Normal.i
-
-# target to generate assembly for a file
-Normal.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Normal.s
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Normal.s
-.PHONY : Normal.s
-
-# target to build an object file
-StandardCentralLimitThm.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/StandardCentralLimitThm.o
-.PHONY : StandardCentralLimitThm.o
-
-# target to preprocess a source file
-StandardCentralLimitThm.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/StandardCentralLimitThm.i
-.PHONY : StandardCentralLimitThm.i
-
-# target to generate assembly for a file
-StandardCentralLimitThm.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/StandardCentralLimitThm.s
-.PHONY : StandardCentralLimitThm.s
-
-# target to build an object file
-Uniform.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.o
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.o
-.PHONY : Uniform.o
-
-# target to preprocess a source file
-Uniform.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.i
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.i
-.PHONY : Uniform.i
-
-# target to generate assembly for a file
-Uniform.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Uniform.s
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/Uniform.s
-.PHONY : Uniform.s
-
-# target to build an object file
-main.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.o
 .PHONY : main.o
 
-# target to preprocess a source file
-main.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.i
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
 .PHONY : main.i
 
-# target to generate assembly for a file
-main.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.s
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
 .PHONY : main.s
 
-# target to build an object file
-test_random_variable.o:
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.o
-.PHONY : test_random_variable.o
-
-# target to preprocess a source file
-test_random_variable.i:
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.i
-.PHONY : test_random_variable.i
-
 # target to generate assembly for a file
-test_random_variable.s:
-	$(MAKE) -f CMakeFiles/test_random_var.dir/build.make CMakeFiles/test_random_var.dir/test_random_variable.s
-.PHONY : test_random_variable.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -284,36 +222,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... monte_carlo_run"
 	@echo "... edit_cache"
-	@echo "... main"
-	@echo "... test_random_var"
-	@echo "... AbstCentralLimitThm.o"
-	@echo "... AbstCentralLimitThm.i"
-	@echo "... AbstCentralLimitThm.s"
-	@echo "... AbstExpectation.o"
-	@echo "... AbstExpectation.i"
-	@echo "... AbstExpectation.s"
-	@echo "... Moment.o"
-	@echo "... Moment.i"
-	@echo "... Moment.s"
-	@echo "... MonteCarloExpectation.o"
-	@echo "... MonteCarloExpectation.i"
-	@echo "... MonteCarloExpectation.s"
-	@echo "... Normal.o"
-	@echo "... Normal.i"
-	@echo "... Normal.s"
-	@echo "... StandardCentralLimitThm.o"
-	@echo "... StandardCentralLimitThm.i"
-	@echo "... StandardCentralLimitThm.s"
-	@echo "... Uniform.o"
-	@echo "... Uniform.i"
-	@echo "... Uniform.s"
+	@echo "... runBasicMonteCarloTests"
+	@echo "... runBasicMonteCarloTests_2"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... monte_carlo"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test_random_variable.o"
-	@echo "... test_random_variable.i"
-	@echo "... test_random_variable.s"
 .PHONY : help
 
 

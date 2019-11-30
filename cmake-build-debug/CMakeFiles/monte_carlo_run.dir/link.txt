@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/monte_carlo_run.dir/main.cpp.o  -o monte_carlo_run monte_carlo/libmonte_carlo.a 

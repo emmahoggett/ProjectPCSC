@@ -85,6 +85,54 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test_google">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/test_google" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_google"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_google/fast">
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/test_google" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_google/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test_random_var">
 				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/test_random_var" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
@@ -183,8 +231,14 @@
 			<Option target="main"/>
 			<Option target="test_random_var"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/gtest.cpp">
+			<Option target="test_google"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/main.cpp">
 			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/test_google_test.cpp">
+			<Option target="test_google"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/test_random_variable.cpp">
 			<Option target="test_random_var"/>
