@@ -179,6 +179,33 @@ AbstExpectation.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
 .PHONY : AbstExpectation.cpp.s
 
+Exception.o: Exception.cpp.o
+
+.PHONY : Exception.o
+
+# target to build an object file
+Exception.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o
+.PHONY : Exception.cpp.o
+
+Exception.i: Exception.cpp.i
+
+.PHONY : Exception.i
+
+# target to preprocess a source file
+Exception.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.i
+.PHONY : Exception.cpp.i
+
+Exception.s: Exception.cpp.s
+
+.PHONY : Exception.s
+
+# target to generate assembly for a file
+Exception.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.s
+.PHONY : Exception.cpp.s
+
 Moment.o: Moment.cpp.o
 
 .PHONY : Moment.o
@@ -329,6 +356,9 @@ help:
 	@echo "... AbstExpectation.o"
 	@echo "... AbstExpectation.i"
 	@echo "... AbstExpectation.s"
+	@echo "... Exception.o"
+	@echo "... Exception.i"
+	@echo "... Exception.s"
 	@echo "... Moment.o"
 	@echo "... Moment.i"
 	@echo "... Moment.s"

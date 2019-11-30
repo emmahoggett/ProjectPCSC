@@ -78,6 +78,9 @@
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>

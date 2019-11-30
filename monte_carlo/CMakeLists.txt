@@ -20,7 +20,7 @@ set(SOURCE_FILES
         Normal.cpp
         StandardCentralLimitThm.cpp
         Uniform.cpp
-        Exception.hpp
+        Exception.cpp
         )
 
 add_library(monte_carlo STATIC ${SOURCE_FILES} ${HEADER_FILES})
