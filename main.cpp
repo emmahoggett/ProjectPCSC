@@ -56,40 +56,38 @@ int getSizeVector(){
 int main(int argc, char *argv[]) {
 
     double mu;
-    std::cout <<"Value of mu: \t";
+    std::cout << "Mean value is a float number.\n";
+    std::cout <<"Enter mean value: \t";
     std::cin >> mu;
+
     int order;
-    std::cout <<"Value of order: \t";
+    std::cout << "Order is an unsigned integer.\n";
+    std::cout <<"Enter order: \t";
     std::cin >> order;
+
     double sigma;
-    std::cout <<"Value of sigma: \t";
+    std::cout << "Variance is a positive float number.\n";
+    std::cout <<"Value of variance: \t";
     std::cin >> sigma;
+
     double alpha;
+    std::cout << "Variance is a float value between ]0,1[.\n";
     std::cout <<"Value of alpha: \t";
     std::cin >> alpha;
 
-    int size_N;
-    try {
-        size_N = getSizeVector();
-    }
-    catch (Exception& err){
-        err.PrintDebug();
-        std::cout <<"Vector size N should be an unsigned integer\n";
-        std::cout <<"Give alternative unsigned integer \n";
-        size_N = getSizeVector();
-
-    }
+    double N;
+    std::cout << "Size is a positive integer.\n";
+    std::cout <<"Size of the normal & uniform vector: \t";
+    std::cin >> N;
 
 
-
-    //std::cout << size_N <<'\n';
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
     Moment *pMoment;
 
 
-    pRandom_variable = new Normal(size_N, mu, sigma);
+    pRandom_variable = new Normal(N, mu, sigma);
 
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> getExpectation(pRandom_variable);
