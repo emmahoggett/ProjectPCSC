@@ -18,20 +18,22 @@ void StandardCentralLimitThm::getCentralLimitThm(Random_variable* sample, double
     vector<double> vec_U = sample-> get_sample();
     int size_N = vec_U.size();
     double mu = sample -> get_mean();
-    double sigma = sample -> get_var();
-    sigma = pow(sigma, 1/2);
+    double variance = sample -> get_var();
+    double sigma;
+    sigma = pow(variance, 1/2);
+    double quantile;
+    quantile = 1- alpha/2;
 
-
-    p_interval[0] = expectation_sample-alpha*sigma/pow(size_N,1/2);
-    p_interval[1] = expectation_sample+alpha*sigma/pow(size_N,1/2);
+    p_interval[0] = expectation_sample-quantile*sigma/pow(size_N,1/2);
+    p_interval[1] = expectation_sample+quantile*sigma/pow(size_N,1/2);
 
     if ((mu >= p_interval[0]) && (mu <= p_interval[1])){
         std::cout << "The central limit theorem is respected.\n"
-                     "Program finished successfully.\n"<< std::endl ;
+                     "Central limit theorem finished successfully.\n"<< std::endl ;
     }
     else {
         std::cout << "The central limit theorem isn't respected.\n"
-                     "Program finished successfully.\n"<< std::endl ;
+                     "Central limit theorem finished successfully.\n"<< std::endl ;
     }
 
 
