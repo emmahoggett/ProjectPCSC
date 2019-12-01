@@ -53,9 +53,17 @@ Uniform :: Uniform(double N, double a , double b ) : mean_uniform((a+b)/2.0) , v
 
     }
     if (b < a){
+        std::cerr << "*Error*:b is smaller than a"<< std::endl;
+        std::cout << "b is now defined as equal to a and a is equal to b";
         double temp = b;
         b = a;
         a = temp;
+    } else if (b == a){
+        std::cerr << "*Error*: a is equal to b"<< std::endl;
+        std::cout << "Enter a number :";
+        std::cin >> a;
+        std::cout << "Enter a value greater then"<< a <<":";
+        std::cin >> b;
     }
     std::random_device rd;  //Will be used to obtain a seed for the random number engine
     std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd()
