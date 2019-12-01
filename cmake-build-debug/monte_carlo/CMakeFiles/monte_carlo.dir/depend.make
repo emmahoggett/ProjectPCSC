@@ -15,6 +15,9 @@ monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Nor
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Random_variable.h
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Uniform.h
 
+monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o: ../monte_carlo/Exception.cpp
+monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o: ../monte_carlo/Exception.hpp
+
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Exception.hpp
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Moment.cpp
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Moment.hpp
