@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../monte_carlo/Exception.hpp
+string
+-
+
 ../monte_carlo/Normal.h
 Uniform.h
 ../monte_carlo/Uniform.h
@@ -17,6 +21,10 @@ vector
 ../monte_carlo/Uniform.h
 Random_variable.h
 ../monte_carlo/Random_variable.h
+Exception.hpp
+../monte_carlo/Exception.hpp
+iostream
+-
 
 ../monte_carlo_test/lib/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -333,4 +341,6 @@ exception
 -
 Normal.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal.h
+string
+-
 

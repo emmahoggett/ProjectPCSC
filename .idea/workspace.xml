@@ -18,21 +18,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d06f7381-2902-4aba-bad0-3f26ca782272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjectPCSC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjectPCSC.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/monte_carlo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/monte_carlo.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/monte_carlo/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/libmonte_carlo.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo/libmonte_carlo.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests_2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/monte_carlo_test/basic_test/runBasicMonteCarloTests_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monte_carlo_test/basic_test/test_random_variable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/monte_carlo_test/basic_test/test_random_variable.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575021615395</updated>
       <workItem from="1575021616790" duration="797000" />
-      <workItem from="1575023703303" duration="9856000" />
+      <workItem from="1575023703303" duration="11901000" />
     </task>
     <servers />
   </component>
