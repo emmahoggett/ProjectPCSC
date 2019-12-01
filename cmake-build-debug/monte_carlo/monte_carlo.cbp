@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;CMake Files\monte_carlo_test\;CMake Files\monte_carlo_test\basic_test\;CMake Files\monte_carlo_test\lib\;CMake Files\monte_carlo_test\lib\googletest\;CMake Files\monte_carlo_test\lib\googletest\cmake\;CMake Files\monte_carlo\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monte_carlo">
-				<Option output="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -35,20 +35,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monte_carlo/fast">
-				<Option output="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
+				<Option output="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/libmonte_carlo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -59,80 +59,80 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 monte_carlo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.cpp">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h">
 			<Option target="monte_carlo"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\monte_carlo_test\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/basic_test/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\monte_carlo_test\basic_test\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/lib/googletest/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\monte_carlo_test\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\monte_carlo_test\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\monte_carlo\"/>
 		</Unit>
 	</Project>

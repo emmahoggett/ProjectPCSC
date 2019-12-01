@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2
+# Install script for directory: /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/cmake_install.cmake")
-  include("/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/cmake_install.cmake")
+  include("/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/cmake_install.cmake")
+  include("/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

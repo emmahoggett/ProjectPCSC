@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2
+CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/progress.marks
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test/CMakeFiles/progress.marks
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/clean
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/preinstall
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/preinstall
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
 .PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCar
 
 # fast build rule for target.
 runBasicMonteCarloTests/fast:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build
 .PHONY : runBasicMonteCarloTests/fast
 
 # Convenience name for target.
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule
 .PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ runBasicMonteCarloTests_2: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteC
 
 # fast build rule for target.
 runBasicMonteCarloTests_2/fast:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
 .PHONY : runBasicMonteCarloTests_2/fast
 
 test_google_test.o: test_google_test.cpp.o
@@ -146,7 +146,7 @@ test_google_test.o: test_google_test.cpp.o
 
 # target to build an object file
 test_google_test.cpp.o:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o
 .PHONY : test_google_test.cpp.o
 
 test_google_test.i: test_google_test.cpp.i
@@ -155,7 +155,7 @@ test_google_test.i: test_google_test.cpp.i
 
 # target to preprocess a source file
 test_google_test.cpp.i:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.i
 .PHONY : test_google_test.cpp.i
 
 test_google_test.s: test_google_test.cpp.s
@@ -164,7 +164,7 @@ test_google_test.s: test_google_test.cpp.s
 
 # target to generate assembly for a file
 test_google_test.cpp.s:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.s
 .PHONY : test_google_test.cpp.s
 
 test_random_variable.o: test_random_variable.cpp.o
@@ -173,7 +173,7 @@ test_random_variable.o: test_random_variable.cpp.o
 
 # target to build an object file
 test_random_variable.cpp.o:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.o
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.o
 .PHONY : test_random_variable.cpp.o
 
 test_random_variable.i: test_random_variable.cpp.i
@@ -182,7 +182,7 @@ test_random_variable.i: test_random_variable.cpp.i
 
 # target to preprocess a source file
 test_random_variable.cpp.i:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.i
 .PHONY : test_random_variable.cpp.i
 
 test_random_variable.s: test_random_variable.cpp.s
@@ -191,7 +191,7 @@ test_random_variable.s: test_random_variable.cpp.s
 
 # target to generate assembly for a file
 test_random_variable.cpp.s:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/test_random_variable.cpp.s
 .PHONY : test_random_variable.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

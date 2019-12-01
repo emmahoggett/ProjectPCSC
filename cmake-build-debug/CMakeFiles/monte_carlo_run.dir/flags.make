@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo 
+CXX_INCLUDES = -I/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo 
 

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d723d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d723d.dir/build.make CMakeFiles/cmTC_d723d.dir/build
-make[1]: Entering directory '/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d723d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d723d.dir/CheckSymbolExists.c.o   -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d723d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d723d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d723d.dir/CheckSymbolExists.c.o  -o cmTC_d723d 
-CMakeFiles/cmTC_d723d.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_34eb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34eb3.dir/build.make CMakeFiles/cmTC_34eb3.dir/build
+make[1]: Entering directory '/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34eb3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34eb3.dir/CheckSymbolExists.c.o   -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_34eb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34eb3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_34eb3.dir/CheckSymbolExists.c.o  -o cmTC_34eb3 
+CMakeFiles/cmTC_34eb3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d723d.dir/build.make:97: recipe for target 'cmTC_d723d' failed
-make[1]: *** [cmTC_d723d] Error 1
-make[1]: Leaving directory '/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d723d/fast' failed
-make: *** [cmTC_d723d/fast] Error 2
+CMakeFiles/cmTC_34eb3.dir/build.make:97: recipe for target 'cmTC_34eb3' failed
+make[1]: *** [cmTC_34eb3] Error 1
+make[1]: Leaving directory '/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_34eb3/fast' failed
+make: *** [cmTC_34eb3/fast] Error 2
 
-File /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d5a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4d5a9.dir/build.make CMakeFiles/cmTC_4d5a9.dir/build
-make[1]: Entering directory '/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4d5a9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d5a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4d5a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d5a9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4d5a9.dir/CheckFunctionExists.c.o  -o cmTC_4d5a9 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_79205/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79205.dir/build.make CMakeFiles/cmTC_79205.dir/build
+make[1]: Entering directory '/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79205.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_79205.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79205.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_79205.dir/CheckFunctionExists.c.o  -o cmTC_79205 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4d5a9.dir/build.make:97: recipe for target 'cmTC_4d5a9' failed
-make[1]: *** [cmTC_4d5a9] Error 1
-make[1]: Leaving directory '/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4d5a9/fast' failed
-make: *** [cmTC_4d5a9/fast] Error 2
+CMakeFiles/cmTC_79205.dir/build.make:97: recipe for target 'cmTC_79205' failed
+make[1]: *** [cmTC_79205] Error 1
+make[1]: Leaving directory '/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79205/fast' failed
+make: *** [cmTC_79205/fast] Error 2
 
 

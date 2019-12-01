@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp
 AbstCentralLimitThm.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
 iostream
 -
 vector
@@ -18,43 +18,43 @@ vector
 cmath
 -
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp
 AbstExpectation.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
 iostream
 -
 vector
 -
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp
 Exception.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
 iostream
 -
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
 string
 -
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp
 Moment.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp
 iostream
 -
 fstream
@@ -64,29 +64,29 @@ vector
 cmath
 -
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp
 MonteCarloExpectation.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp
 AbstExpectation.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 iostream
 -
 vector
@@ -94,33 +94,33 @@ vector
 cmath
 -
 boost/math/distributions/normal.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/boost/math/distributions/normal.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/boost/math/distributions/normal.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 vector
 -
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
 StandardCentralLimitThm.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
 AbstCentralLimitThm.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 random
 -
 iostream
@@ -128,11 +128,11 @@ iostream
 cmath
 -
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
 Exception.hpp
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
 iostream
 -
 

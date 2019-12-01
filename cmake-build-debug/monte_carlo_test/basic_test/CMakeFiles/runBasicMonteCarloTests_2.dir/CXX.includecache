@@ -26,13 +26,13 @@ Exception.hpp
 iostream
 -
 
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/basic_test/test_random_variable.cpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/test_random_variable.cpp
 iostream
 -
 Random_variable.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/basic_test/Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Random_variable.h
 Uniform.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/basic_test/Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Uniform.h
 gtest/gtest.h
 -
 cmath
@@ -40,7 +40,7 @@ cmath
 exception
 -
 Normal.h
-/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/basic_test/Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal.h
 string
 -
 

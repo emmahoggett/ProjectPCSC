@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2
+CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include monte_carlo/CMakeFiles/monte_carlo.dir/depend.make
@@ -59,16 +59,16 @@ include monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o: ../monte_carlo/AbstCentralLimitThm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp > CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp > CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp -o CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp -o CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o.requires:
 
@@ -83,16 +83,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o.provides.build:
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/AbstExpectation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp > CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp > CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp -o CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp -o CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o.requires:
 
@@ -107,16 +107,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o.provides.build: mon
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o: ../monte_carlo/Exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Exception.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Exception.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/Exception.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.cpp > CMakeFiles/monte_carlo.dir/Exception.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp > CMakeFiles/monte_carlo.dir/Exception.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/Exception.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Exception.cpp -o CMakeFiles/monte_carlo.dir/Exception.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp -o CMakeFiles/monte_carlo.dir/Exception.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o.requires:
 
@@ -131,16 +131,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o.provides.build: monte_car
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Moment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Moment.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Moment.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/Moment.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.cpp > CMakeFiles/monte_carlo.dir/Moment.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp > CMakeFiles/monte_carlo.dir/Moment.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/Moment.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Moment.cpp -o CMakeFiles/monte_carlo.dir/Moment.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp -o CMakeFiles/monte_carlo.dir/Moment.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o.requires:
 
@@ -155,16 +155,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o.provides.build: monte_carlo/
 
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o: ../monte_carlo/MonteCarloExpectation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp > CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp > CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp -o CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp -o CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o.requires:
 
@@ -179,16 +179,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o.provides.buil
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o: ../monte_carlo/Normal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Normal.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Normal.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/Normal.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.cpp > CMakeFiles/monte_carlo.dir/Normal.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp > CMakeFiles/monte_carlo.dir/Normal.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/Normal.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Normal.cpp -o CMakeFiles/monte_carlo.dir/Normal.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp -o CMakeFiles/monte_carlo.dir/Normal.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o.requires:
 
@@ -203,16 +203,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o.provides.build: monte_carlo/
 
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o: ../monte_carlo/StandardCentralLimitThm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp > CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp > CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp -o CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp -o CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o.requires:
 
@@ -227,16 +227,16 @@ monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o.provides.bu
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o: ../monte_carlo/Uniform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Uniform.cpp.o -c /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/Uniform.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/Uniform.cpp.i"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.cpp > CMakeFiles/monte_carlo.dir/Uniform.cpp.i
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp > CMakeFiles/monte_carlo.dir/Uniform.cpp.i
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/Uniform.cpp.s"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo/Uniform.cpp -o CMakeFiles/monte_carlo.dir/Uniform.cpp.s
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp -o CMakeFiles/monte_carlo.dir/Uniform.cpp.s
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o.requires:
 
@@ -273,9 +273,9 @@ monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/StandardCen
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/build.make
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libmonte_carlo.a"
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -P CMakeFiles/monte_carlo.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monte_carlo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libmonte_carlo.a"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -P CMakeFiles/monte_carlo.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monte_carlo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 monte_carlo/CMakeFiles/monte_carlo.dir/build: monte_carlo/libmonte_carlo.a
@@ -294,10 +294,10 @@ monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_ca
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/requires
 
 monte_carlo/CMakeFiles/monte_carlo.dir/clean:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -P CMakeFiles/monte_carlo.dir/cmake_clean.cmake
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -P CMakeFiles/monte_carlo.dir/cmake_clean.cmake
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/clean
 
 monte_carlo/CMakeFiles/monte_carlo.dir/depend:
-	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2 /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/CMakeFiles/monte_carlo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/monte_carlo_test/lib/googletest
+# Install script for directory: /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
