@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2
+CMAKE_SOURCE_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo/CMakeFiles/progress.marks
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/monte_carlo/CMakeFiles/progress.marks
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/clean
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/preinstall
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/preinstall
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 monte_carlo/CMakeFiles/monte_carlo.dir/rule:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/CMakeFiles/monte_carlo.dir/rule
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo/CMakeFiles/monte_carlo.dir/rule
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ monte_carlo: monte_carlo/CMakeFiles/monte_carlo.dir/rule
 
 # fast build rule for target.
 monte_carlo/fast:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/build
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/build
 .PHONY : monte_carlo/fast
 
 AbstCentralLimitThm.o: AbstCentralLimitThm.cpp.o
@@ -131,7 +131,7 @@ AbstCentralLimitThm.o: AbstCentralLimitThm.cpp.o
 
 # target to build an object file
 AbstCentralLimitThm.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o
 .PHONY : AbstCentralLimitThm.cpp.o
 
 AbstCentralLimitThm.i: AbstCentralLimitThm.cpp.i
@@ -140,7 +140,7 @@ AbstCentralLimitThm.i: AbstCentralLimitThm.cpp.i
 
 # target to preprocess a source file
 AbstCentralLimitThm.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.i
 .PHONY : AbstCentralLimitThm.cpp.i
 
 AbstCentralLimitThm.s: AbstCentralLimitThm.cpp.s
@@ -149,7 +149,7 @@ AbstCentralLimitThm.s: AbstCentralLimitThm.cpp.s
 
 # target to generate assembly for a file
 AbstCentralLimitThm.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.s
 .PHONY : AbstCentralLimitThm.cpp.s
 
 AbstExpectation.o: AbstExpectation.cpp.o
@@ -158,7 +158,7 @@ AbstExpectation.o: AbstExpectation.cpp.o
 
 # target to build an object file
 AbstExpectation.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o
 .PHONY : AbstExpectation.cpp.o
 
 AbstExpectation.i: AbstExpectation.cpp.i
@@ -167,7 +167,7 @@ AbstExpectation.i: AbstExpectation.cpp.i
 
 # target to preprocess a source file
 AbstExpectation.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.i
 .PHONY : AbstExpectation.cpp.i
 
 AbstExpectation.s: AbstExpectation.cpp.s
@@ -176,7 +176,7 @@ AbstExpectation.s: AbstExpectation.cpp.s
 
 # target to generate assembly for a file
 AbstExpectation.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
 .PHONY : AbstExpectation.cpp.s
 
 Exception.o: Exception.cpp.o
@@ -185,7 +185,7 @@ Exception.o: Exception.cpp.o
 
 # target to build an object file
 Exception.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o
 .PHONY : Exception.cpp.o
 
 Exception.i: Exception.cpp.i
@@ -194,7 +194,7 @@ Exception.i: Exception.cpp.i
 
 # target to preprocess a source file
 Exception.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.i
 .PHONY : Exception.cpp.i
 
 Exception.s: Exception.cpp.s
@@ -203,7 +203,7 @@ Exception.s: Exception.cpp.s
 
 # target to generate assembly for a file
 Exception.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.s
 .PHONY : Exception.cpp.s
 
 Moment.o: Moment.cpp.o
@@ -212,7 +212,7 @@ Moment.o: Moment.cpp.o
 
 # target to build an object file
 Moment.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o
 .PHONY : Moment.cpp.o
 
 Moment.i: Moment.cpp.i
@@ -221,7 +221,7 @@ Moment.i: Moment.cpp.i
 
 # target to preprocess a source file
 Moment.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.i
 .PHONY : Moment.cpp.i
 
 Moment.s: Moment.cpp.s
@@ -230,7 +230,7 @@ Moment.s: Moment.cpp.s
 
 # target to generate assembly for a file
 Moment.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.s
 .PHONY : Moment.cpp.s
 
 MonteCarloExpectation.o: MonteCarloExpectation.cpp.o
@@ -239,7 +239,7 @@ MonteCarloExpectation.o: MonteCarloExpectation.cpp.o
 
 # target to build an object file
 MonteCarloExpectation.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o
 .PHONY : MonteCarloExpectation.cpp.o
 
 MonteCarloExpectation.i: MonteCarloExpectation.cpp.i
@@ -248,7 +248,7 @@ MonteCarloExpectation.i: MonteCarloExpectation.cpp.i
 
 # target to preprocess a source file
 MonteCarloExpectation.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.i
 .PHONY : MonteCarloExpectation.cpp.i
 
 MonteCarloExpectation.s: MonteCarloExpectation.cpp.s
@@ -257,7 +257,7 @@ MonteCarloExpectation.s: MonteCarloExpectation.cpp.s
 
 # target to generate assembly for a file
 MonteCarloExpectation.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.s
 .PHONY : MonteCarloExpectation.cpp.s
 
 Normal.o: Normal.cpp.o
@@ -266,7 +266,7 @@ Normal.o: Normal.cpp.o
 
 # target to build an object file
 Normal.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o
 .PHONY : Normal.cpp.o
 
 Normal.i: Normal.cpp.i
@@ -275,7 +275,7 @@ Normal.i: Normal.cpp.i
 
 # target to preprocess a source file
 Normal.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.i
 .PHONY : Normal.cpp.i
 
 Normal.s: Normal.cpp.s
@@ -284,7 +284,7 @@ Normal.s: Normal.cpp.s
 
 # target to generate assembly for a file
 Normal.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.s
 .PHONY : Normal.cpp.s
 
 StandardCentralLimitThm.o: StandardCentralLimitThm.cpp.o
@@ -293,7 +293,7 @@ StandardCentralLimitThm.o: StandardCentralLimitThm.cpp.o
 
 # target to build an object file
 StandardCentralLimitThm.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o
 .PHONY : StandardCentralLimitThm.cpp.o
 
 StandardCentralLimitThm.i: StandardCentralLimitThm.cpp.i
@@ -302,7 +302,7 @@ StandardCentralLimitThm.i: StandardCentralLimitThm.cpp.i
 
 # target to preprocess a source file
 StandardCentralLimitThm.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.i
 .PHONY : StandardCentralLimitThm.cpp.i
 
 StandardCentralLimitThm.s: StandardCentralLimitThm.cpp.s
@@ -311,7 +311,7 @@ StandardCentralLimitThm.s: StandardCentralLimitThm.cpp.s
 
 # target to generate assembly for a file
 StandardCentralLimitThm.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.s
 .PHONY : StandardCentralLimitThm.cpp.s
 
 Uniform.o: Uniform.cpp.o
@@ -320,7 +320,7 @@ Uniform.o: Uniform.cpp.o
 
 # target to build an object file
 Uniform.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
 .PHONY : Uniform.cpp.o
 
 Uniform.i: Uniform.cpp.i
@@ -329,7 +329,7 @@ Uniform.i: Uniform.cpp.i
 
 # target to preprocess a source file
 Uniform.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.i
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.i
 .PHONY : Uniform.cpp.i
 
 Uniform.s: Uniform.cpp.s
@@ -338,7 +338,7 @@ Uniform.s: Uniform.cpp.s
 
 # target to generate assembly for a file
 Uniform.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.s
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.s
 .PHONY : Uniform.cpp.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/pierr/Desktop/PCSC_safe_3/ProjectPCSC_2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/test_google.dir/gtest.o CMakeFiles/test_google.dir/test_google_test.o  -o test_google 
