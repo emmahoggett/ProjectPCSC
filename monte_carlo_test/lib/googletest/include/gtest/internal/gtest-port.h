@@ -83,7 +83,7 @@
 //                              be used where std::wstring is unavailable).
 //   GTEST_HAS_SEH            - Define it to 1/0 to indicate whether the
 //                              compiler supports Microsoft's "Structured
-//                              Exception Handling".
+//                              Error Handling".
 //   GTEST_HAS_STREAM_REDIRECTION
 //                            - Define it to 1/0 to indicate whether the
 //                              platform supports I/O stream redirection using
@@ -429,7 +429,7 @@ typedef struct _RTL_CRITICAL_SECTION GTEST_CRITICAL_SECTION;
 // xlC defines __EXCEPTIONS to 1 if and only if exceptions are enabled.
 #  define GTEST_HAS_EXCEPTIONS 1
 # elif defined(__HP_aCC)
-// Exception handling is in effect by default in HP aCC compiler. It has to
+// Error handling is in effect by default in HP aCC compiler. It has to
 // be turned of by +noeh compiler option if desired.
 #  define GTEST_HAS_EXCEPTIONS 1
 # else
@@ -701,7 +701,7 @@ typedef struct _RTL_CRITICAL_SECTION GTEST_CRITICAL_SECTION;
 # define GTEST_INTENTIONAL_CONST_COND_POP_() \
     GTEST_DISABLE_MSC_WARNINGS_POP_()
 
-// Determine whether the compiler supports Microsoft's Structured Exception
+// Determine whether the compiler supports Microsoft's Structured Error
 // Handling.  This is supported by several Windows compilers but generally
 // does not exist on any other system.
 #ifndef GTEST_HAS_SEH

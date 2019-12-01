@@ -1,5 +1,5 @@
 /*
- * Exception.hpp
+ * Error.hpp
  *
  *  Created on: Nov 29, 2019
  * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
@@ -10,8 +10,9 @@
 #define EXCEPTION_HPP_
 
 #include <string>
+#include <exception>
 
-class Exception {
+class Error : public std::exception {
 private:
     std::string mTag, mProblem;
 public:
@@ -20,7 +21,7 @@ public:
      * @param tagString : give the type of issue
      * @param probString : string returned to the user in case of error
      */
-    Exception(std::string tagString, std::string probString);
+    Error(std::string tagString, std::string probString);
 
     /**
      * Print the error returned by exception

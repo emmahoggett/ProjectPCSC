@@ -11,7 +11,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../monte_carlo"
-  "/include"
+  "../monte_carlo_test/lib/googletest/include"
+  "../monte_carlo_test/lib/googletest"
   )
 
 # Targets to which this target links.

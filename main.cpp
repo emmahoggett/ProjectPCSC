@@ -32,7 +32,7 @@
 
 #include "Moment.hpp"
 
-#include "Exception.hpp"
+#include "Error.hpp"
 
 int getSizeVector(){
     double num;
@@ -42,12 +42,12 @@ int getSizeVector(){
     if (num == static_cast<int>(num)){
         int size = static_cast<int>(num);
         if (size <= 0){
-            throw (Exception("INPUT","N is unsigned"));
+            throw (Error("INPUT", "N is unsigned"));
         } else {
             return size;
         }
     } else{
-        throw (Exception("INPUT","N is an integer"));
+        throw (Error("INPUT", "N is an integer"));
     }
 }
 

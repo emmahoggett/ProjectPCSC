@@ -4,22 +4,22 @@
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
-monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.cpp
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.o
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.cpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
@@ -27,28 +27,28 @@ monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/MonteCarloExpectation.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstCentralLimitThm.hpp
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
- /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Exception.hpp
+ /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp
  /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h

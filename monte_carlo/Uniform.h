@@ -9,7 +9,7 @@
 #define MONTE_CARLO_UNIFORM_GENERATOR_H
 
 #include "Random_variable.h"
-#include "Exception.hpp"
+#include "Error.hpp"
 #include <iostream>
 
 class Uniform : public Random_variable {
@@ -20,9 +20,9 @@ public:
     Uniform(double N, double a , double b );
 
     // Get function
-    virtual std::vector<double> get_sample() { return U_m;}
-    virtual double get_mean() { return mean_uniform;}
-    virtual double get_var() { return var_uniform;}
+    virtual std::vector<double> get_sample() const { return U_m;}
+    virtual double get_mean() const { return mean_uniform;}
+    virtual double get_var() const { return var_uniform;}
 
 private:
     double mean_uniform ;

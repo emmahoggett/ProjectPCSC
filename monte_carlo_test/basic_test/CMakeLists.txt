@@ -7,12 +7,13 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 add_executable(runBasicMonteCarloTests
-        test_google_test.cpp
+        test_google_test.cpp Uniform_test.cpp Normal_test.cpp
         )
 add_executable(runBasicMonteCarloTests_2
         test_random_variable.cpp
         )
-target_link_libraries(runBasicMonteCarloTests gtest gtest_main)
+target_link_libraries(runBasicMonteCarloTests gtest gtest_main monte_carlo)
 target_link_libraries(runBasicMonteCarloTests_2 monte_carlo)
+
 
 

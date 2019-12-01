@@ -29,7 +29,7 @@ Uniform(N) ,mean_normal(mu)
     try {
         set_var(var);
     }
-    catch (Exception& err){
+    catch (Error& err){
         err.PrintDebug();
         std::cout <<"Give alternative positive variance :\n";
         double new_var ;
@@ -48,7 +48,7 @@ void Normal::set_var(const double var)
 {
     if(var<0)
     {
-        throw Exception("INPUT", "variance must be positive");
+        throw Error("INPUT", "variance must be positive");
     } else
         {
         var_normal = var ;

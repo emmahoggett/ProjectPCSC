@@ -18,7 +18,7 @@ Uniform :: Uniform(const double N) :mean_uniform(0.5) , var_uniform(1.0/12.0)
     try {
         set_size(N);
     }
-    catch (Exception& err){
+    catch (Error& err){
         err.PrintDebug();
         std::cout <<"Give alternative size \n";
         double N_new;
@@ -40,7 +40,7 @@ Uniform :: Uniform(double N, double a , double b ) : mean_uniform((a+b)/2.0) , v
     try {
         set_size(N);
     }
-    catch (Exception& err){
+    catch (Error& err){
         err.PrintDebug();
         std::cout <<"Give alternative size \n";
         double N_new;
@@ -50,7 +50,7 @@ Uniform :: Uniform(double N, double a , double b ) : mean_uniform((a+b)/2.0) , v
     try {
         set_interval(a,b);
     }
-    catch (Exception& err){
+    catch (Error& err){
         err.PrintDebug();
         std::cout <<"Give alternative interval, the lower bound : \n";
         double new_a;
@@ -76,13 +76,13 @@ Uniform :: Uniform(double N, double a , double b ) : mean_uniform((a+b)/2.0) , v
 
 void Uniform::set_interval(const double a, const double b)
 {
-    if(a<b)
+    if(b<a)
     {
-        throw Exception("INPUT","The lower bound is less than the upper bound ");
+        throw Error("INPUT", "The upper bound can't be less than the lower bound ");
     }
     else if(a==b)
     {
-        throw Exception("INPUT","The lower bound can't be equal to the upper bound ");
+        throw Error("INPUT", "The lower bound can't be equal to the upper bound ");
     }
     else
     {
@@ -95,7 +95,7 @@ void Uniform::set_size(const int N)
 {
     if(N<0)
     {
-        throw Exception("INPUT","The size must be positive");
+        throw Error("INPUT", "The size must be positive");
     } else{
         m_size = N;
     }

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo -I/include 
+CXX_INCLUDES = -I/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo -I/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include -I/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest 
 

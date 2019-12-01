@@ -3,7 +3,7 @@ project(monte_carlo)
 set(HEADER_FILES
         AbstCentralLimitThm.hpp
         AbstExpectation.hpp
-        Exception.hpp
+        Error.hpp
         Moment.hpp
         MonteCarloExpectation.hpp
         Normal.h
@@ -15,7 +15,7 @@ set(HEADER_FILES
 set(SOURCE_FILES
         AbstCentralLimitThm.cpp
         AbstExpectation.cpp
-        Exception.cpp
+        Error.cpp
         Moment.cpp
         MonteCarloExpectation.cpp
         Normal.cpp

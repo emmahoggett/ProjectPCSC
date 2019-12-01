@@ -179,32 +179,32 @@ AbstExpectation.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
 .PHONY : AbstExpectation.cpp.s
 
-Exception.o: Exception.cpp.o
+Error.o: Error.cpp.o
 
-.PHONY : Exception.o
+.PHONY : Error.o
 
 # target to build an object file
-Exception.cpp.o:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.o
-.PHONY : Exception.cpp.o
+Error.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.o
+.PHONY : Error.cpp.o
 
-Exception.i: Exception.cpp.i
+Error.i: Error.cpp.i
 
-.PHONY : Exception.i
+.PHONY : Error.i
 
 # target to preprocess a source file
-Exception.cpp.i:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.i
-.PHONY : Exception.cpp.i
+Error.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.i
+.PHONY : Error.cpp.i
 
-Exception.s: Exception.cpp.s
+Error.s: Error.cpp.s
 
-.PHONY : Exception.s
+.PHONY : Error.s
 
 # target to generate assembly for a file
-Exception.cpp.s:
-	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Exception.cpp.s
-.PHONY : Exception.cpp.s
+Error.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.s
+.PHONY : Error.cpp.s
 
 Moment.o: Moment.cpp.o
 
@@ -356,9 +356,9 @@ help:
 	@echo "... AbstExpectation.o"
 	@echo "... AbstExpectation.i"
 	@echo "... AbstExpectation.s"
-	@echo "... Exception.o"
-	@echo "... Exception.i"
-	@echo "... Exception.s"
+	@echo "... Error.o"
+	@echo "... Error.i"
+	@echo "... Error.s"
 	@echo "... Moment.o"
 	@echo "... Moment.i"
 	@echo "... Moment.s"

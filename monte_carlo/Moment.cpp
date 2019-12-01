@@ -20,7 +20,7 @@ void Moment::getMoment(std::ofstream &stream, Random_variable *sample, double or
     try {
         n_order = getOrder(order);
     }
-    catch (Exception& err){
+    catch (Error& err){
         err.PrintDebug();
         std::cout <<"Order should be an unsigned integer\n";
         std::cout <<"Give alternative unsigned integer \n";
@@ -43,12 +43,12 @@ int Moment::getPosInt(double &num, std::string &type_val)const {
     if (num == static_cast<int>(num)){
         int size = static_cast<int>(num);
         if (size <= 0){
-            throw (Exception("INPUT", type_val + "is unsigned"));
+            throw (Error("INPUT", type_val + "is unsigned"));
         } else {
             return size;
         }
     } else{
-        throw (Exception("INPUT",type_val +" is an integer"));
+        throw (Error("INPUT", type_val + " is an integer"));
     }
 }
 

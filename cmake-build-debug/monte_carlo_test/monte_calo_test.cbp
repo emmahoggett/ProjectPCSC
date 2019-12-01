@@ -25,7 +25,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
-					<Add directory="/include"/>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -52,7 +51,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
-					<Add directory="/include"/>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -79,7 +77,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
-					<Add directory="/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -104,7 +103,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo"/>
-					<Add directory="/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest/include"/>
+					<Add directory="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/lib/googletest"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -226,6 +226,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal_test.cpp">
+			<Option target="runBasicMonteCarloTests"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Uniform_test.cpp">
+			<Option target="runBasicMonteCarloTests"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/test_google_test.cpp">
 			<Option target="runBasicMonteCarloTests"/>
 		</Unit>

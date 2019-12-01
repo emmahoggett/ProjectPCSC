@@ -140,6 +140,60 @@ runBasicMonteCarloTests_2/fast:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
 .PHONY : runBasicMonteCarloTests_2/fast
 
+Normal_test.o: Normal_test.cpp.o
+
+.PHONY : Normal_test.o
+
+# target to build an object file
+Normal_test.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o
+.PHONY : Normal_test.cpp.o
+
+Normal_test.i: Normal_test.cpp.i
+
+.PHONY : Normal_test.i
+
+# target to preprocess a source file
+Normal_test.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.i
+.PHONY : Normal_test.cpp.i
+
+Normal_test.s: Normal_test.cpp.s
+
+.PHONY : Normal_test.s
+
+# target to generate assembly for a file
+Normal_test.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.s
+.PHONY : Normal_test.cpp.s
+
+Uniform_test.o: Uniform_test.cpp.o
+
+.PHONY : Uniform_test.o
+
+# target to build an object file
+Uniform_test.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.o
+.PHONY : Uniform_test.cpp.o
+
+Uniform_test.i: Uniform_test.cpp.i
+
+.PHONY : Uniform_test.i
+
+# target to preprocess a source file
+Uniform_test.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.i
+.PHONY : Uniform_test.cpp.i
+
+Uniform_test.s: Uniform_test.cpp.s
+
+.PHONY : Uniform_test.s
+
+# target to generate assembly for a file
+Uniform_test.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.s
+.PHONY : Uniform_test.cpp.s
+
 test_google_test.o: test_google_test.cpp.o
 
 .PHONY : test_google_test.o
@@ -204,6 +258,12 @@ help:
 	@echo "... runBasicMonteCarloTests"
 	@echo "... rebuild_cache"
 	@echo "... runBasicMonteCarloTests_2"
+	@echo "... Normal_test.o"
+	@echo "... Normal_test.i"
+	@echo "... Normal_test.s"
+	@echo "... Uniform_test.o"
+	@echo "... Uniform_test.i"
+	@echo "... Uniform_test.s"
 	@echo "... test_google_test.o"
 	@echo "... test_google_test.i"
 	@echo "... test_google_test.s"
