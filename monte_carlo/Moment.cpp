@@ -36,6 +36,7 @@ void Moment::getMoment(std::ofstream &stream, Random_variable *sample, double or
         }
         stream << i <<" "<< sum << "\n";
     }
+    std
 }
 
 int Moment::getPosInt(double &num, std::string &type_val)const {
