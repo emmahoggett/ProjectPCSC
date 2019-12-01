@@ -10,54 +10,47 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include <boost/math/special_functions/erf.hpp>
+#include "boost/math/distributions/normal.hpp"
 
-Normal :: Normal() :
-Uniform() ,mean_normal(0.0) , var_normal(1.0)
+Normal :: Normal( const int N) :
+Uniform(N) ,mean_normal(0.0) , var_normal(1.0)
 {
-    unsigned int N = getSizeVector();
-    std::vector<double> U_m = get_sample();
+    boost::math::normal dist(0.0,1.0) ;
     for (int i = 0; i < N; ++i) {
-        N_m.push_back( sqrt(2)*erf(2*U_m[i]) );
+        N_m.push_back( quantile(dist,U_m[i]) );
     }
 }
 
 
-Normal :: Normal(double mu):
-Uniform() ,mean_normal(mu)
+Normal :: Normal(const int N, const double mu , const double var):
+Uniform(N) ,mean_normal(mu)
 {
-    double var;
+
     try {
-        var = getVariance();
+        set_var(var);
     }
     catch (Exception& err){
         err.PrintDebug();
-        std::cout <<"Order should be an unsigned integer\n";
-        std::cout <<"Give alternative unsigned integer \n";
-        var = getVariance();
+        std::cout <<"Give alternative positive variance :\n";
+        double new_var ;
+        std::cin>>new_var;
+        set_var(new_var);
     }
 
-    var_normal = var;
-    unsigned int N = getSizeVector();
+    boost::math::normal dist(mu,var_normal) ;
     for (int i = 0; i < N; ++i) {
-        N_m.push_back( mu + sqrt(var)*sqrt(2)*erf(2*U_m[i]) );
+        N_m.push_back( quantile(dist,U_m[i]) );
     }
 }
 
-double Normal::getPosDouble(double &num, std::string &type_val) const {
-    if (num <= 0){
-        throw (Exception("INPUT", type_val + "is unsigned"));
-    } else {
-        return num;
+
+void Normal::set_var(const double var)
+{
+    if(var<0)
+    {
+        throw Exception("INPUT", "variance must be positive");
+    } else
+        {
+        var_normal = var ;
     }
 }
-
-double Normal::getVariance() {
-    double num;
-    std::cout <<"Variance: \t";
-    std::cin >> num;
-    std::cin.ignore(80, '\n');
-    std::string variable = "Variance";
-    return getPosDouble(num,variable);
-}
-

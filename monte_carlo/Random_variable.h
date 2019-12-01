@@ -17,13 +17,13 @@ class Random_variable {
      */
 public:
     // Public virtual method that return the vector obtained with the mean, variance and the size given by the user
-    virtual std::vector<double> get_sample() =0 ;
+    virtual std::vector<double> get_sample() const =0 ;
 
     // Public virtual method that return the mean given by the user
-    virtual double get_mean()  =0;
+    virtual double get_mean() const =0;
 
     // Public virtual method that return the mean given by the user
-    virtual double get_var()  =0;
+    virtual double get_var() const =0;
 
 };
 #endif /*RANDOM_VARIABLE_H_*/

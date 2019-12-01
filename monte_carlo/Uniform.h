@@ -24,13 +24,16 @@ public:
     virtual double get_mean() { return mean_uniform;}
     virtual double get_var() { return var_uniform;}
 
-
-    virtual int getPosInt(double& num, std::string& type_val);
-    virtual int getSizeVector(double N);
-
 private:
     double mean_uniform ;
     double var_uniform ;
+    int m_size ;
+    double m_a;
+    double m_b;
+
+    void set_interval(const double a, const double b) ;
+    void set_size(const int N);
+
 protected:
     std::vector<double> U_m ;
 };
