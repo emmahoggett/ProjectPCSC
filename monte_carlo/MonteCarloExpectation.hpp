@@ -14,22 +14,29 @@
 #include "Normal.h"
 #include "Uniform.h"
 
+/**
+ * Child of AbstExpectation
+ * Override getExpectation which compute the Monte Carlo Expectation
+ */
 class MonteCarloExpectation : public AbstExpectation{
-    /*
-     * Child of AbstExpectation
-     * Override getExpectation which compute the Monte Carlo Expectation
-     *
-     */
 public:
-    // Constructor and destructor
+    /**
+     * Constructor of the class MonteCarloExpectation
+     */
     MonteCarloExpectation();
+    /**
+     * Destructor of the class MonteCarloExpectation
+     */
     virtual ~MonteCarloExpectation();
 
-    // Methods that compute the Monte Carlo Expectation
+    /**
+     * Compute the expectation of the vector in rvs
+     * @param rvs : random_variable data type defined by the user, contain a vector,
+     * the mean and the variance of the vector
+     * @return Return the expectation of the rvs vector, which is the mean over all vector elements
+     */
     virtual double getExpectation(Random_variable* rvs) override;
 
-private:
-    double p_SampleExpectation;
 };
 
 #endif /*MONTECARLOEXPECTATION_HPP_*/
