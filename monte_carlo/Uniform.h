@@ -16,8 +16,8 @@ class Uniform : public Random_variable {
 
 public:
     // Constructor definition
-    Uniform() ;
-    Uniform(double a , double b );
+    Uniform(double N) ;
+    Uniform(double N, double a , double b );
 
     // Get function
     virtual std::vector<double> get_sample() { return U_m;}
@@ -26,11 +26,12 @@ public:
 
 
     virtual int getPosInt(double& num, std::string& type_val);
-    virtual int getSizeVector();
+    virtual int getSizeVector(double N);
 
 private:
     double mean_uniform ;
     double var_uniform ;
+protected:
     std::vector<double> U_m ;
 };
 #endif //MONTE_CARLO_UNIFORM_GENERATOR_H
