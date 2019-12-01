@@ -12,20 +12,21 @@ Moment::Moment() {}
 
 Moment::~Moment() {}
 
-void Moment::getMoment(std::ofstream &stream, Random_variable *sample) const {
+void Moment::getMoment(std::ofstream &stream, Random_variable *sample, double order) const {
     double mean = sample -> get_mean();
     vector<double> vec_U = sample-> get_sample();
     int size_N = vec_U.size();
-    int order;
+    unsigned int n_order;
     try {
-        order = getOrder();
+        n_order = getOrder(order);
     }
     catch (Exception& err){
         err.PrintDebug();
         std::cout <<"Order should be an unsigned integer\n";
         std::cout <<"Give alternative unsigned integer \n";
-        order = getOrder();
-
+        double order_new;
+        cin >> order_new;
+        getMoment(stream, sample, order_new);
     }
 
     for (int i = 1; i <= order; ++i) {
@@ -50,11 +51,7 @@ int Moment::getPosInt(double &num, std::string &type_val)const {
     }
 }
 
-int Moment::getOrder()const {
-    double num;
-    std::cout <<"Order for the moment: \t";
-    std::cin >> num;
-    std::cin.ignore(80, '\n');
+int Moment::getOrder(double num)const {
     std::string variable = "Order";
     return getPosInt(num,variable);
 }
