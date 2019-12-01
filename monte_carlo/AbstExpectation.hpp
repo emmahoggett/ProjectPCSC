@@ -18,7 +18,7 @@
 using namespace std;
 
 /**
-* Abstract expectation class
+* Abstract expectation class : Mother class of Monte Carlo Exception
 */
 class AbstExpectation{
 public:
@@ -35,8 +35,9 @@ public:
 
     /**
      * Public virtual method that compute Expectation
-     * @param rvs : Random_variable
-     * @return expectation : double
+     * @param rvs : Random_variable data type which contain a vector, and other relevant information
+     * about the vector.
+     * @return expectation : float that correspond to the mean of values in the vector given by Random_variable
      */
     virtual double getExpectation(Random_variable* rvs) = 0;
 

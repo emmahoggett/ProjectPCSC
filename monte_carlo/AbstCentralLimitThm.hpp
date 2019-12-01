@@ -17,17 +17,28 @@
 #include "Uniform.h"
 
 using namespace std;
-
+/**
+ * Abstract central limit theorem class: Mother of the Standard Central Limit Theorem
+ */
 class AbstCentralLimitThm{
-    /*
-     * Abstract central limit theorem class
-     */
+
 public:
-    // Constructor and destructor
+    /**
+     * Abstract Constructor : has a default setup
+     */
     AbstCentralLimitThm();
+    /**
+     * Abstract Destructor
+     */
     virtual ~AbstCentralLimitThm();
 
-    // Other public methods
+    /**
+     * Abstract Central Limit Theorem function
+     * @param sample : Random_variable which contains a vector, the mean and the variance that was used to determine
+     * the vector
+     * @param expectation_sample : Actual mean of the vector that was computed with the vector
+     * @param alpha : float number that is defined between ]0,1[ and is the confidence interval
+     */
     virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) = 0;
 
 };

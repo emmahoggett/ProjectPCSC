@@ -15,7 +15,16 @@ class Exception {
 private:
     std::string mTag, mProblem;
 public:
+    /**
+     * Constructor of the error
+     * @param tagString : give the type of issue
+     * @param probString : string returned to the user in case of error
+     */
     Exception(std::string tagString, std::string probString);
+
+    /**
+     * Print the error returned by exception
+     */
     void PrintDebug() const;
 };
 
