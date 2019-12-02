@@ -56,9 +56,9 @@ int main(int argc, char *argv[]) {
     } catch(Error& e){
         e.PrintDebug();
         std::cout << "Enter a new file name :\t";
-        std::string file_name;
+        char *file_name;
         std::cin >> file_name;
-        pInput ->read(pRandom_variable,alpha,order, file_name);
+        pInput->read(pRandom_variable,alpha,order, file_name);
     }
 
 

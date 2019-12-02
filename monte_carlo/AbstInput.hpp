@@ -19,7 +19,7 @@ public:
     AbstInput();
     virtual ~AbstInput();
 
-    virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment, std::string file_name) = 0;
+    virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment, const char *file_name) = 0;
     virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment) = 0;
 
 };

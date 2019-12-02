@@ -12,30 +12,39 @@ InputNormal::InputNormal() {}
 
 InputNormal::~InputNormal() {}
 
-void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, std::string file_name) {
+void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, const char *file_name) {
     std::ifstream read_input (file_name);
     if (!read_input.is_open()){
         throw Error("FILE", "File can't be opened");
     }
+    read_input.clear();
     int N;
     double mu;
     double var;
     read_input >> N;
-    if ((read_input.fail()) || (N <= 0)){
-        std::cerr << "*Error* : Vector size should be a strictly positive integer.\n";
+    if ((read_input.fail())|| (N <= 0)){
+
+        read_input.clear();
+        read_input.ignore();
+        std::cout<< "*Error* : Vector size should be a strictly positive integer.\n";
         std::cout << "Enter a new vector size:\t";
         std::cin >> N;
     }
     read_input >> mu;
     if (read_input.fail()){
-        std::cerr << "*Error* : Mean should be a float number.\n";
+        read_input.clear();
+        read_input.ignore();
+        std::cout << "*Error* : Mean should be a float number.\n";
         std::cout << "Enter a new mean:\t";
         std::cin >> mu;
     }
 
     read_input >> var;
-    if ((read_input.fail()) || (var <= 0)){
-        std::cerr << "*Error* : Variance should be a strictly positive float number.\n";
+    if ((read_input.fail())|| (var <= 0)){
+        read_input.clear();
+        read_input.ignore();
+        std::cout << read_input.fail();
+        std::cout << "*Error* : Variance should be a strictly positive float number.\n";
         std::cout << "Enter a new variance:\t";
         std::cin >> var;
     }
@@ -51,6 +60,8 @@ void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, s
     } else{
         read_input >> alpha;
         if ((read_input.fail()) || (alpha <= 0) || (alpha >= 1)){
+            read_input.clear();
+            read_input.ignore();
             std::cerr << "*Error* : Confidence interval should be between ]0,1[.\n";
             std::cout << "Enter a new confidence interval:\t";
             std::cin >> alpha;
@@ -58,6 +69,8 @@ void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, s
 
         read_input >> moment;
         if ((read_input.fail()) || (moment <= 0)){
+            read_input.clear();
+            read_input.ignore();
             std::cerr << "*Error* : Order for the moment should be a strictly positive integer.\n";
             std::cout << "Enter a new order:\t";
             std::cin >> moment;
@@ -66,5 +79,6 @@ void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, s
 }
 
 void InputNormal::read(Random_variable *&pRandomVar, double &alpha, int &moment) {
-    read(pRandomVar, alpha, moment, "DefaultNormal.dat");
+    const char *file_name = "DefaultNormal.dat";
+    read(pRandomVar, alpha, moment, file_name);
 }
