@@ -17,7 +17,6 @@
 #include <vector>
 #include <fstream>
 #include <string>
-#include <sstream>
 
 
 #include "AbstExpectation.hpp"
@@ -47,7 +46,7 @@ int main(int argc, char *argv[]) {
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
-    Moment *pMoment;
+    Moment *pMoment = 0;
     AbstInput *pInput = 0;
 
     pInput = new InputNormal;
@@ -62,10 +61,11 @@ int main(int argc, char *argv[]) {
     }
 
 
+
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
 
-    std::ofstream MomentFile("OutputMoment.csv");
+    std::ofstream MomentFile("/home/emma-hoggett/git_workspace/ProjectPCSC/OutputMoment.csv");
     MomentFile.setf(std::ios::scientific);
     MomentFile.setf(std::ios::showpos);
     MomentFile.precision(9);
@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
     pCentralLimit = new StandardCentralLimitThm;
     pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
 
-    std::ofstream CTLFile("OutputConvCTL.csv");
+    std::ofstream CTLFile("/home/emma-hoggett/git_workspace/ProjectPCSC/OutputConvCTL.csv");
     CTLFile.setf(std::ios::scientific);
     CTLFile.setf(std::ios::showpos);
     CTLFile.precision(9);

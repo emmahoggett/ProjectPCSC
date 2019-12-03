@@ -49,7 +49,7 @@ The Python code needs the two csv file:
 The project also contains a test file....
 
 ### Documentation
-* [Guide to Scientific Computing in C++] (https://moodle.epfl.ch/pluginfile.php/1729799/mod_resource/content/1/Textbook.pdf)
+* [Guide to Scientific Computing in C++] (https://link.springer.com/book/10.1007/978-1-4471-2736-9)
 * [List of probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 * [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
 * [Uniform distribution (continuous)](https://en.wikipedia.org/wiki/Uniform_distribution_(continuous))

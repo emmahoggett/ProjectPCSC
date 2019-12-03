@@ -32,7 +32,6 @@ private:
     double m_b;
 
     void set_interval(const double a, const double b) ;
-    void set_size(const int N);
 
 protected:
     std::vector<double> U_m ;

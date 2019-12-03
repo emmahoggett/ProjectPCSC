@@ -25,9 +25,6 @@ public:
     /**
      * Destructor
      */
-    StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample);
-
-    StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
 
     virtual ~StandardCentralLimitThm();
 

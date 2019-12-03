@@ -31,7 +31,6 @@ public:
 
 private:
 
-    void set_var(const double var);
 
     std::vector<double> N_m ;
     double mean_normal ;

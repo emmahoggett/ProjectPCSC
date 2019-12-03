@@ -12,18 +12,7 @@
 StandardCentralLimitThm::StandardCentralLimitThm() {}
 
 
-StandardCentralLimitThm::StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample)
-{
-    double alpha =0.5 ;
-    calculate_CentralLimiteThm(sample,expectation_sample,alpha);
-}
 
-
-
-StandardCentralLimitThm::StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha)
-{
-    calculate_CentralLimiteThm(sample,expectation_sample , alpha);
-}
 
 StandardCentralLimitThm::~StandardCentralLimitThm() {}
 
@@ -35,13 +24,11 @@ void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* s
     auto true_mean = sample->get_mean();
     auto variance = sample->get_var();
     double sigma;
+    double quantile;
     sigma = sqrt(variance);
-    double C_alpha;
-    boost::math::normal dist(0.0,1.0) ;
-    C_alpha = quantile(dist,1- m_alpha/2);
-    std::cout<<"le C "<<C_alpha<<"\n";
-    interval.push_back(expectation_sample-(C_alpha*sigma/sqrt(size_N)));
-    interval.push_back(expectation_sample+(C_alpha*sigma/sqrt(size_N)));
+    quantile = 1-alpha/2;
+    interval.push_back(expectation_sample-(quantile*sigma/sqrt(size_N)));
+    interval.push_back(expectation_sample+(quantile*sigma/sqrt(size_N)));
 
     if ((true_mean >= interval[0]) && (true_mean <= interval[1])){
         std::cout << "The central limit theorem is respected.\n"
