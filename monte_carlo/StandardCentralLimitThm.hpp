@@ -40,10 +40,10 @@ public:
 
     virtual bool is_verified() const ;
     virtual vector<double> get_interval() const ;
-    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample, const double alpha);
-    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample);
+    virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
+
 private:
-    void set_alpha(const double alpha);
+
     
     bool verification ;
     vector<double> interval;

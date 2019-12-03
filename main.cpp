@@ -63,9 +63,9 @@ int main(int argc, char *argv[]) {
 
 
     pExpectation = new MonteCarloExpectation;
-    double sample_expectation = pExpectation -> getExpectation(pRandom_variable);
+    double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
 
-    std::ofstream MomentFile("solution_Moment.csv");
+    std::ofstream MomentFile("OutputMoment.csv");
     MomentFile.setf(std::ios::scientific);
     MomentFile.setf(std::ios::showpos);
     MomentFile.precision(9);
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
         pMoment->getMoment(MomentFile, pRandom_variable, order);
         MomentFile.close();
     } else {
-        std::cout << "Couldn't open solution_Moment.csv. Aborting." << std::endl;
+        std::cout << "Couldn't open OutputMoment.csv. Aborting." << std::endl;
         return 1;
     }
 
@@ -82,7 +82,24 @@ int main(int argc, char *argv[]) {
 
 
     pCentralLimit = new StandardCentralLimitThm;
-    pCentralLimit -> getCentralLimitThm(pRandom_variable, sample_expectation,alpha);
+    pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
+
+    std::ofstream CTLFile("OutputConvCTL.csv");
+    CTLFile.setf(std::ios::scientific);
+    CTLFile.setf(std::ios::showpos);
+    CTLFile.precision(9);
+
+    double sigma;
+    if (CTLFile.is_open()) {
+        sigma = pRandom_variable ->get_var();
+        sigma = sqrt(sigma);
+        CTLFile << "sigma,alpha\n";
+        CTLFile << sigma << "," << alpha;
+        CTLFile.close();
+    } else {
+        std::cout << "Couldn't open OutputConvCTL.csv. Aborting." << std::endl;
+        return 1;
+    }
 
 
 

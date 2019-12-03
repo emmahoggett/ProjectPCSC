@@ -41,24 +41,8 @@ public:
      * the mean and the variance of the vector
      * @param order : a positive integer
      */
-    void getMoment(std::ofstream &stream, Random_variable *sample, double order)const;
+    void getMoment(std::ofstream &stream, Random_variable *sample, int order)const;
 
-private:
-    /**
-     * Check if num is an positive integer.
-     * @param num : a number given by the user. This value is first define as a float, but it has to be a
-     * positive integer
-     * @param type_val : give the value that is checked
-     * @return an positive integer if num is a positive integer. Otherwise, the code throw an error
-     */
-    int getPosInt(double& num, std::string& type_val)const;
-    /**
-     * getOrder use the function getPosInt
-     * @param num : a number given by the user. This value is first define as a float, but it has to be a
-     * positive integer
-     * @return the value or the error given by getPosInt
-     */
-    int setOrder(double num) const;
 
 
 };

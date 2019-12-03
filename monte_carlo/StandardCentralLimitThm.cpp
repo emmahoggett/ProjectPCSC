@@ -27,19 +27,8 @@ StandardCentralLimitThm::StandardCentralLimitThm(const Random_variable* sample,c
 
 StandardCentralLimitThm::~StandardCentralLimitThm() {}
 
-void StandardCentralLimitThm::calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample, const double alpha)
+void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha)
 {
-    try {
-        set_alpha(alpha);
-    }
-    catch(Error& err)
-    {
-        err.PrintDebug();
-        std::cout <<"Give alternative alpha that is between 0 and 1 :\n";
-        double new_alpha ;
-        std::cin>>new_alpha;
-        set_alpha(new_alpha);
-    }
 
     auto vec_U = sample-> get_sample();
     auto size_N = sample-> get_size() ;
@@ -66,13 +55,7 @@ void StandardCentralLimitThm::calculate_CentralLimiteThm(const Random_variable* 
     }
 
 }
-void StandardCentralLimitThm::calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample)
-{
-    double alpha=0.05 ;
-    calculate_CentralLimiteThm(sample,expectation_sample,alpha);
 
-
-}
 bool StandardCentralLimitThm::is_verified() const
 {
     return verification ;
@@ -80,17 +63,4 @@ bool StandardCentralLimitThm::is_verified() const
 vector<double> StandardCentralLimitThm::get_interval() const
 {
     return interval ;
-}
-void StandardCentralLimitThm::set_alpha(const double alpha)
-{
-    if(alpha <= 0)
-    {
-        throw Error("INPUT","alpha cannot be negative");
-    }else if(alpha >= 1)
-    {
-        throw Error("INPUT","alpha cannot be negative");
-    } else
-    {
-        m_alpha = alpha ;
-    }
 }
