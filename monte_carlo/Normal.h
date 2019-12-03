@@ -13,11 +13,14 @@
 
 class Normal : public Uniform {
 public:
-    // Constructor and destructor
+    /**
+     * Constructor of the class Normal
+     * @param N : integer entered
+     */
     Normal( const int N);
     Normal(const int N , const double mu , const double var);
 
-    // Get function
+
     virtual std::vector<double> get_sample() const { return N_m;}
     virtual double get_mean() const { return mean_normal;}
     virtual double get_var() const { return var_normal;}

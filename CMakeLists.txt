@@ -12,4 +12,6 @@ add_executable(monte_carlo_run ${SOURCE_FILES})
 
 target_link_libraries(monte_carlo_run monte_carlo)
 
+file (COPY DefaultNormal.dat DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
 

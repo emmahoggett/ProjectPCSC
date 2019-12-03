@@ -26,6 +26,9 @@
 #include "AbstCentralLimitThm.hpp"
 #include "StandardCentralLimitThm.hpp"
 
+#include "AbstInput.hpp"
+#include "InputNormal.hpp"
+
 #include "Random_variable.h"
 #include "Uniform.h"
 #include "Normal.h"
@@ -34,60 +37,30 @@
 
 #include "Error.hpp"
 
-int getSizeVector(){
-    double num;
-    std::cout <<"Size of the vector: \t";
-    std::cin >> num;
-    std::cin.ignore(80, '\n');
-    if (num == static_cast<int>(num)){
-        int size = static_cast<int>(num);
-        if (size <= 0){
-            throw (Error("INPUT", "N is unsigned"));
-        } else {
-            return size;
-        }
-    } else{
-        throw (Error("INPUT", "N is an integer"));
-    }
-}
-
 
 
 int main(int argc, char *argv[]) {
 
-    double mu;
-    std::cout << "Mean value is a float number.\n";
-    std::cout <<"Enter mean value: \t";
-    std::cin >> mu;
-
-    int order;
-    std::cout << "Order is an unsigned integer.\n";
-    std::cout <<"Enter order: \t";
-    std::cin >> order;
-
-    double sigma;
-    std::cout << "Variance is a positive float number.\n";
-    std::cout <<"Value of variance: \t";
-    std::cin >> sigma;
 
     double alpha;
-    std::cout << "Variance is a float value between ]0,1[.\n";
-    std::cout <<"Value of alpha: \t";
-    std::cin >> alpha;
-
-    double N;
-    std::cout << "Size is a positive integer.\n";
-    std::cout <<"Size of the normal & uniform vector: \t";
-    std::cin >> N;
-
-
+    int order;
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
     Moment *pMoment;
+    AbstInput *pInput = 0;
 
+    pInput = new InputNormal;
+    try{
+        pInput ->read(pRandom_variable,alpha,order);
+    } catch(Error& e){
+        e.PrintDebug();
+        std::cout << "Enter a new file name :\t";
+        char *file_name;
+        std::cin >> file_name;
+        pInput->read(pRandom_variable,alpha,order, file_name);
+    }
 
-    pRandom_variable = new Normal(N, mu, sigma);
 
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> getExpectation(pRandom_variable);

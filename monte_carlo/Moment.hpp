@@ -37,7 +37,8 @@ public:
      * Compute the moment until the order given by the users.
      * Then return the results into the stream and then close the stream
      * @param stream : out stream, should be define by the user first
-     * @param sample : random variable defined by the user, contain a vector, the mean and the variance of the vector
+     * @param sample : random_variable data type defined by the user, contain a vector,
+     * the mean and the variance of the vector
      * @param order : a positive integer
      */
     void getMoment(std::ofstream &stream, Random_variable *sample, double order)const;
@@ -57,7 +58,7 @@ private:
      * positive integer
      * @return the value or the error given by getPosInt
      */
-    int getOrder(double num) const;
+    int setOrder(double num) const;
 
 
 };

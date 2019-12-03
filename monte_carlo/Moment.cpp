@@ -18,7 +18,7 @@ void Moment::getMoment(std::ofstream &stream, Random_variable *sample, double or
     int size_N = vec_U.size();
     unsigned int n_order;
     try {
-        n_order = getOrder(order);
+        n_order = setOrder(order);
     }
     catch (Error& err){
         err.PrintDebug();
@@ -52,7 +52,7 @@ int Moment::getPosInt(double &num, std::string &type_val)const {
     }
 }
 
-int Moment::getOrder(double num)const {
+int Moment::setOrder(double num)const {
     std::string variable = "Order";
     return getPosInt(num,variable);
 }
