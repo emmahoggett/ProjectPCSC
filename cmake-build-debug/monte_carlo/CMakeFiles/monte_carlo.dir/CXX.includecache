@@ -109,6 +109,8 @@ vector
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.cpp
 StandardCentralLimitThm.hpp
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
+boost/math/distributions/normal.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/boost/math/distributions/normal.hpp
 
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/StandardCentralLimitThm.hpp
 AbstCentralLimitThm.hpp
@@ -119,6 +121,8 @@ Normal.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
 Uniform.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
+vector
+-
 
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.cpp
 Uniform.h

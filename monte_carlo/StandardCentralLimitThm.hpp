@@ -14,6 +14,7 @@
 #include "Random_variable.h"
 #include "Normal.h"
 #include "Uniform.h"
+#include <vector>
 
 class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:
@@ -24,6 +25,10 @@ public:
     /**
      * Destructor
      */
+    StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample);
+
+    StandardCentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
+
     virtual ~StandardCentralLimitThm();
 
     /**
@@ -32,9 +37,17 @@ public:
      * @param expectation_sample : Expectation given by the expectation methods
      * @param alpha : variable given by the user between ]0,1[
      */
-    virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) override ;
+
+    virtual bool is_verified() const ;
+    virtual vector<double> get_interval() const ;
+    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample, const double alpha);
+    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample);
 private:
-    double* p_interval;
+    void set_alpha(const double alpha);
+    
+    bool verification ;
+    vector<double> interval;
+    double m_alpha;
 
 };
 #endif /*STANDARDCENTRALLIMITTHM_HPP_*/

@@ -39,8 +39,11 @@ public:
      * @param expectation_sample : Actual mean of the vector that was computed with the vector
      * @param alpha : float number that is defined between ]0,1[ and is the confidence interval
      */
-    virtual void getCentralLimitThm(Random_variable* sample, double expectation_sample, double alpha) = 0;
-
+    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample, const double alpha) =0;
+    virtual void calculate_CentralLimiteThm(const Random_variable* sample,const double expectation_sample)=0;
+    virtual bool is_verified() const =0;
+    virtual vector<double> get_interval() const =0;
+    
 };
 
 #endif /*CENTRALLIMITTHM_HPP_*/
