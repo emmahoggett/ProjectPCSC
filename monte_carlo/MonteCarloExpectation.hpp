@@ -24,6 +24,8 @@ public:
      * Constructor of the class MonteCarloExpectation
      */
     MonteCarloExpectation();
+
+    MonteCarloExpectation(const Random_variable* rvs);
     /**
      * Destructor of the class MonteCarloExpectation
      */
@@ -35,7 +37,12 @@ public:
      * the mean and the variance of the vector
      * @return Return the expectation of the rvs vector, which is the mean over all vector elements
      */
-    virtual double getExpectation(Random_variable* rvs) override;
+    virtual double getExpectation() const override;
+
+    virtual double calculate_expectation(const Random_variable* rvs) const ;
+
+private:
+    double expectation_monte_carlo;
 
 };
 

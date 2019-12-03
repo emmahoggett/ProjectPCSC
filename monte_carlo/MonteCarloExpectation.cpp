@@ -9,16 +9,30 @@
 #include "MonteCarloExpectation.hpp"
 
 MonteCarloExpectation::MonteCarloExpectation() {}
+MonteCarloExpectation::MonteCarloExpectation(const Random_variable* rvs)
+{
+    auto vector_sample = rvs->get_sample() ;
+    for (auto p : vector_sample)
+    {
+        expectation_monte_carlo += p ;
+    }
+    expectation_monte_carlo/=vector_sample.size();
+}
 
 MonteCarloExpectation::~MonteCarloExpectation() {}
 
-double MonteCarloExpectation::getExpectation(Random_variable* rvs) {
-    vector<double> vec_U = rvs-> get_sample();
-    double size = vec_U.size() ;
-    double mean = 0;
-    for (int i = 0; i < size; ++i) {
-        mean += vec_U[i];
+double MonteCarloExpectation::getExpectation() const{
+    return expectation_monte_carlo ;
+}
+
+double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs) const
+{
+    double mean;
+    auto vector_sample = rvs->get_sample() ;
+    for (auto p : vector_sample)
+    {
+        mean += p ;
     }
-    mean = mean/(size);
-    return mean;
+    mean/=vector_sample.size();
+    return mean ;
 }

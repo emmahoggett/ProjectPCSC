@@ -23,7 +23,7 @@ public:
     virtual std::vector<double> get_sample() const { return U_m;}
     virtual double get_mean() const { return mean_uniform;}
     virtual double get_var() const { return var_uniform;}
-
+    virtual int get_size() const {return m_size ;}
 private:
     double mean_uniform ;
     double var_uniform ;

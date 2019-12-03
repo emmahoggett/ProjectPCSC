@@ -24,6 +24,7 @@ public:
 
     // Public virtual method that return the mean given by the user
     virtual double get_var() const =0;
+    virtual int get_size() const =0 ;
 
 };
 #endif /*RANDOM_VARIABLE_H_*/

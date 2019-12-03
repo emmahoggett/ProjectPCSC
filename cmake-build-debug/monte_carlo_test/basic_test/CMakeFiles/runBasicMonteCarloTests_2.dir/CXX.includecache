@@ -6,17 +6,65 @@
 
 #IncludeRegexTransform: 
 
+../monte_carlo/AbstCentralLimitThm.hpp
+iostream
+-
+vector
+-
+cmath
+-
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
+
+../monte_carlo/AbstExpectation.hpp
+iostream
+-
+vector
+-
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
+
 ../monte_carlo/Error.hpp
 string
 -
 exception
 -
 
+../monte_carlo/MonteCarloExpectation.hpp
+AbstExpectation.hpp
+../monte_carlo/AbstExpectation.hpp
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
+
 ../monte_carlo/Normal.h
 Uniform.h
 ../monte_carlo/Uniform.h
 
 ../monte_carlo/Random_variable.h
+vector
+-
+
+../monte_carlo/StandardCentralLimitThm.hpp
+AbstCentralLimitThm.hpp
+../monte_carlo/AbstCentralLimitThm.hpp
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
 vector
 -
 
@@ -343,6 +391,14 @@ exception
 -
 Normal.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal.h
+AbstExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/AbstExpectation.hpp
+MonteCarloExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation.hpp
 string
 -
+AbstCentralLimitThm.hpp
+-
+StandardCentralLimitThm.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/StandardCentralLimitThm.hpp
 
