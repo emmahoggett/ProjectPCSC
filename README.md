@@ -2,15 +2,31 @@
 
 ### Description
 This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as modular as possible. The following goals throught this project have been reached:
-* Implementation of random number generators with a normal & uniform probability distribution
-* Compute the expectation value of a user defined function
-* Build `.csv` with statistical moments
-* Verification of the central limit theorem
+* Implementation of random number generators with a normal & uniform probability distribution.
+* Compute the expectation value of a user defined function.
+* Build `.csv` with statistical moments and the convergence of the CTL.
+* Verification of the central limit theorem (CTL).
 
 ### Getting Started
-This version was designed for C++ 14 or higher. To run the model's calculation, it is only needed to execute the file `main.cpp` The code should return a `solution_Moment.csv` file with moments results.
+This version was designed for C++ 14 or higher and . To run the model's calculation, it is only needed to execute the file `main.cpp` The code should return a `OutputMoment.csv` file with moments results and `OutputCTL.csv` which returns the parameters of the user.
+Then to plot the result, it is only needed to run `graph.py`, that will give two graphs: `Moment.png`, which is the moment as function of the order & `ConvergenceThreshold.png`, which gives the 
 
 ### Prerequisites
+
+#### Input file
+The input file is structured this way:
+1. The size of the vector
+2. The mean of the normal distribution
+3. The variance of the normal distribution
+
+The following values are set by default:
+4. The confidence interval
+5. The order computed for the moment
+
+!!Warning!! The code was designed only for uniform and normal distribution input. If another type of input is needed, add a child to `AbstInput`.
+
+
+#### C++ Code
 To avoid dysfunctions, a boost package is a added to the project to compute the normal function. To install this package, launch into Unix terminal: `sudo apt-get install libboost-all-dev` 
 
 The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the following classes:
@@ -20,9 +36,14 @@ The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the fo
 * Moment
 * Exception
 
-
 *Note: Random_variable hasn't got a C++ file, because it is an abstract class*
 
+
+
+#### Python Code
+The Python code needs the two csv file:
+*`OutputCTL.csv`
+*`OutputMoment.csv`
 
 ### Additional content
 The project also contains a test file....
