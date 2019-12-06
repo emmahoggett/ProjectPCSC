@@ -15,8 +15,21 @@ monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Nor
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Random_variable.h
 monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.o: ../monte_carlo/Uniform.h
 
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: ../monte_carlo/AbstInput.cpp
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: ../monte_carlo/AbstInput.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: ../monte_carlo/Error.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: ../monte_carlo/Random_variable.h
+
 monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.o: ../monte_carlo/Error.cpp
 monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.o: ../monte_carlo/Error.hpp
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/AbstInput.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/Error.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/InputNormal.cpp
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/InputNormal.hpp
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/Normal.h
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/Random_variable.h
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/Uniform.h
 
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Error.hpp
 monte_carlo/CMakeFiles/monte_carlo.dir/Moment.cpp.o: ../monte_carlo/Moment.cpp

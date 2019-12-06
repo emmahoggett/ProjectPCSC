@@ -25,7 +25,6 @@ public:
     /**
      * Destructor
      */
-
     virtual ~StandardCentralLimitThm();
 
     /**
@@ -38,6 +37,7 @@ public:
     virtual bool is_verified() const ;
     virtual vector<double> get_interval() const ;
     virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
+
 
 private:
 

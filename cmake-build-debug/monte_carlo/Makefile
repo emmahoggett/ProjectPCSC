@@ -179,6 +179,33 @@ AbstExpectation.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstExpectation.cpp.s
 .PHONY : AbstExpectation.cpp.s
 
+AbstInput.o: AbstInput.cpp.o
+
+.PHONY : AbstInput.o
+
+# target to build an object file
+AbstInput.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o
+.PHONY : AbstInput.cpp.o
+
+AbstInput.i: AbstInput.cpp.i
+
+.PHONY : AbstInput.i
+
+# target to preprocess a source file
+AbstInput.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.i
+.PHONY : AbstInput.cpp.i
+
+AbstInput.s: AbstInput.cpp.s
+
+.PHONY : AbstInput.s
+
+# target to generate assembly for a file
+AbstInput.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.s
+.PHONY : AbstInput.cpp.s
+
 Error.o: Error.cpp.o
 
 .PHONY : Error.o
@@ -205,6 +232,33 @@ Error.s: Error.cpp.s
 Error.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Error.cpp.s
 .PHONY : Error.cpp.s
+
+InputNormal.o: InputNormal.cpp.o
+
+.PHONY : InputNormal.o
+
+# target to build an object file
+InputNormal.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o
+.PHONY : InputNormal.cpp.o
+
+InputNormal.i: InputNormal.cpp.i
+
+.PHONY : InputNormal.i
+
+# target to preprocess a source file
+InputNormal.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.i
+.PHONY : InputNormal.cpp.i
+
+InputNormal.s: InputNormal.cpp.s
+
+.PHONY : InputNormal.s
+
+# target to generate assembly for a file
+InputNormal.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.s
+.PHONY : InputNormal.cpp.s
 
 Moment.o: Moment.cpp.o
 
@@ -356,9 +410,15 @@ help:
 	@echo "... AbstExpectation.o"
 	@echo "... AbstExpectation.i"
 	@echo "... AbstExpectation.s"
+	@echo "... AbstInput.o"
+	@echo "... AbstInput.i"
+	@echo "... AbstInput.s"
 	@echo "... Error.o"
 	@echo "... Error.i"
 	@echo "... Error.s"
+	@echo "... InputNormal.o"
+	@echo "... InputNormal.i"
+	@echo "... InputNormal.s"
 	@echo "... Moment.o"
 	@echo "... Moment.i"
 	@echo "... Moment.s"

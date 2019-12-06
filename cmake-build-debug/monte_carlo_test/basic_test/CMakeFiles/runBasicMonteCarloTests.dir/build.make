@@ -129,11 +129,36 @@ monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.c
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o.provides.build: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o
 
 
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/flags.make
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o: ../monte_carlo_test/basic_test/MonteCarloExpectation_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation_test.cpp
+
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.i"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation_test.cpp > CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.i
+
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.s"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation_test.cpp -o CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.s
+
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.requires:
+
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.requires
+
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.provides: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.requires
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.provides.build
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.provides
+
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.provides.build: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o
+
+
 # Object files for target runBasicMonteCarloTests
 runBasicMonteCarloTests_OBJECTS = \
 "CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o" \
 "CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.o" \
-"CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o"
+"CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o" \
+"CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o"
 
 # External object files for target runBasicMonteCarloTests
 runBasicMonteCarloTests_EXTERNAL_OBJECTS =
@@ -141,13 +166,14 @@ runBasicMonteCarloTests_EXTERNAL_OBJECTS =
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.o
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o
+monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make
 monte_carlo_test/basic_test/runBasicMonteCarloTests: lib/libgtestd.a
 monte_carlo_test/basic_test/runBasicMonteCarloTests: lib/libgtest_maind.a
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo/libmonte_carlo.a
 monte_carlo_test/basic_test/runBasicMonteCarloTests: lib/libgtestd.a
 monte_carlo_test/basic_test/runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable runBasicMonteCarloTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runBasicMonteCarloTests"
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo_test/basic_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runBasicMonteCarloTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +184,7 @@ monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build: monte_
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/requires: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o.requires
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/requires: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.o.requires
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/requires: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o.requires
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/requires: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o.requires
 
 .PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/requires
 

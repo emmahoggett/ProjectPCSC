@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule
+
+# Convenience name for target.
+runBasicMonteCarloTests_3: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule
+
+.PHONY : runBasicMonteCarloTests_3
+
+# fast build rule for target.
+runBasicMonteCarloTests_3/fast:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build
+.PHONY : runBasicMonteCarloTests_3/fast
+
+# Convenience name for target.
 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
 .PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
@@ -140,6 +155,33 @@ runBasicMonteCarloTests_2/fast:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
 .PHONY : runBasicMonteCarloTests_2/fast
 
+MonteCarloExpectation_test.o: MonteCarloExpectation_test.cpp.o
+
+.PHONY : MonteCarloExpectation_test.o
+
+# target to build an object file
+MonteCarloExpectation_test.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o
+.PHONY : MonteCarloExpectation_test.cpp.o
+
+MonteCarloExpectation_test.i: MonteCarloExpectation_test.cpp.i
+
+.PHONY : MonteCarloExpectation_test.i
+
+# target to preprocess a source file
+MonteCarloExpectation_test.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.i
+.PHONY : MonteCarloExpectation_test.cpp.i
+
+MonteCarloExpectation_test.s: MonteCarloExpectation_test.cpp.s
+
+.PHONY : MonteCarloExpectation_test.s
+
+# target to generate assembly for a file
+MonteCarloExpectation_test.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.s
+.PHONY : MonteCarloExpectation_test.cpp.s
+
 Normal_test.o: Normal_test.cpp.o
 
 .PHONY : Normal_test.o
@@ -166,6 +208,33 @@ Normal_test.s: Normal_test.cpp.s
 Normal_test.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.s
 .PHONY : Normal_test.cpp.s
+
+StandardCentralLimitThm_test.o: StandardCentralLimitThm_test.cpp.o
+
+.PHONY : StandardCentralLimitThm_test.o
+
+# target to build an object file
+StandardCentralLimitThm_test.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/StandardCentralLimitThm_test.cpp.o
+.PHONY : StandardCentralLimitThm_test.cpp.o
+
+StandardCentralLimitThm_test.i: StandardCentralLimitThm_test.cpp.i
+
+.PHONY : StandardCentralLimitThm_test.i
+
+# target to preprocess a source file
+StandardCentralLimitThm_test.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/StandardCentralLimitThm_test.cpp.i
+.PHONY : StandardCentralLimitThm_test.cpp.i
+
+StandardCentralLimitThm_test.s: StandardCentralLimitThm_test.cpp.s
+
+.PHONY : StandardCentralLimitThm_test.s
+
+# target to generate assembly for a file
+StandardCentralLimitThm_test.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/StandardCentralLimitThm_test.cpp.s
+.PHONY : StandardCentralLimitThm_test.cpp.s
 
 Uniform_test.o: Uniform_test.cpp.o
 
@@ -255,12 +324,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... runBasicMonteCarloTests_3"
 	@echo "... runBasicMonteCarloTests"
 	@echo "... rebuild_cache"
 	@echo "... runBasicMonteCarloTests_2"
+	@echo "... MonteCarloExpectation_test.o"
+	@echo "... MonteCarloExpectation_test.i"
+	@echo "... MonteCarloExpectation_test.s"
 	@echo "... Normal_test.o"
 	@echo "... Normal_test.i"
 	@echo "... Normal_test.s"
+	@echo "... StandardCentralLimitThm_test.o"
+	@echo "... StandardCentralLimitThm_test.i"
+	@echo "... StandardCentralLimitThm_test.s"
 	@echo "... Uniform_test.o"
 	@echo "... Uniform_test.i"
 	@echo "... Uniform_test.s"

@@ -19,7 +19,7 @@ public:
      * @param N : Positive integer that define the size of the vector.
      */
     Normal( const int N);
-
+    
     /**
      * Constructor : compute an uniform and normal distribution vector.
      * @param N : Positive integer that define the size of the vector.
@@ -32,6 +32,7 @@ public:
      * Return the normal and uniform vector.
      * @return
      */
+
     virtual std::vector<double> get_sample() const { return N_m;}
 
     /**
@@ -53,8 +54,7 @@ public:
     virtual int get_size() const {return N_m.size(); }
 
 private:
-
-
+    void set_var(const double var) ;
     std::vector<double> N_m ;
     double mean_normal ;
     double var_normal ;
