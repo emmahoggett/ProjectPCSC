@@ -1,16 +1,54 @@
 /*
  * main.cpp
  *
- * Project Monte Carlo :
+ * Created on: Nov 22, 2019
+ * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
+ * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
+ */
+
+/*! \mainpage Monte Carlo Algorithm
+ * \section introduction Introduction
+ *This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as
+ * modular as possible. The following goals through this project have been reached:
  *  - Implementation of random number generators with a normal
  *    & uniform probability distribution
  *  - Compute the expectation value of a user defined function
  *  - Build .csv with statistical moments
  *  - Verification of the central limit theorem
  *
- * Created on: Nov 22, 2019
- * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
- * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
+ *
+ * \section sec1 Structure of the code
+ *
+ * \subsection subsec11 Input function
+ * - AbstInput
+ * - InputNormal
+ *
+ * \subsection subsec12 Random number generators with a normal & uniform probability distribution
+ * - Random_variable
+ * - Uniform
+ * - Normal
+ *
+ * \subsection subsec13 Expectation
+ * - AbstExpectation
+ * - MonteCarloExpectation
+ *
+ *\subsection subsec14 Statistical moment
+ * - Moment
+ *
+ * \subsection subsec15 Central Limit Theorem
+ * - AbstCentralLimitThm
+ * - StandardCentralLimitThm
+ *
+ * \section info Various informations
+ * \subsection info1 Project Status
+ *  The project was submitted on the 13 December 2019, as part of the Programming
+ *  Concepts in Scientific Computing course.
+ *
+ * \subsection info2 Authors
+ * 	- Hoggett Emma <\emma.hoggett@epfl.ch>
+ * 	- Vuillecard Pierre <\pierre.vuillecard@epfl.ch>
+ *
+ *
  */
 
 #include <iostream>
