@@ -40,17 +40,18 @@
 
 int main(int argc, char *argv[]) {
     if (argc > 2) {
-        std::cout << "Missing arguments. Please run the exercise as:\n"
+        std::cerr << "Missing arguments. Please run the exercise as:\n"
                   << "       ./monte_carlo_run\n"
                   << "       ./monte_carlo_run <filename>.dat"
                   << std::endl;
-        return -1;
+        return 1;
     }
     const char *file_name_A;
 
     if(argc==2){
         file_name_A = argv[1];
     }else {
+        std::cout << "The file is set as default: DefaultNormal.dat";
         file_name_A = "DefaultNormal.dat";
     }
 
@@ -71,7 +72,6 @@ int main(int argc, char *argv[]) {
     }
 
 
-
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
 
@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
         pMoment->getMoment(MomentFile, pRandom_variable, order);
         MomentFile.close();
     } else {
-        std::cout << "Couldn't open OutputMoment.csv. Aborting." << std::endl;
+        std::cerr << "Couldn't open OutputMoment.csv. Aborting." << std::endl;
         return 1;
     }
 
@@ -107,7 +107,7 @@ int main(int argc, char *argv[]) {
         CTLFile << sigma << "," << alpha;
         CTLFile.close();
     } else {
-        std::cout << "Couldn't open OutputConvCTL.csv. Aborting." << std::endl;
+        std::cerr << "Couldn't open OutputConvCTL.csv. Aborting." << std::endl;
         return 1;
     }
 
