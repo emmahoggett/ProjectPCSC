@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runBasicMonteCarloTests_3.dir/StandardCentralLimitThm_test.cpp.o  -o runBasicMonteCarloTests_3 ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../monte_carlo/libmonte_carlo.a ../../lib/libgtestd.a -lpthread 

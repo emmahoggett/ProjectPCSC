@@ -15,22 +15,25 @@
 class Uniform : public Random_variable {
 
 public:
+
     // Constructor definition
-    Uniform(double N) ;
-    Uniform(double N, double a , double b );
+    Uniform(const int N) ;
+    Uniform(const int N, const double a , const double b );
 
     // Get function
     virtual std::vector<double> get_sample() const { return U_m;}
     virtual double get_mean() const { return mean_uniform;}
     virtual double get_var() const { return var_uniform;}
     virtual int get_size() const {return m_size ;}
+
 private:
+
     double mean_uniform ;
     double var_uniform ;
     int m_size ;
     double m_a;
     double m_b;
-
+    void set_size(const int N) ;
     void set_interval(const double a, const double b) ;
 
 protected:

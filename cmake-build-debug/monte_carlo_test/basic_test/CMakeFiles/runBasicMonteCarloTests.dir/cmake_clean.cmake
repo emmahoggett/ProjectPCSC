@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runBasicMonteCarloTests.dir/test_google_test.cpp.o"
   "CMakeFiles/runBasicMonteCarloTests.dir/Uniform_test.cpp.o"
   "CMakeFiles/runBasicMonteCarloTests.dir/Normal_test.cpp.o"
+  "CMakeFiles/runBasicMonteCarloTests.dir/MonteCarloExpectation_test.cpp.o"
   "runBasicMonteCarloTests.pdb"
   "runBasicMonteCarloTests"
 )

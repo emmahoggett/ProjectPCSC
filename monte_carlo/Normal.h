@@ -20,18 +20,13 @@ public:
     Normal( const int N);
     Normal(const int N , const double mu , const double var);
 
-
     virtual std::vector<double> get_sample() const { return N_m;}
     virtual double get_mean() const { return mean_normal;}
     virtual double get_var() const { return var_normal;}
     virtual int get_size() const {return N_m.size(); }
 
-
-
-
 private:
-
-
+    void set_var(const double var) ;
     std::vector<double> N_m ;
     double mean_normal ;
     double var_normal ;

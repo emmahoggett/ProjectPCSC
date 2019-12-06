@@ -6,11 +6,33 @@
 
 #IncludeRegexTransform: 
 
+../monte_carlo/AbstExpectation.hpp
+iostream
+-
+vector
+-
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
+
 ../monte_carlo/Error.hpp
 string
 -
 exception
 -
+
+../monte_carlo/MonteCarloExpectation.hpp
+AbstExpectation.hpp
+../monte_carlo/AbstExpectation.hpp
+Random_variable.h
+../monte_carlo/Random_variable.h
+Normal.h
+../monte_carlo/Normal.h
+Uniform.h
+../monte_carlo/Uniform.h
 
 ../monte_carlo/Normal.h
 Uniform.h
@@ -326,6 +348,20 @@ gtest/internal/gtest-port.h
 cxxabi.h
 -
 acxx_demangle.h
+-
+
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation_test.cpp
+gtest/gtest.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/gtest/gtest.h
+Uniform.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Uniform.h
+Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal.h
+Error.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Error.hpp
+MonteCarloExpectation.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/MonteCarloExpectation.hpp
+cmath
 -
 
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo_test/basic_test/Normal_test.cpp

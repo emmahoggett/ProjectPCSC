@@ -40,6 +40,20 @@ Normal.h
 Uniform.h
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Uniform.h
 
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.cpp
+AbstInput.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.hpp
+
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.hpp
+iostream
+-
+string
+-
+Error.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
+Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
+
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.cpp
 Error.hpp
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp
@@ -50,6 +64,24 @@ iostream
 string
 -
 exception
+-
+
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.cpp
+InputNormal.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.hpp
+
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.hpp
+AbstInput.hpp
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.hpp
+Normal.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Normal.h
+Random_variable.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Random_variable.h
+iostream
+-
+fstream
+-
+string
 -
 
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp

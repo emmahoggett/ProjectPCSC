@@ -249,6 +249,54 @@ monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o.provides: monte_carlo/CMake
 monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o.provides.build: monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
 
 
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o: ../monte_carlo/AbstInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/AbstInput.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.cpp
+
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/AbstInput.cpp.i"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.cpp > CMakeFiles/monte_carlo.dir/AbstInput.cpp.i
+
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/AbstInput.cpp.s"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.cpp -o CMakeFiles/monte_carlo.dir/AbstInput.cpp.s
+
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.requires:
+
+.PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.requires
+
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.provides: monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.requires
+	$(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.provides.build
+.PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.provides
+
+monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.provides.build: monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o
+
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: monte_carlo/CMakeFiles/monte_carlo.dir/flags.make
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o: ../monte_carlo/InputNormal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monte_carlo.dir/InputNormal.cpp.o -c /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.cpp
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monte_carlo.dir/InputNormal.cpp.i"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.cpp > CMakeFiles/monte_carlo.dir/InputNormal.cpp.i
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monte_carlo.dir/InputNormal.cpp.s"
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.cpp -o CMakeFiles/monte_carlo.dir/InputNormal.cpp.s
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.requires:
+
+.PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.requires
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.provides: monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.requires
+	$(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.provides.build
+.PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.provides
+
+monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.provides.build: monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o
+
+
 # Object files for target monte_carlo
 monte_carlo_OBJECTS = \
 "CMakeFiles/monte_carlo.dir/AbstCentralLimitThm.cpp.o" \
@@ -258,7 +306,9 @@ monte_carlo_OBJECTS = \
 "CMakeFiles/monte_carlo.dir/MonteCarloExpectation.cpp.o" \
 "CMakeFiles/monte_carlo.dir/Normal.cpp.o" \
 "CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o" \
-"CMakeFiles/monte_carlo.dir/Uniform.cpp.o"
+"CMakeFiles/monte_carlo.dir/Uniform.cpp.o" \
+"CMakeFiles/monte_carlo.dir/AbstInput.cpp.o" \
+"CMakeFiles/monte_carlo.dir/InputNormal.cpp.o"
 
 # External object files for target monte_carlo
 monte_carlo_EXTERNAL_OBJECTS =
@@ -271,9 +321,11 @@ monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/MonteCarloE
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o
+monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o
+monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/build.make
 monte_carlo/libmonte_carlo.a: monte_carlo/CMakeFiles/monte_carlo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libmonte_carlo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libmonte_carlo.a"
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -P CMakeFiles/monte_carlo.dir/cmake_clean_target.cmake
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/monte_carlo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monte_carlo.dir/link.txt --verbose=$(VERBOSE)
 
@@ -290,6 +342,8 @@ monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_ca
 monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_carlo.dir/Normal.cpp.o.requires
 monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_carlo.dir/StandardCentralLimitThm.cpp.o.requires
 monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_carlo.dir/Uniform.cpp.o.requires
+monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.o.requires
+monte_carlo/CMakeFiles/monte_carlo.dir/requires: monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.o.requires
 
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/requires
 

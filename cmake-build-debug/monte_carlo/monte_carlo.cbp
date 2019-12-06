@@ -78,10 +78,22 @@
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstExpectation.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp">
