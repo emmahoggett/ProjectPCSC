@@ -23,30 +23,16 @@ void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, c
     double var;
     read_input >> N;
     if ((read_input.fail())|| (N <= 0)){
-
-        read_input.clear();
-        read_input.ignore();
-        std::cout<< "*Error* : Vector size should be a strictly positive integer.\n";
-        std::cout << "Enter a new vector size:\t";
-        std::cin >> N;
+        throw Error("VARIABLE","The vector's size needs to be a positive integer");
     }
     read_input >> mu;
     if (read_input.fail()){
-        read_input.clear();
-        read_input.ignore();
-        std::cout << "*Error* : Mean should be a float number.\n";
-        std::cout << "Enter a new mean:\t";
-        std::cin >> mu;
+        throw Error("VARIABLE","The mean needs to be a float number");
     }
 
     read_input >> var;
     if ((read_input.fail())|| (var <= 0)){
-        read_input.clear();
-        read_input.ignore();
-        std::cout << read_input.fail();
-        std::cout << "*Error* : Variance should be a strictly positive float number.\n";
-        std::cout << "Enter a new variance:\t";
-        std::cin >> var;
+        throw Error("VARIABLE","The variance needs to be a positive float number");
     }
 
     pRandomVar = new Normal(N,mu,var);
@@ -60,25 +46,13 @@ void InputNormal::read(Random_variable* &pRandomVar, double&alpha, int&moment, c
     } else{
         read_input >> alpha;
         if ((read_input.fail()) || (alpha <= 0) || (alpha >= 1)){
-            read_input.clear();
-            read_input.ignore();
-            std::cerr << "*Error* : Confidence interval should be between ]0,1[.\n";
-            std::cout << "Enter a new confidence interval:\t";
-            std::cin >> alpha;
+            throw Error("VARIABLE","The confidence interval need to be a between ]0,1[");
         }
 
         read_input >> moment;
         if ((read_input.fail()) || (moment <= 0)){
-            read_input.clear();
-            read_input.ignore();
-            std::cerr << "*Error* : Order for the moment should be a strictly positive integer.\n";
-            std::cout << "Enter a new order:\t";
-            std::cin >> moment;
+            throw Error("VARIABLE","The order for the moment needs to be a positive integer");
         }
     }
 }
 
-void InputNormal::read(Random_variable *&pRandomVar, double &alpha, int &moment) {
-    const char *file_name = "DefaultNormal.dat";
-    read(pRandomVar, alpha, moment, file_name);
-}

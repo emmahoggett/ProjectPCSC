@@ -39,7 +39,20 @@
 
 
 int main(int argc, char *argv[]) {
+    if (argc > 2) {
+        std::cout << "Missing arguments. Please run the exercise as:\n"
+                  << "       ./monte_carlo_run\n"
+                  << "       ./monte_carlo_run <filename>.dat"
+                  << std::endl;
+        return -1;
+    }
+    const char *file_name_A;
 
+    if(argc==2){
+        file_name_A = argv[1];
+    }else {
+        file_name_A = "DefaultNormal.dat";
+    }
 
     double alpha;
     int order;
@@ -51,13 +64,10 @@ int main(int argc, char *argv[]) {
 
     pInput = new InputNormal;
     try{
-        pInput ->read(pRandom_variable,alpha,order);
+        pInput ->read(pRandom_variable,alpha,order, file_name_A);
     } catch(Error& e){
         e.PrintDebug();
-        std::cout << "Enter a new file name :\t";
-        char *file_name;
-        std::cin >> file_name;
-        pInput->read(pRandom_variable,alpha,order, file_name);
+        return -1;
     }
 
 
@@ -65,7 +75,7 @@ int main(int argc, char *argv[]) {
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
 
-    std::ofstream MomentFile("/home/emma-hoggett/git_workspace/ProjectPCSC/OutputMoment.csv");
+    std::ofstream MomentFile("OutputMoment.csv");
     MomentFile.setf(std::ios::scientific);
     MomentFile.setf(std::ios::showpos);
     MomentFile.precision(9);
@@ -84,7 +94,7 @@ int main(int argc, char *argv[]) {
     pCentralLimit = new StandardCentralLimitThm;
     pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
 
-    std::ofstream CTLFile("/home/emma-hoggett/git_workspace/ProjectPCSC/OutputConvCTL.csv");
+    std::ofstream CTLFile("OutputConvCTL.csv");
     CTLFile.setf(std::ios::scientific);
     CTLFile.setf(std::ios::showpos);
     CTLFile.precision(9);

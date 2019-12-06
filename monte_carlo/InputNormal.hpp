@@ -23,7 +23,6 @@ public:
     virtual ~InputNormal();
 
     virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment, const char *file_name) override ;
-    virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment) override ;
 
 };
 
