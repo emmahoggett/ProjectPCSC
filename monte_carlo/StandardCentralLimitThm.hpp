@@ -15,33 +15,48 @@
 #include "Normal.h"
 #include "Uniform.h"
 #include <vector>
-
+/**
+ * \brief Contains methods for standard central limit theorem.
+ *
+ * Child of AbstCentralLimitThm.
+ */
 class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:
     /**
-     * Constructor
+     * \brief Constructor
      */
     StandardCentralLimitThm();
     /**
-     * Destructor
+     * \brief Destructor
      */
     virtual ~StandardCentralLimitThm();
 
     /**
-     * Check if the central limit theorem is completed
-     * @param sample : Random_variable pointer
-     * @param expectation_sample : Expectation given by the expectation methods
-     * @param alpha : variable given by the user between ]0,1[
+     * \brief Check if the central limit theorem is completed.
+     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param expectation_sample : Float number, which is the expectation of the vector in Random variable.
+     * @param alpha : Float number between ]0,1[, which correspond to the confidence interval.
      */
-
     virtual bool is_verified() const ;
+
+    /**
+     * \brief Return the interval of the central limit theorem.
+     * @return Vector of float numbers, which contains the interval of the central limit theorem.
+     */
     virtual vector<double> get_interval() const ;
+
+    /**
+     * \brief Compute the central limit parameters.
+     * And check if the central limit is completed or not.
+     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param expectation_sample : Float number, which is the expectation of the vector in Random variable.
+     * @param alpha : Float number between ]0,1[, which correspond to the confidence interval.
+     */
     virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
 
-
 private:
-
-    
     bool verification ;
     vector<double> interval;
     double m_alpha;
