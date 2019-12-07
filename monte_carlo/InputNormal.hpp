@@ -16,23 +16,26 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+/**
+ * Class that treat uniform and normal distribution input file. This class is a child of AbstInput.
+ * \brief Manage normal and uniform input parameters.
+  */
 
 class InputNormal:public AbstInput{
-    /** \brief Class made to read normal and uniform input parameters.
-     */
+
 public:
     /**
-     * Constructor : as a default setup
+     * \brief Constructor : as a default setup
      */
     InputNormal();
     /**
-     * Destructor : as a default setup
+     * \brief Destructor : as a default setup
      */
     virtual ~InputNormal();
 
     /**
-     *  Read file for uniform and normal distribution random variable pointer. Each properties of variables are
-     *  checked in the reading process.
+     * \brief Read file for uniform and normal distribution random variable pointer.
+     *  Each properties of variables are checked in the reading process.
      * @param pRandomVar : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution
      * @param alpha : The confidence interval that can be precised in the file. Otherwise, it is set to
