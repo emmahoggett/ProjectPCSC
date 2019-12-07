@@ -23,11 +23,16 @@ public:
      * \brief Constructor : set as default.
      */
     MonteCarloExpectation();
+<<<<<<< HEAD
     /**
      * \brief Constructor: already computes the monte carlo expectation.
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      */
+||||||| merged common ancestors
+
+=======
+>>>>>>> 1538760dddf6454395021e39da1d9cb96bb8891d
     MonteCarloExpectation(const Random_variable* rvs);
     /**
      * \brief Destructor : set as default.
@@ -46,11 +51,19 @@ public:
 /**
  * \brief Compute the expectation.
 
+<<<<<<< HEAD
  * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
  * distribution.
  * @return The resulting expectation of the rvs vector, which is a float number.
  */
     virtual double calculate_expectation(const Random_variable* rvs) const ;
+||||||| merged common ancestors
+    virtual double calculate_expectation(const Random_variable* rvs) const ;
+=======
+    virtual double calculate_expectation(const Random_variable* rvs) const override ;
+
+    virtual void setExpectation(const Random_variable* rvs) override ;
+>>>>>>> 1538760dddf6454395021e39da1d9cb96bb8891d
 
 private:
     double expectation_monte_carlo;

@@ -50,6 +50,7 @@ public:
      * @return  expectation : float that correspond to the mean of values in the vector given by Random_variable.
      */
     virtual double calculate_expectation(const Random_variable* rvs) const =0;
+    virtual void setExpectation(const Random_variable* rvs) = 0 ;
 
 };
 

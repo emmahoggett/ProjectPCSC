@@ -12,6 +12,9 @@
 #include <string>
 #include <exception>
 
+/**
+ * \brief
+ */
 class Error : public std::exception {
 private:
     std::string mTag, mProblem;

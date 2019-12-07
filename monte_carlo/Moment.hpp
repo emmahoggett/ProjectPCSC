@@ -16,11 +16,13 @@
 #include "Random_variable.h"
 #include "Normal.h"
 #include "Uniform.h"
-
-using namespace std;
 /**
- * Compute the moment of sample until the order given by the user.
- * The result is then put into an output stream
+ *  Compute the statistical moment of different order of a random variable of a given probability distribution. The result is output in a stream that the user has precised
+ *  The mean and variance are the first two statistical moments, and the third and fourth moments also provide information on the shape of the distribution.
+ */
+
+/**
+ * \brief Compute the moment of sample until the order given by the user.
  */
 class Moment{
 public:
@@ -34,16 +36,14 @@ public:
     virtual ~Moment();
 
     /**
-     * Compute the moment until the order given by the users.
-     * Then return the results into the stream and then close the stream
+     * \brief Compute the moment until the order given by the users.Then return the results into the stream
+     *
+     * the moment is computed as : the sum over all the sample minus the mean of the distribution powered by the order
      * @param stream : out stream, should be define by the user first
      * @param sample : random_variable data type defined by the user, contain a vector,
      * the mean and the variance of the vector
      * @param order : a positive integer
      */
-    void getMoment(std::ofstream &stream, Random_variable *sample, int order)const;
-
-
-
+    void getMoment(std::ofstream &stream, const Random_variable *sample,const int order)const;
 };
 #endif /*MOMENT_HPP_*/

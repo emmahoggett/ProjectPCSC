@@ -12,16 +12,15 @@ Moment::Moment() {}
 
 Moment::~Moment() {}
 
-void Moment::getMoment(std::ofstream &stream, Random_variable *sample, int order) const {
-    double mean = sample -> get_mean();
-    vector<double> vec_U = sample-> get_sample();
-    int size_N = vec_U.size();
+void Moment::getMoment(std::ofstream &stream, const Random_variable *sample, const int order) const {
+    auto mean = sample -> get_mean();
+    auto vector_sample = sample-> get_sample();
     stream << "order,moment\n";
-
     for (int i = 1; i <= order; ++i) {
         double sum = 0;
-        for (int j = 0; j < size_N; ++j) {
-            sum+=pow(vec_U[j]-mean, i);
+        for(auto vec : vector_sample)
+        {
+            sum+=pow(vec-mean, i);
         }
         stream << i <<","<< sum << "\n";
     }
