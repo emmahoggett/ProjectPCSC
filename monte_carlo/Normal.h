@@ -11,12 +11,12 @@
 
 #include "Uniform.h"
 /**
- * normal class is a derived class of Uniform. The construction of random variable that has a normal distribution is based on the inverse cumulative distribution (CDF). In fact taking the inverse
+ * This class is a derived class of Uniform. The construction of random variable that has a normal distribution is based on the inverse cumulative distribution (CDF). In fact taking the inverse
  * normal CDF of a uniform sample gets a normal sample.
  */
 
 /**
- * \brief  Create a random variable from a normal distribution
+ * \brief  Create a random variable from a normal distribution.
  */
 class Normal : public Uniform {
 
@@ -37,7 +37,7 @@ public:
 
     /**
      * \brief Return the normal and uniform vector.
-     * @return a vector that contain the sample of the random variable
+     * @return A vector that contain the sample of the random variable.
      */
 
     virtual std::vector<double> get_sample() const { return N_m;}
@@ -45,19 +45,19 @@ public:
 
     /**
      *  \brief Return the mean of the normal distribution that the sample comes from .
-     * @return mean of the normal and uniform distribution.
+     * @return Mean of the normal and uniform distribution.
      */
     virtual double get_mean() const { return mean_normal;}
 
     /**
      * \breif Return the variance of the normal distribution that the sample comes from .
-     * @return variance of the normal and uniform distribution.
+     * @return Variance of the normal and uniform distribution.
      */
     virtual double get_var() const { return var_normal;}
 
     /**
-     * \brief Return the size of the sample
-     * @return size of the vector of the normal sample
+     * \brief Return the size of the sample.
+     * @return Size of the vector of the normal sample.
      */
     virtual int get_size() const {return N_m.size(); }
 
