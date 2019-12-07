@@ -45,8 +45,8 @@
  *  Concepts in Scientific Computing course.
  *
  * \subsection info2 Authors
- * 	- Hoggett Emma <\emma.hoggett@epfl.ch>
- * 	- Vuillecard Pierre <\pierre.vuillecard@epfl.ch>
+ * 	- Hoggett Emma : emma.hoggett@epfl.ch
+ * 	- Vuillecard Pierre : pierre.vuillecard@epfl.ch
  *
  *
  */
