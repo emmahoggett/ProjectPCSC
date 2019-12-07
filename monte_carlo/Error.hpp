@@ -13,7 +13,7 @@
 #include <exception>
 
 /**
- * \brief
+ * \brief Manage all the error that the program may encounter
  */
 class Error : public std::exception {
 private:
@@ -27,7 +27,7 @@ public:
     Error(std::string tagString, std::string probString);
 
     /**
-     * Print the error returned by exception
+     * Print the type of error and the error's message
      */
     void PrintDebug() const;
 };
