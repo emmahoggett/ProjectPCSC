@@ -23,16 +23,12 @@ public:
      * \brief Constructor : set as default.
      */
     MonteCarloExpectation();
-<<<<<<< HEAD
     /**
      * \brief Constructor: already computes the monte carlo expectation.
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      */
-||||||| merged common ancestors
 
-=======
->>>>>>> 1538760dddf6454395021e39da1d9cb96bb8891d
     MonteCarloExpectation(const Random_variable* rvs);
     /**
      * \brief Destructor : set as default.
