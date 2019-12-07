@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
     if (argc > 2) {
         std::cerr << "Missing arguments. Please run the exercise as:\n"
                   << "       ./monte_carlo_run\n"
-                  << "       ./monte_carlo_run <filename>.dat"
+                  << "       ./monte_carlo_run <filename>.dat\n"
                   << std::endl;
         return 1;
     }
@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
     if(argc==2){
         file_name_A = argv[1];
     }else {
-        std::cout << "The file is set as default: DefaultNormal.dat";
+        std::cout << "The file is set as default: DefaultNormal.dat\n";
         file_name_A = "DefaultNormal.dat";
     }
 

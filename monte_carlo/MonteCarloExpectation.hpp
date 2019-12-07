@@ -15,30 +15,41 @@
 #include "Uniform.h"
 
 /**
- * Child of AbstExpectation
- * Override getExpectation which compute the Monte Carlo Expectation
+ * \brief Contains method to compute Monte Carlo expectation.
  */
 class MonteCarloExpectation : public AbstExpectation{
 public:
     /**
-     * Constructor of the class MonteCarloExpectation
+     * \brief Constructor : set as default.
      */
     MonteCarloExpectation();
-
+    /**
+     * \brief Constructor: already computes the monte carlo expectation.
+     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     */
     MonteCarloExpectation(const Random_variable* rvs);
     /**
-     * Destructor of the class MonteCarloExpectation
+     * \brief Destructor : set as default.
      */
     virtual ~MonteCarloExpectation();
 
     /**
-     * Compute the expectation of the vector in rvs
-     * @param rvs : random_variable data type defined by the user, contain a vector,
-     * the mean and the variance of the vector
-     * @return Return the expectation of the rvs vector, which is the mean over all vector elements
+     * \brief Return the computed expectation, with Monte car.
+     *
+     * Method that compute the expectation , which is the mean over all vector elements.
+     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @return The computed expectation of the rvs vector, which is a float number.
      */
     virtual double getExpectation() const override;
+/**
+ * \brief Compute the expectation.
 
+ * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+ * distribution.
+ * @return The resulting expectation of the rvs vector, which is a float number.
+ */
     virtual double calculate_expectation(const Random_variable* rvs) const ;
 
 private:

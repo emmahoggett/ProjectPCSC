@@ -5,8 +5,8 @@ import seaborn as sns
 
 
 # read the data set given by the output of the C++ code
-moment = pd.read_csv ('OutputMoment.csv')
-convCTL = pd.read_csv ('OutputConvCTL.csv')
+moment = pd.read_csv ('cmake-build-debug/OutputMoment.csv')
+convCTL = pd.read_csv ('cmake-build-debug/OutputConvCTL.csv')
 
 # Build the graph of the Moment
 sns.set(style = "whitegrid")

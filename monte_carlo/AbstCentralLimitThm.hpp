@@ -17,31 +17,42 @@
 #include "Uniform.h"
 
 using namespace std;
+/** \brief Abstract central limit theorem class.
+ *
+ * Contains abstract methods to compute the check the central limit
+ * theorem.Parent class of StandardCentralLimitThm.
+ */
 
 class AbstCentralLimitThm{
-    /** \brief Abstract central limit theorem class: Mother of the Standard
-     * Central Limit Theorem
-     */
 
 public:
     /**
-     * Abstract Constructor : has a default setup
+     * \brief Constructor : as a default setup.
      */
     AbstCentralLimitThm();
     /**
-     * Abstract Destructor
+     * \brief Destructor : as a default setup.
      */
     virtual ~AbstCentralLimitThm();
 
     /**
-     * Abstract Central Limit Theorem function
-     * @param sample : Random_variable which contains a vector, the mean and the variance that was used to determine
-     * the vector
-     * @param expectation_sample : Actual mean of the vector that was computed with the vector. To compute it,
-     * @param alpha : float number that is defined between ]0,1[ and is the confidence interval
+     * Abstract Central Limit Theorem method.
+     * @param sample :  Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param expectation_sample : Expectation of the vector that was computed with the vector.
+     * @param alpha : Float number that is defined between ]0,1[ and is the confidence interval.
      */
     virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha) =0;
+    /**
+     * \brief Check if the expectation of the vector respect central limit theorem.
+     * @return A boolean, which indicates if the Central Limit Theorem is verified.
+     */
     virtual bool is_verified() const =0;
+
+    /**
+     * \brief Return the interval of the central limit theorem.
+     * @return The interval of the central limit theorem which is a vector of size 2.
+     */
     virtual vector<double> get_interval() const =0;
     
 };
