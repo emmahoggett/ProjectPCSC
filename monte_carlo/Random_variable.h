@@ -10,8 +10,11 @@
 #define RANDOM_VARIABLE_H_
 
 #include <vector>
+/** \brief
+ *
+ */
 class Random_variable {
-    /*
+    /**
      * Abstract class that call Uniform
      *
      */

@@ -19,7 +19,7 @@ public:
      * @param N : Positive integer that define the size of the vector.
      */
     Normal( const int N);
-    
+
     /**
      * Constructor : compute an uniform and normal distribution vector.
      * @param N : Positive integer that define the size of the vector.
