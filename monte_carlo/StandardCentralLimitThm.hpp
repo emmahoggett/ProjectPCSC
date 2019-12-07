@@ -23,11 +23,11 @@
 class StandardCentralLimitThm: public AbstCentralLimitThm{
 public:
     /**
-     * \brief Constructor
+     * \brief Default constructor.
      */
     StandardCentralLimitThm();
     /**
-     * \brief Destructor
+     * \brief Default destructor.
      */
     virtual ~StandardCentralLimitThm();
 
@@ -48,6 +48,7 @@ public:
 
     /**
      * \brief Compute the central limit parameters.
+     *
      * And check if the central limit is completed or not.
      * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.

@@ -27,22 +27,23 @@
 class Moment{
 public:
     /**
-     * Constructor of the class Moment
+     * \brief Constructor of the class Moment.
      */
     Moment();
     /**
-     * Destructor of the class Moment
+     * \brief Destructor of the class Moment.
      */
     virtual ~Moment();
 
     /**
-     * \brief Compute the moment until the order given by the users.Then return the results into the stream
+     * \brief Compute the moment until the order given by the users.
      *
-     * the moment is computed as : the sum over all the sample minus the mean of the distribution powered by the order
-     * @param stream : out stream, should be define by the user first
-     * @param sample : random_variable data type defined by the user, contain a vector,
-     * the mean and the variance of the vector
-     * @param order : a positive integer
+     * Then return the results into the stream.
+     * The moment is computed as the sum over all the sample minus the mean of the distribution powered by the order.
+     * @param stream : Output stream of the file "OutputMoment.csv".
+     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param order : A strictly positive integer, that define the number of moment computed.
      */
     void getMoment(std::ofstream &stream, const Random_variable *sample,const int order)const;
 };

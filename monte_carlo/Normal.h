@@ -22,16 +22,20 @@ class Normal : public Uniform {
 
 public:
     /**
-     * Constructor : compute a sample from the standard normal distribution of variance 1 centred in 0 .
+     * \brief Default constructor.
+     *
+     * Compute a sample from the standard normal distribution of variance 1 centred in 0 .
      * @param N : Positive integer that define the size of the vector.
      */
     Normal( const int N);
 
     /**
-     * Constructor : compute  a sample from the normal distribution of variance var  centred in mu
+     * \brief Constructor.
+     *
+     * Compute a sample from the normal distribution of variance var centred in mu.
      * @param N : Positive integer that define the size of the vector.
-     * @param mu : Float number that define the mean.
-     * @param var : Positive float number.
+     * @param mu : Float number that defines the mean.
+     * @param var : Positive float number, which is the variance.
      */
     Normal(const int N , const double mu , const double var);
 
