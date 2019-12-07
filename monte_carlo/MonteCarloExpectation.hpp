@@ -15,7 +15,7 @@
 #include "Uniform.h"
 
 /**
- * \brief Contains method to compute Monte Carlo expectation.
+ * \brief Contains method to compute Monte Carlo expectation. It's a method that compute an unbiased estimator of the expectation of a random variable.
  */
 class MonteCarloExpectation : public AbstExpectation{
 public:
