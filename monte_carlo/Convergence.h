@@ -13,6 +13,6 @@ class Convergence {
 
 
 private:
-    R
+
 };
 #endif //PROJECTPCSC_CONVERGENCE_H

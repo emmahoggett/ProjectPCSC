@@ -24,7 +24,6 @@ public:
      * Constructor of the class MonteCarloExpectation
      */
     MonteCarloExpectation();
-
     MonteCarloExpectation(const Random_variable* rvs);
     /**
      * Destructor of the class MonteCarloExpectation
@@ -39,7 +38,9 @@ public:
      */
     virtual double getExpectation() const override;
 
-    virtual double calculate_expectation(const Random_variable* rvs) const ;
+    virtual double calculate_expectation(const Random_variable* rvs) const override ;
+
+    virtual void setExpectation(const Random_variable* rvs) override ;
 
 private:
     double expectation_monte_carlo;

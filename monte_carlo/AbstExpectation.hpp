@@ -41,6 +41,7 @@ public:
      */
     virtual double getExpectation() const = 0;
     virtual double calculate_expectation(const Random_variable* rvs) const =0;
+    virtual void setExpectation(const Random_variable* rvs) = 0 ;
 
 };
 

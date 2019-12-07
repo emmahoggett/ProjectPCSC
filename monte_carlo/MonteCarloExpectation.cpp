@@ -11,12 +11,7 @@
 MonteCarloExpectation::MonteCarloExpectation() {}
 MonteCarloExpectation::MonteCarloExpectation(const Random_variable* rvs)
 {
-    auto vector_sample = rvs->get_sample() ;
-    for (auto p : vector_sample)
-    {
-        expectation_monte_carlo += p ;
-    }
-    expectation_monte_carlo/=vector_sample.size();
+    expectation_monte_carlo = calculate_expectation(rvs);
 }
 
 MonteCarloExpectation::~MonteCarloExpectation() {}
@@ -27,7 +22,7 @@ double MonteCarloExpectation::getExpectation() const{
 
 double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs) const
 {
-    double mean;
+    double mean(0.);
     auto vector_sample = rvs->get_sample() ;
     for (auto p : vector_sample)
     {
@@ -35,4 +30,9 @@ double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs)
     }
     mean/=vector_sample.size();
     return mean ;
+}
+
+void MonteCarloExpectation:: setExpectation(const Random_variable* rvs)
+{
+    expectation_monte_carlo = calculate_expectation(rvs) ;
 }

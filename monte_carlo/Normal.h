@@ -11,24 +11,24 @@
 
 #include "Uniform.h"
 /**
- * Normal class heritate
+ * normal class is a derived class of Uniform. The construction of random variable that has a normal distribution is based on the inverse cumulative distribution (CDF). In fact taking the inverse
+ * normal CDF of a uniform sample gets a normal sample.
  */
 
 /**
- * \brief Normal class : create a random variable from a Normal distribution
+ * \brief  Create a random variable from a normal distribution
  */
 class Normal : public Uniform {
 
 public:
     /**
-     * Constructor : compute an uniform and normal distribution vector. The mean and the standard
-     * deviation is set as default, respectively 1 and 0.
+     * Constructor : compute a sample from the standard normal distribution of variance 1 centred in 0 .
      * @param N : Positive integer that define the size of the vector.
      */
     Normal( const int N);
 
     /**
-     * Constructor : compute an uniform and normal distribution vector.
+     * Constructor : compute  a sample from the normal distribution of variance var  centred in mu
      * @param N : Positive integer that define the size of the vector.
      * @param mu : Float number that define the mean.
      * @param var : Positive float number.
@@ -36,27 +36,28 @@ public:
     Normal(const int N , const double mu , const double var);
 
     /**
-     * Return the normal and uniform vector.
-     * @return
+     * \brief Return the normal and uniform vector.
+     * @return a vector that contain the sample of the random variable
      */
 
     virtual std::vector<double> get_sample() const { return N_m;}
 
+
     /**
-     * Return the mean of the normal and uniform transformation.
+     *  \brief Return the mean of the normal distribution that the sample comes from .
      * @return mean of the normal and uniform distribution.
      */
     virtual double get_mean() const { return mean_normal;}
 
     /**
-     * Return the variance of the normal and uniform transformation.
+     * \breif Return the variance of the normal distribution that the sample comes from .
      * @return variance of the normal and uniform distribution.
      */
     virtual double get_var() const { return var_normal;}
 
     /**
-     * Return the size of the vector of the normal and uniform transformation.
-     * @return size of the vector of the normal and uniform transformation.
+     * \brief Return the size of the sample
+     * @return size of the vector of the normal sample
      */
     virtual int get_size() const {return N_m.size(); }
 
