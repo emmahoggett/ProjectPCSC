@@ -10,8 +10,15 @@
 #define NORMAL_GENERATOR_H_
 
 #include "Uniform.h"
+/**
+ * Normal class heritate
+ */
 
+/**
+ * \brief Normal class : create a random variable from a Normal distribution
+ */
 class Normal : public Uniform {
+
 public:
     /**
      * Constructor : compute an uniform and normal distribution vector. The mean and the standard
