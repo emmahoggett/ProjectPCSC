@@ -6,16 +6,34 @@ if(COMMAND cmake_policy)
     cmake_policy(SET CMP0003 NEW)
 endif(COMMAND cmake_policy)
 
-add_executable(runBasicMonteCarloTests
-        test_google_test.cpp Uniform_test.cpp Normal_test.cpp MonteCarloExpectation_test.cpp StandardCentralLimitThm_test.cpp Input_test.cpp
-        )
-add_executable(runBasicMonteCarloTests_2
-        test_random_variable.cpp
-        )
-add_executable(runBasicMonteCarloTests_3
-        Input_test.cpp
-        )
-target_link_libraries(runBasicMonteCarloTests gtest gtest_main monte_carlo )
-target_link_libraries(runBasicMonteCarloTests_2 monte_carlo)
-target_link_libraries(runBasicMonteCarloTests_3 gtest gtest_main monte_carlo )
+add_executable(runAllTests
+        Uniform_test.cpp
+        Normal_test.cpp
+        MonteCarloExpectation_test.cpp
+        StandardCentralLimitThm_test.cpp
+        Input_test.cpp )
+
+add_executable(Input_test
+        Input_test.cpp )
+
+add_executable(Uniform_test
+        Uniform_test.cpp)
+
+add_executable(Normal_test
+        Normal_test.cpp)
+
+add_executable(MonteCarloExpectation_test
+        MonteCarloExpectation_test.cpp)
+
+add_executable(StandardCentralLimitThm_test
+        StandardCentralLimitThm_test.cpp)
+
+target_link_libraries(runAllTests gtest gtest_main monte_carlo )
+target_link_libraries(Input_test  gtest gtest_main monte_carlo )
+target_link_libraries(Uniform_test  gtest gtest_main monte_carlo )
+target_link_libraries(Normal_test  gtest gtest_main monte_carlo )
+target_link_libraries(MonteCarloExpectation_test  gtest gtest_main monte_carlo )
+target_link_libraries(StandardCentralLimitThm_test  gtest gtest_main monte_carlo )
+
+
 
