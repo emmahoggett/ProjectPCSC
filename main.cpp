@@ -20,24 +20,30 @@
  * \section sec1 1. Structure of the code
  *
  * \subsection subsec11 1.1 Input function
- * - AbstInput
- * - InputNormal
+ * - AbstInput : Abstract class for input
+ * - InputNormal :  Manage normal and uniform input parameters.
  *
  * \subsection subsec12 1.2 Random number generators with a normal & uniform probability distribution
- * - Random_variable
- * - Uniform
- * - Normal
+ * - Random_variable : Abstract class that define a random variable.
+ * - Uniform : Create a random variable from a uniform distribution.
+ * - Normal : Create a random variable from a normal distribution.
  *
  * \subsection subsec13 1.3 Expectation
- * - AbstExpectation
- * - MonteCarloExpectation
+ * - AbstExpectation : Abstract expectation class.
+ * - MonteCarloExpectation : Contains method to compute Monte Carlo expectation.
  *
- *\subsection subsec14 1.4 Statistical moment
- * - Moment
+ * \subsection subsec15 1.4 Central Limit Theorem
+ * - AbstCentralLimitThm : Abstract central limit theorem class.
+ * - StandardCentralLimitThm : Contains methods for standard central limit theorem.
  *
- * \subsection subsec15 1.5 Central Limit Theorem
- * - AbstCentralLimitThm
- * - StandardCentralLimitThm
+ * \subsection subsec16 1.5 Output
+ * - AbstOuput :
+ * - Moment : Compute the moment of sample until the order given by the user.
+ * - Convergence :
+ *
+ * \subsection subsec16 1.6 Error management
+ * - Error : Manage all the error that the program may encounter.
+ *
  *
  * \section info 2. Various informations
  *
