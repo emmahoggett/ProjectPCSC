@@ -17,6 +17,7 @@
  * \brief Compute the convergence of the CLT
  *
  * Compute and create a `.csv` file that confirm the Central Limit Theorem (CLT).
+ * Child of AbstOutput.
  */
 class Convergence :  public AbstOutput {
 public:
