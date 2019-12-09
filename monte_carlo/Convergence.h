@@ -38,7 +38,7 @@ public:
     ~Convergence() ;
 /**
  * \brief Write `.csv` file on the convergence of the CTL.
- * 
+ *
  * In this method, the lower bound, the upper bound and the expectation is computed, from 1 to the vector
  * size given by the user. The result is then return into a csv file.
  * @param file_name : Name of the file that is returned.
