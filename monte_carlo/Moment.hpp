@@ -26,11 +26,15 @@
 class Moment : public AbstOutput{
 public:
     /**
-     * \brief Constructor of the class Moment.
+     * \brief Constructor.
+     *
+     * Set the sam
+     * @param sample_ :
+     * @param order_ :
      */
     Moment(Random_variable *sample_,const int order_);
     /**
-     * \brief Destructor of the class Moment.
+     * \brief Default destructor.
      */
     virtual ~Moment();
 
@@ -39,7 +43,7 @@ public:
      *
      * Then return the results into the stream.
      * The moment is computed as the sum over all the sample minus the mean of the distribution powered by the order.
-     * @param stream : Output stream of the file "OutputMoment.csv".
+     * @param stream : Output stream of the file. In `main.cpp`, the output stream is defined as `OutputMoment.csv`.
      * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @param order : A strictly positive integer, that define the number of moment computed.

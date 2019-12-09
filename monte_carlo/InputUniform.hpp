@@ -38,7 +38,7 @@ public:
      * \brief Read file for uniform distribution random variable pointer.
      *
      *  Each properties of variables are checked in the reading process.
-     *  
+     *
      * @param pRandomVar : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution. It will be define as a Uniform variable.
      * @param alpha : The confidence interval that can be precised in the file. Otherwise, it is set to
