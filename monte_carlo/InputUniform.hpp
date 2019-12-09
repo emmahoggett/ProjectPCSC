@@ -47,8 +47,8 @@ public:
      * to be organise as following: Size of the vector for the distribution, mean, variance, confidence interval and
      * order of the moment. The two last parameter are not needed if the user want to set them as default.
      * - Size of the vector: a strictly positive integer.
-     * - Mean : a float number.
-     * - Variance : a strictly positive float number.
+     * - Lower bound : a float number.
+     * - Upper bound : a float number, that is strictly greater than the lower bound.
      * - Confidence interval : a float number in ]0,1[.
      * - Order: a strictly positive integer.
      */
