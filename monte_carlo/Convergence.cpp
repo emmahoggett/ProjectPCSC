@@ -1,6 +1,11 @@
-//
-// Created by pierr on 07/12/2019.
-//
+/*
+ * Convergence.cpp
+ *
+ *  Created on: Dec 06, 2019
+ * 	   Authors: Hoggett Emma <emma.hoggett@epfl.ch> &
+ * 	            Vuillecard Pierre <pierre.vuillecard@epfl.ch>
+ */
+
 #include "Convergence.h"
 #include <iostream>
 #include <fstream>

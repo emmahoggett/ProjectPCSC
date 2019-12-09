@@ -44,8 +44,11 @@
  * \subsection subsec16 1.6 Error management
  * - Error : Manage all the error that the program may encounter.
  *
+ * \section sec2 2. Python Code
+ * After running the following code the user can use the script `graph.py` to plot the statistical moment
+ * and the central limit convergence.
  *
- * \section info 2. Various informations
+ * \section info 3. Various informations
  *
  * \subsection info2 2.1 Authors
  * 	- Hoggett Emma : emma.hoggett@epfl.ch
@@ -122,21 +125,22 @@ int main(int argc, char *argv[]) {
 
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
-
+    std::cout << "The expectation was computed successfully.\n";
 
     pMoment = new Moment(pRandom_variable,order);
     pMoment->writefile("OutputMoment.csv");
     delete pMoment;
-
+    std::cout << "The statistical moment and the output file \"OutputMoment.csv\" were computed and "
+                 "created successfully.\n";
 
     pCentralLimit = new StandardCentralLimitThm;
     pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
-
-
+    pCentralLimit ->visualization(std::cout);
 
     AbstOutput* pOutput ;
     pOutput = new Convergence(pCentralLimit,pExpectation,pRandom_variable,alpha);
     pOutput->writefile("OutputConvergence.csv");
+    std::cout << "The output file \"OutputConvergence.csv\" was created successfully.\n";
 
     delete pCentralLimit;
     delete pExpectation;
