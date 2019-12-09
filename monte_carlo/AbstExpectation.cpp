@@ -12,3 +12,11 @@
 
 AbstExpectation::AbstExpectation() {}
 AbstExpectation::~AbstExpectation() {}
+
+void AbstExpectation::setProbabilityDistribution(double (*f)(double y)) {
+    f_rhs = f;
+}
+
+double AbstExpectation::probabilityDistribution(double y) const {
+    return f_rhs(y);
+}
