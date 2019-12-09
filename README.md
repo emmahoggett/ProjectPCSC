@@ -3,7 +3,7 @@
 ### Description
 This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as modular as possible. The following goals throught this project have been reached:
 * Implementation of random number generators with a normal & uniform probability distribution.
-* Compute the expectation value of a user defined function.
+* Compute the expectation value of a user defined function.  
 * Build `.csv` with statistical moments and the convergence of the CTL.
 * Verification of the central limit theorem (CTL).
 
@@ -53,13 +53,14 @@ The Python code needs the two csv file:
 Those two files can be found by the user into the direct repository of the project. 
 
 ### Additional content
-The code also contains google test files that test each error management. They can be found by the user in `/monte_carlo_test/basic_test/` repository. There are `.cpp` file that can be launched for this task:
-* `runBasicMonteCarloTest` : test all error management of the code.
-* `Uniform_test`: test the entry values of the uniform distribution (variance, interval, mean & vector's size).
-* `Normal_test` : test the entry values of the normal & uniform distribution (variance, mean & vector's size).
-* `MonteCarloExpectation_test` : test if the mean computed is close to the mean given by the user. 
+The code also contains google test files that test each error management and the well behavior of all the functions. They can be found by the user in `/monte_carlo_test/basic_test/` repository. There are `.cpp` file that can be launched for this task:
+* `runAllTest` : run all the test of the project .
+The different test are :
+* `Uniform_test`: test the entry values of the uniform distribution (interval & vector's size), also test each function of the class.
+* `Normal_test` : test the entry values of the normal (variance, mean & vector's size), also test each function of the class.
+* `MonteCarloExpectation_test` : test if the mean computed by the monte carlo method is close enough to the mean (1e-1 error) given by the user.
 * `StandardCentralLimitThm_test` : test if the theorem is respected for a large vector size.
-* `input_test` : test values entered in a desired file
+* `Input_test` : test values entered in a desired file for the normal distribution and the uniform distribution. 
 
 ### Documentation
 * [Guide to Scientific Computing in C++] (https://link.springer.com/book/10.1007/978-1-4471-2736-9)
