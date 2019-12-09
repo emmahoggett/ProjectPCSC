@@ -27,16 +27,16 @@ class AbstCentralLimitThm{
 
 public:
     /**
-     * \brief Constructor : as a default setup.
+     * \brief Default Constructor.
      */
     AbstCentralLimitThm();
     /**
-     * \brief Destructor : as a default setup.
+     * \brief Default Destructor.
      */
     virtual ~AbstCentralLimitThm();
 
     /**
-     * Abstract Central Limit Theorem method.
+     * Virtual Central Limit Theorem method.
      * @param sample :  Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @param expectation_sample : Expectation of the vector that was computed with the vector.
@@ -44,13 +44,15 @@ public:
      */
     virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha) =0;
     /**
-     * \brief Check if the expectation of the vector respect central limit theorem.
+     * \brief Virtual method to verify central limit theorem.
+     *
+     * Check if the expectation of the vector respect central limit theorem.
      * @return A boolean, which indicates if the Central Limit Theorem is verified.
      */
     virtual bool is_verified() const =0;
 
     /**
-     * \brief Return the interval of the central limit theorem.
+     * \brief Virtual method that return the interval of the central limit theorem.
      * @return The interval of the central limit theorem which is a vector of size 2.
      */
     virtual vector<double> get_interval() const =0;

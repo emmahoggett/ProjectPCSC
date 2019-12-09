@@ -13,21 +13,21 @@
 #include <exception>
 
 /**
- * \brief Manage all the error that the program may encounter
+ * \brief Manage all the error that the program may encounter.
  */
 class Error : public std::exception {
 private:
     std::string mTag, mProblem;
 public:
     /**
-     * Constructor of the error
-     * @param tagString : give the type of issue
-     * @param probString : string returned to the user in case of error
+     * \brief Constructor of the error.
+     * @param tagString : give the type of issue.
+     * @param probString : string returned to the user in case of error.
      */
     Error(std::string tagString, std::string probString);
 
     /**
-     * Print the type of error and the error's message
+     * \brief Print the type of error and the error's message.
      */
     void PrintDebug() const;
 };

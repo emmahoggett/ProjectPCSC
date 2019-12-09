@@ -7,7 +7,7 @@
  */
 
 /*! \mainpage Monte Carlo Algorithm
- * \section introduction Introduction
+ * \section introduction 0. Introduction
  *This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as
  * modular as possible. The following goals through this project have been reached:
  *  - Implementation of random number generators with a normal
@@ -17,36 +17,37 @@
  *  - Verification of the central limit theorem
  *
  *
- * \section sec1 Structure of the code
+ * \section sec1 1. Structure of the code
  *
- * \subsection subsec11 Input function
+ * \subsection subsec11 1.1 Input function
  * - AbstInput
  * - InputNormal
  *
- * \subsection subsec12 Random number generators with a normal & uniform probability distribution
+ * \subsection subsec12 1.2 Random number generators with a normal & uniform probability distribution
  * - Random_variable
  * - Uniform
  * - Normal
  *
- * \subsection subsec13 Expectation
+ * \subsection subsec13 1.3 Expectation
  * - AbstExpectation
  * - MonteCarloExpectation
  *
- *\subsection subsec14 Statistical moment
+ *\subsection subsec14 1.4 Statistical moment
  * - Moment
  *
- * \subsection subsec15 Central Limit Theorem
+ * \subsection subsec15 1.5 Central Limit Theorem
  * - AbstCentralLimitThm
  * - StandardCentralLimitThm
  *
- * \section info Various informations
- * \subsection info1 Project Status
- *  The project was submitted on the 13 December 2019, as part of the Programming
- *  Concepts in Scientific Computing course.
+ * \section info 2. Various informations
  *
- * \subsection info2 Authors
+ * \subsection info2 2.1 Authors
  * 	- Hoggett Emma : emma.hoggett@epfl.ch
  * 	- Vuillecard Pierre : pierre.vuillecard@epfl.ch
+ *
+ * 	\subsection info1 2.2 Project Status
+ *  The project was submitted on the 13 December 2019, as part of the Programming
+ *  Concepts in Scientific Computing course.
  *
  *
  */

@@ -23,12 +23,12 @@ class AbstInput{
 public:
 
     /**
-     * \brief Constructor : as a default setup
+     * \brief Default constructor.
      */
     AbstInput();
 
     /**
-     * \brief Destructor : as a default setup
+     * \brief Default destructor.
      */
     virtual ~AbstInput();
 

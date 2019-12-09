@@ -15,12 +15,15 @@
 #include "Uniform.h"
 
 /**
- * \brief Contains method to compute Monte Carlo expectation. It's a method that compute an unbiased estimator of the expectation of a random variable.
+ * \brief Contains method to compute Monte Carlo expectation.
+ *
+ * It's a method that compute an unbiased estimator of the expectation of a random variable.
+ * Child of AbstExpectation.
  */
 class MonteCarloExpectation : public AbstExpectation{
 public:
     /**
-     * \brief Constructor : set as default.
+     * \brief Default constructor.
      */
     MonteCarloExpectation();
     /**
@@ -31,7 +34,7 @@ public:
 
     MonteCarloExpectation(const Random_variable* rvs);
     /**
-     * \brief Destructor : set as default.
+     * \brief Default destructor.
      */
     virtual ~MonteCarloExpectation();
 
@@ -49,12 +52,12 @@ public:
 
  * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
  * distribution.
- * @return The resulting expectation of the rvs vector, which is a float number.
+ * @return Expectation of the rvs vector, which is a float number.
  */
     virtual double calculate_expectation(const Random_variable* rvs) const;
 
 /**
- * \brief Set the expectation
+ * \brief Set the expectation.
  * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
  * distribution.
  */

@@ -25,17 +25,17 @@ class AbstExpectation{
 public:
 
     /**
-     * \brief Constructor : as a default setup.
+     * \brief Default constructor.
      */
     AbstExpectation();
     /**
-     * \brief Destructor : as a default setup.
+     * \brief Default destructor.
      */
     virtual ~AbstExpectation();
 
 
     /**
-     * \brief Public virtual method that return the computed expectation.
+     * \brief Virtual method that return the computed expectation.
      *
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
@@ -43,13 +43,18 @@ public:
      */
     virtual double getExpectation() const = 0;
     /**
-     * \brief Public virtual method that compute expectation.
+     * \brief Virtual method that compute expectation.
      * Compute the expectation with variables contained into the vector.
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @return  expectation : float that correspond to the mean of values in the vector given by Random_variable.
      */
     virtual double calculate_expectation(const Random_variable* rvs) const =0;
+    /**
+     * \brief Virtual set the expectation.
+     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     */
     virtual void setExpectation(const Random_variable* rvs) = 0 ;
 
 };

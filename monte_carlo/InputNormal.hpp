@@ -25,11 +25,11 @@ class InputNormal:public AbstInput{
 
 public:
     /**
-     * \brief Constructor : as a default setup
+     * \brief Default constructor.
      */
     InputNormal();
     /**
-     * \brief Destructor : as a default setup
+     * \brief Default destructor.
      */
     virtual ~InputNormal();
 
@@ -37,7 +37,7 @@ public:
      * \brief Read file for uniform and normal distribution random variable pointer.
      *  Each properties of variables are checked in the reading process.
      * @param pRandomVar : Pointer of Random variable, which gives a vector and the parameter of the vectors
-     * distribution
+     * distribution.
      * @param alpha : The confidence interval that can be precised in the file. Otherwise, it is set to
      * default: alpha = 0.05.
      * @param moment : Order of the moment that can be precised in the file. Otherwise, it is set to
@@ -45,11 +45,11 @@ public:
      * @param file_name : File name given by the user or that was set as default: DefaultNormal.dat. The input need
      * to be organise as following: Size of the vector for the distribution, mean, variance, confidence interval and
      * order of the moment. The two last parameter are not needed if the user want to set them as default.
-     * - Size of the vector: a strictly positive integer
-     * - Mean : a float number
-     * - Variance : a strictly positive float number
-     * - Confidence interval : a float number in ]0,1[
-     * - Order: a strictly positive integer
+     * - Size of the vector: a strictly positive integer.
+     * - Mean : a float number.
+     * - Variance : a strictly positive float number.
+     * - Confidence interval : a float number in ]0,1[.
+     * - Order: a strictly positive integer.
      */
     virtual void read(Random_variable* &pRandomVar, double&alpha, int&moment, const char *file_name) override ;
 

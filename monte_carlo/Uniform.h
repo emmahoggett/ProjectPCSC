@@ -12,7 +12,9 @@
 #include "Error.hpp"
 #include <iostream>
 /**
- * uniform class is a derived class from the abstract class Random_variable . The package Boost allows the construction of a sample that comes from a uniform distribution.
+ * Uniform class is a derived class from the abstract class Random_variable .
+ * The package Boost allows the construction of a sample that comes from a uniform distribution.
+ * Parent of Normal and child of Random_variable.
  */
 /**
  * \brief Create a random variable from a uniform distribution .
