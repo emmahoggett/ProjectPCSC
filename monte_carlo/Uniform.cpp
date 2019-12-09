@@ -1,3 +1,4 @@
+#include "Uniform.h"
 /*
  * Uniform.cpp
  *
@@ -12,6 +13,9 @@
 #include <cmath>
 
 // Constructor
+
+Uniform::Uniform() {}
+
 Uniform :: Uniform(const int N) :mean_uniform(0.5) , var_uniform(1.0/12.0)
 {
     try {
@@ -32,7 +36,7 @@ Uniform :: Uniform(const int N) :mean_uniform(0.5) , var_uniform(1.0/12.0)
         // double in [0, 1). Each call to dis(gen) generates a new random double
         U_m.push_back(dis(gen));
     }
-    m_size = N;
+
 }
 
 Uniform :: Uniform(const int N, const double a , const double b ) : mean_uniform((a+b)/2.0) , var_uniform(pow(a+b,2)/12.0)
@@ -68,10 +72,10 @@ Uniform :: Uniform(const int N, const double a , const double b ) : mean_uniform
         U_m.push_back(dis(gen));
     }
 }
-Uniform :: Uniform( Uniform* sample):
-mean_uniform(sample->get_mean()) , var_uniform(sample->get_var())
+Uniform :: Uniform( Uniform* sample_):
+mean_uniform(sample_->get_mean()) , var_uniform(sample_->get_var()) , m_size(sample_->get_size())
 {
-    U_m = sample->get_sample() ;
+    U_m = sample_->get_sample() ;
 }
 
 
