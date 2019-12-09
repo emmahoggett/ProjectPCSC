@@ -24,9 +24,9 @@ double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs)
 {
     double mean(0.);
     auto vector_sample = rvs->get_sample() ;
-    for (int i; i<vector_sample.size(); i++)
+    for(auto vec : vector_sample)
     {
-        mean += vector_sample[i] * probabilityDistribution(vector_sample[i]) ;
+        mean += computeOperator(vec) ;
     }
     mean/=vector_sample.size();
     return mean ;

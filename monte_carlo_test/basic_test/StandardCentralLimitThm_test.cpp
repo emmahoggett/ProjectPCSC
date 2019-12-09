@@ -51,10 +51,10 @@ public:
 };
 
 TEST_F(StandardCentrallLimitThmFixture, uniform_central_limite_check) {
-    st_central_limite->calculate_CentralLimitThm(uniform_sample,mc_uniform->getExpectation(),0.05);
+    st_central_limite->calculate_CentralLimitThm(uniform_sample,mc_uniform,0.05);
     EXPECT_TRUE(st_central_limite->is_verified());
 }
 TEST_F(StandardCentrallLimitThmFixture, normal_central_limite_check) {
-    st_central_limite->calculate_CentralLimitThm(normal_sample,mc_normal->getExpectation(),0.05);
+    st_central_limite->calculate_CentralLimitThm(normal_sample,mc_normal,0.05);
     EXPECT_TRUE(st_central_limite->is_verified());
 }

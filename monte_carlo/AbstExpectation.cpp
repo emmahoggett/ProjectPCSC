@@ -8,15 +8,23 @@
 
 
 #include "AbstExpectation.hpp"
+double defaultfunction(double y){ return y ;}
 
-
-AbstExpectation::AbstExpectation() {}
+AbstExpectation::AbstExpectation():
+function(defaultfunction) , is_set(false)
+{}
 AbstExpectation::~AbstExpectation() {}
 
-void AbstExpectation::setProbabilityDistribution(double (*f)(double y)) {
-    f_rhs = f;
+void AbstExpectation::setOperator(double (*f)(double y)) {
+    function = f;
+    is_set = true ;
 }
 
-double AbstExpectation::probabilityDistribution(double y) const {
-    return f_rhs(y);
+double AbstExpectation::computeOperator(double y) const {
+    return function(y);
+}
+
+bool AbstExpectation::isFunctionSet() const
+{
+    return is_set ;
 }

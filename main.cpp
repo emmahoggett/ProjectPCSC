@@ -86,7 +86,7 @@
 #include "AbstOutput.h"
 #include "Convergence.h"
 
-double fRhs(double y) { return 1; }
+double f(double y) { return y*y; }
 
 int main(int argc, char *argv[]) {
     if (argc > 2) {
@@ -125,7 +125,7 @@ int main(int argc, char *argv[]) {
 
 
     pExpectation = new MonteCarloExpectation;
-    pExpectation->setProbabilityDistribution(fRhs);
+    pExpectation->setOperator(f);
 
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
     std::cout << "The expectation was computed successfully.\n";
@@ -144,7 +144,7 @@ int main(int argc, char *argv[]) {
 
     pCentralLimit = new StandardCentralLimitThm;
 
-    pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
+    pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, pExpectation,alpha);
     pCentralLimit -> visualization(std::cout);
 
     AbstOutput* pOutput ;

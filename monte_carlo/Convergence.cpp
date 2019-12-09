@@ -47,10 +47,15 @@ void Convergence:: writefile( const char *file_name) const
             Random_variable* sub_sample_ ;
             sub_sample_ = sample->sub_sample(i);
             auto mean_mc = expectation->calculate_expectation(sub_sample_) ;
-            centralLimit->calculate_CentralLimitThm(sub_sample_, mean_mc , alpha) ;
+            centralLimit->calculate_CentralLimitThm(sub_sample_, expectation , alpha) ;
             auto bound = centralLimit->get_interval();
-            auto mean = sample->get_mean() ;
-            outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<","<<mean<< "\n";
+            if(expectation->isFunctionSet())
+            {
+                outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<"\n";
+            }else{
+                auto mean = sample->get_mean() ;
+                outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<","<<mean<<"\n";
+            }
             delete sub_sample_ ;
         }
     }

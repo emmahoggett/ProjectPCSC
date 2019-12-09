@@ -58,11 +58,14 @@ public:
      */
     virtual void setExpectation(const Random_variable* rvs) = 0 ;
 
-    void setProbabilityDistribution(double (*f)(double y));
-    double probabilityDistribution(double y) const;
+    void setOperator(double (*f)(double y));
+    double computeOperator(double y) const;
+
+    bool isFunctionSet() const ;
 
 private:
-    double (*f_rhs)(double y);
+    double (*function)(double y);
+    bool is_set ;
 };
 
 #endif /*ABSTEXPECTATION_HPP_*/

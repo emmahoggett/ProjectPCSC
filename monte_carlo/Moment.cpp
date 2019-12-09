@@ -8,7 +8,7 @@
 
 #include "Moment.hpp"
 
-Moment::Moment(Random_variable *sample_,const int order_)
+Moment::Moment(Random_variable *sample_ , const int order_)
 {
     sample = sample_ ;
     order = order_ ;
