@@ -128,14 +128,21 @@ int main(int argc, char *argv[]) {
     std::cout << "The expectation was computed successfully.\n";
 
     pMoment = new Moment(pRandom_variable,order);
-    pMoment->writefile("OutputMoment.csv");
+    try {
+        pMoment->writefile("OutputMoment.csv");
+    }catch(Error& e){
+        e.PrintDebug();
+        return -1;
+    }
+
     delete pMoment;
     std::cout << "The statistical moment and the output file \"OutputMoment.csv\" were computed and "
                  "created successfully.\n";
 
     pCentralLimit = new StandardCentralLimitThm;
+
     pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
-    pCentralLimit ->visualization(std::cout);
+    pCentralLimit -> visualization(std::cout);
 
     AbstOutput* pOutput ;
     pOutput = new Convergence(pCentralLimit,pExpectation,pRandom_variable,alpha);
