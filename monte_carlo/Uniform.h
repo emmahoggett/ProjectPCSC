@@ -25,7 +25,10 @@ public:
 
 
     // Constructor definition
-    Uniform(){};
+    /**
+     *
+     */
+    Uniform();
     /**
      * Constructor : compute a sample from a uniform U(0,1)
      * @param N : size of the sample
@@ -61,7 +64,7 @@ public:
      * \brief return the size of the sample
      * @return
      */
-    virtual int get_size() const {return m_size ;}
+    virtual int get_size() const {return U_m.size();}
 
     virtual Random_variable* sub_sample( const int N ) ;
 

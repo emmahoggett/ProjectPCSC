@@ -57,7 +57,7 @@ void StandardCentralLimitThm::visualization(ostream &flux) const
 {
     if( verification )
     {
-        flux<<"The central limit theorem is respected, the confidence interval is :  \n" ;
+        flux<<"The central limit theorem is respected, the confidence interval is : \n" ;
         flux<<"\t The upper bound is :"<<upper_bound<<"\n" ;
         flux<<"\t The lower bound is :"<<lower_bound<<"\n" ;
         flux<<"\t The size of the confidence interval is :"<< upper_bound - lower_bound <<"\n" ;
@@ -65,7 +65,7 @@ void StandardCentralLimitThm::visualization(ostream &flux) const
     }
     else
     {
-        flux<<"The central limit theorem isn't respected, the confidence interval is :  :\n" ;
+        flux<<"The central limit theorem isn't respected, the confidence interval is : \n" ;
         flux<<"\t The upper bound is :"<<upper_bound<<"\n" ;
         flux<<"\t The lower bound is :"<<lower_bound<<"\n" ;
         flux<<"\t The size of the confidence interval is :"<< upper_bound - lower_bound <<"\n" ;
