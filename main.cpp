@@ -86,6 +86,7 @@
 #include "AbstOutput.h"
 #include "Convergence.h"
 
+double fRhs(double y) { return 1; }
 
 int main(int argc, char *argv[]) {
     if (argc > 2) {
@@ -124,6 +125,8 @@ int main(int argc, char *argv[]) {
 
 
     pExpectation = new MonteCarloExpectation;
+    pExpectation->setProbabilityDistribution(fRhs);
+
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
     std::cout << "The expectation was computed successfully.\n";
 
