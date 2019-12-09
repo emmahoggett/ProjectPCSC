@@ -12,6 +12,7 @@ set(HEADER_FILES
         Uniform.h
         AbstInput.hpp
         InputNormal.hpp
+        InputUniform.hpp
         AbstOutput.h
         Convergence.h
         )
@@ -28,6 +29,7 @@ set(SOURCE_FILES
         AbstInput.cpp
         InputNormal.cpp
         Convergence.cpp
+        InputUniform.cpp
         )
 
 add_library(monte_carlo STATIC ${SOURCE_FILES} ${HEADER_FILES})
