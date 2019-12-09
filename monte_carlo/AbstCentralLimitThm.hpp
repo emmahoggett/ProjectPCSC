@@ -20,7 +20,7 @@ using namespace std;
 /** \brief Abstract central limit theorem class.
  *
  * Contains abstract methods to compute the check the central limit
- * theorem.Parent class of StandardCentralLimitThm.
+ * theorem. Parent class of StandardCentralLimitThm.
  */
 
 class AbstCentralLimitThm{
@@ -36,7 +36,7 @@ public:
     virtual ~AbstCentralLimitThm();
 
     /**
-     * Virtual Central Limit Theorem method.
+     * \brief Virtual Central Limit Theorem method.
      * @param sample :  Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @param expectation_sample : Expectation of the vector that was computed with the vector.

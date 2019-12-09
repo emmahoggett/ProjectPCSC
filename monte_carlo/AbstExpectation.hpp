@@ -19,6 +19,7 @@ using namespace std;
 
 /**
  * Parent class of MonteCarloExpectation.
+ * 
 * \brief Abstract expectation class.
 */
 class AbstExpectation{
