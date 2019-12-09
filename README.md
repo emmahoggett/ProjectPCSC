@@ -34,13 +34,14 @@ The following values are set by default:
 To avoid dysfunctions, a boost package is a added to the project to compute the normal function. To install this package, launch into Unix terminal: `sudo apt-get install libboost-all-dev` 
 
 The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the following classes:
+* AbstInput, UniformInput & NormalInput
 * AbstCentralLimitThm & StandardCentralLimitThm
 * Random_variable , Uniform & Normal 
 * AbstExpectation & MonteCarloExpectation
 * AbstOutput, Moment & Convergence
 * Error
 
-All those files are in the repository `\monte_carlo`
+All those files are in the repository `\monte_carlo\`
 
 
 #### Python Code
@@ -51,7 +52,7 @@ The Python code needs the two csv file:
 
 Those two files can be found by the user into the direct repository of the project. 
 
-### Addtional content
+### Additional content
 The code also contains google test files that test each error management. They can be found by the user in `/monte_carlo_test/basic_test/` repository. There are `.cpp` file that can be launched for this task:
 * `runBasicMonteCarloTest` : test all error management of the code.
 * `Uniform_test`: test the entry values of the uniform distribution (variance, interval, mean & vector's size).
