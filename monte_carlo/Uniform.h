@@ -12,9 +12,10 @@
 #include "Error.hpp"
 #include <iostream>
 /**
- * Uniform class is a derived class from the abstract class Random_variable .
+ * Uniform class is a derived class from the abstract class Random_variable and the parent
+ * of Normal class.
+ *
  * The package Boost allows the construction of a sample that comes from a uniform distribution.
- * Parent of Normal and child of Random_variable.
  */
 /**
  * \brief Create a random variable from a uniform distribution .
@@ -23,49 +24,58 @@ class Uniform : public Random_variable {
 
 public:
 
-
-    // Constructor definition
     /**
-     *
+     * \brief Default constructor.
      */
     Uniform();
     /**
-     * Constructor : compute a sample from a uniform U(0,1)
-     * @param N : size of the sample
+     * \brief Constructor : compute a sample from a uniform U(0,1).
+     * @param N : Positive integer that define the size of the vector.
      */
     Uniform(const int N) ;
     /**
-     * Constructor : compute a sample from a uniform U(a,b)
-     * @param N : size of the sample
-     * @param a : lower bound of the uniform interval
-     * @param b : upper bound of the uniform interval
+     * \brief Constructor : compute a sample from a uniform U(a,b).
+     * @param N : Positive integer that define the size of the vector.
+     * @param a : Lower bound of the uniform interval, which represent a float number.
+     * @param b : Upper bound of the uniform interval, which represent a float number strictly
+     * greater than a.
      */
     Uniform(const int N, const double a , const double b );
-
+    /**
+     *\brief Make a copy of the Uniform variable.
+     * @param sample_ : Pointer of Uniform variable, which gives a vector and the
+     * parameter of the vectors distribution.
+     */
     Uniform( Uniform* sample);
 
-    // Get function
     /**
-     * \brief return the sample of the random variable
-     * @return
+     * \brief Return the sample of the random variable.
+     * @return The vector with an uniform distribution.
      */
     virtual std::vector<double> get_sample() const { return U_m;}
     /**
-     * \brief return the mean of the uniform distribution
-     * @return
+     * \brief Return the mean of the uniform distribution.
+     * @return The mean.
      */
     virtual double get_mean() const { return mean_uniform;}
     /**
-     * \brief return the variance of the uniform distribution
-     * @return
+     * \brief Return the variance of the uniform distribution.
+     * @return The variance.
      */
     virtual double get_var() const { return var_uniform;}
     /**
-     * \brief return the size of the sample
-     * @return
+     * \brief Return the size of the sample.
+     * @return The size of the vector.
      */
     virtual int get_size() const {return U_m.size();}
 
+    /**
+     * \brief Return the N first value of the normal and uniform vector.
+     * @param N : Size of the output vector, which is a strictly positive integer and lower then
+     * the size of the uniform vector.
+     * @return A Random_variable pointer with the N first value of the uniform vector. The
+     * pointer contains the same variance and mean as the uniform pointer.
+     */
     virtual Random_variable* sub_sample( const int N ) ;
 
 private:
@@ -79,6 +89,9 @@ private:
     void set_interval(const double a, const double b) ;
 
 protected:
+    /**
+     * \brief Vector computed for the uniform distribution.
+     */
     std::vector<double> U_m ;
 };
 #endif //MONTE_CARLO_UNIFORM_GENERATOR_H
