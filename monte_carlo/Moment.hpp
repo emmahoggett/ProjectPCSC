@@ -28,9 +28,11 @@ public:
     /**
      * \brief Constructor.
      *
-     * Set the sam
-     * @param sample_ :
-     * @param order_ :
+     * Set the following variable.
+     *
+     * @param sample_ : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param order_ : Order of the moment, that is represented by a strictly positive integer.
      */
     Moment(Random_variable *sample_,const int order_);
     /**
