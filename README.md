@@ -52,9 +52,13 @@ The Python code needs the two csv file:
 Those two files can be found by the user into the direct repository of the project. 
 
 ### Addtional content
-The code also contains google test files that test each error management. There are several executable that can be launched for this task:
-* `./runBasicMonteCarloTest` : test all error management of the code.
-* 
+The code also contains google test files that test each error management. They can be found by the user in `/monte_carlo_test/basic_test/` repository. There are `.cpp` file that can be launched for this task:
+* `runBasicMonteCarloTest` : test all error management of the code.
+* `Uniform_test`: test the entry values of the uniform distribution (variance, interval, mean & vector's size).
+* `Normal_test` : test the entry values of the normal & uniform distribution (variance, mean & vector's size).
+* `MonteCarloExpectation_test` : test if the mean computed is close to the mean given by the user. 
+* `StandardCentralLimitThm_test` : test if the theorem is respected for a large vector size.
+* `input_test` : test values entered in a desired file
 
 ### Documentation
 * [Guide to Scientific Computing in C++] (https://link.springer.com/book/10.1007/978-1-4471-2736-9)
