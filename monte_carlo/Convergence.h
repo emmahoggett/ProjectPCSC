@@ -29,7 +29,7 @@ public:
      * @param expectation_ : Pointer of AbstExpectation, which gives the expectation computed.
      * @param sample_ : Pointer of Random_variable, which gives a vector and the parameter of the vectors
      * distribution. It should work for all child of Random_variable.
-     * @param alpha_ : The confidence interval, which is float number between ]0,1[
+     * @param alpha_ : The confidence interval, which is float number between ]0,1[.
      */
     Convergence(AbstCentralLimitThm* centralLimit_ , AbstExpectation* expectation_,Random_variable* sample_, const double alpha_);
 /**
@@ -38,6 +38,7 @@ public:
     ~Convergence() ;
 /**
  * \brief Write `.csv` file on the convergence of the CTL.
+ * 
  * In this method, the lower bound, the upper bound and the expectation is computed, from 1 to the vector
  * size given by the user. The result is then return into a csv file.
  * @param file_name : Name of the file that is returned.
