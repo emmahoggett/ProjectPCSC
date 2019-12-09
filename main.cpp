@@ -20,24 +20,30 @@
  * \section sec1 1. Structure of the code
  *
  * \subsection subsec11 1.1 Input function
- * - AbstInput
- * - InputNormal
+ * - AbstInput : Abstract class for input
+ * - InputNormal :  Manage normal and uniform input parameters.
  *
  * \subsection subsec12 1.2 Random number generators with a normal & uniform probability distribution
- * - Random_variable
- * - Uniform
- * - Normal
+ * - Random_variable : Abstract class that define a random variable.
+ * - Uniform : Create a random variable from a uniform distribution.
+ * - Normal : Create a random variable from a normal distribution.
  *
  * \subsection subsec13 1.3 Expectation
- * - AbstExpectation
- * - MonteCarloExpectation
+ * - AbstExpectation : Abstract expectation class.
+ * - MonteCarloExpectation : Contains method to compute Monte Carlo expectation.
  *
- *\subsection subsec14 1.4 Statistical moment
- * - Moment
+ * \subsection subsec15 1.4 Central Limit Theorem
+ * - AbstCentralLimitThm : Abstract central limit theorem class.
+ * - StandardCentralLimitThm : Contains methods for standard central limit theorem.
  *
- * \subsection subsec15 1.5 Central Limit Theorem
- * - AbstCentralLimitThm
- * - StandardCentralLimitThm
+ * \subsection subsec16 1.5 Output
+ * - AbstOutput :
+ * - Moment : Compute the moment of sample until the order given by the user.
+ * - Convergence :
+ *
+ * \subsection subsec16 1.6 Error management
+ * - Error : Manage all the error that the program may encounter.
+ *
  *
  * \section info 2. Various informations
  *
@@ -100,7 +106,7 @@ int main(int argc, char *argv[]) {
     Random_variable *pRandom_variable =0;
     AbstCentralLimitThm *pCentralLimit = 0;
     AbstExpectation *pExpectation = 0;
-    Moment *pMoment = 0;
+    AbstOutput *pMoment = 0;
     AbstInput *pInput = 0;
 
     pInput = new InputNormal;
@@ -111,53 +117,30 @@ int main(int argc, char *argv[]) {
         return -1;
     }
 
+    delete pInput;
+
 
     pExpectation = new MonteCarloExpectation;
     double sample_expectation = pExpectation -> calculate_expectation(pRandom_variable);
 
-    std::ofstream MomentFile("OutputMoment.csv");
-    MomentFile.setf(std::ios::scientific);
-    MomentFile.setf(std::ios::showpos);
-    MomentFile.precision(9);
 
-    if (MomentFile.is_open()) {
-        pMoment->getMoment(MomentFile, pRandom_variable, order);
-        MomentFile.close();
-    } else {
-        std::cerr << "Couldn't open OutputMoment.csv. Aborting." << std::endl;
-        return 1;
-    }
-
-
+    pMoment = new Moment(pRandom_variable,order);
+    pMoment->writefile("OutputMoment.csv");
+    delete pMoment;
 
 
     pCentralLimit = new StandardCentralLimitThm;
     pCentralLimit -> calculate_CentralLimitThm(pRandom_variable, sample_expectation,alpha);
 
-    std::ofstream CTLFile("OutputConvCTL.csv");
-    CTLFile.setf(std::ios::scientific);
-    CTLFile.setf(std::ios::showpos);
-    CTLFile.precision(9);
 
-    double sigma;
-    if (CTLFile.is_open()) {
-        sigma = pRandom_variable ->get_var();
-        sigma = sqrt(sigma);
-        CTLFile << "sigma,alpha\n";
-        CTLFile << sigma << "," << alpha;
-        CTLFile.close();
-    } else {
-        std::cerr << "Couldn't open OutputConvCTL.csv. Aborting." << std::endl;
-        return 1;
-    }
 
-    Random_variable *rvs(0);
-    rvs = new Normal(10000, 2, 2);
-    AbstExpectation *methode(0);
-    methode = new MonteCarloExpectation();
-    AbstCentralLimitThm *centralLimit(0);
-    centralLimit = new StandardCentralLimitThm();
-    AbstOutput* output ;
-    output = new Convergence(centralLimit,methode,rvs,0.05);
-    output->writefile("convergence.csv");
+    AbstOutput* pOutput ;
+    pOutput = new Convergence(pCentralLimit,pExpectation,pRandom_variable,alpha);
+    pOutput->writefile("OutputConvergence.csv");
+
+    delete pCentralLimit;
+    delete pExpectation;
+    delete pOutput;
+    delete pRandom_variable;
+
 }

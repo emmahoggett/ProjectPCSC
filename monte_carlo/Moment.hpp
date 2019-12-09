@@ -20,9 +20,7 @@
 /**
  *  Compute the statistical moment of different order of a random variable of a given probability distribution. The result is output in a stream that the user has precised
  *  The mean and variance are the first two statistical moments, and the third and fourth moments also provide information on the shape of the distribution.
- */
-
-/**
+ *  
  * \brief Compute the moment of sample until the order given by the user.
  */
 class Moment : public AbstOutput{

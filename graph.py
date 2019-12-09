@@ -4,29 +4,38 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# read the data set given by the output of the C++ code
+#Read the data set given by the output of the C++ code
 moment = pd.read_csv ('OutputMoment.csv')
-convCTL = pd.read_csv ('OutputConvCTL.csv')
+convCTL = pd.read_csv ('OutputConvergence.csv')
 
-# Build the graph of the Moment
+# Plot graph of the Moment
 sns.set(style = "whitegrid")
 ax = sns.lineplot(moment ['order'], moment ['moment'])
+
+# Add legend, title and labels
 ax.set(xlabel = 'Order of the moment', ylabel= 'Moment', title = 'Moment as a function of the order')
+
+# Save the figure
 fig = ax.get_figure()
 fig.savefig("Moment.png")
 
 # Build the graph of the convergence of tolerance as function of the vector size
-tol = np.logspace(0,-2, 100)
-sigma = convCTL['sigma'].values[0]
-alpha = convCTL['alpha'].values[0]
-N = ((1- alpha/2)*sigma)**2/(np.power(tol,2))
-N = N.astype(int)
-
-
+N = convCTL['Index'].values
 fig, ax = plt.subplots(figsize=(10,5))
+
 sns.set(style = "whitegrid")
-ax = sns.lineplot(N, tol)
-ax.set(ylabel = 'Threshold of CTL', xlabel= 'Size of the uniform & normal vector', 
-title = 'Convergence of the central limite theorem threshold as a function of N')
+
+# Plot the lower bound, upper bound, desired mean and computed mean of the central limit theorem
+ax = sns.lineplot(N, convCTL['LowerBound'])
+ax = sns.lineplot(N, convCTL['UpperBound'])
+ax = sns.lineplot(N, convCTL['mcmean'])
+ax = sns.lineplot(N, convCTL['truemean'])
+
+# Add legend, title and labels
+ax.legend(['LowerBound','UpperBound', 'Mean of the vector','Desired mean'])
+ax.set(ylabel = 'Central limit mean values', xlabel= 'Size of the uniform & normal vector',
+title = 'Convergence of the central limite theorem values as a function of N')
+
+# Save the figure
 fig = ax.get_figure()
-fig.savefig("ConvergenceThreshold.png")
+fig.savefig("Convergence.png")
