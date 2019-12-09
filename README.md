@@ -1,23 +1,23 @@
 # Monte Carlo Algorithm
 
 ### Description
-This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as modular as possible. The following goals throught this project have been reached:
+This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as modular as possible. The following goals through this project have been reached:
 * Implementation of random number generators with a normal & uniform probability distribution.
-* Compute the expectation value of a user defined function.  
-* Build `.csv` with statistical moments and the convergence of the CTL.
-* Verification of the central limit theorem (CTL).
+* Compute the expectation value of a user defined function.
+* Build `.csv` with statistical moments and the convergence of the CLT.
+* Verification of the Central Limit Theorem (CLT).
 
 ### Getting Started
 This version was designed for C++ 14 or higher and python 3.6.6 or higher. 
 
 To run the model's calculation, it is only needed to execute the executable `./monte_carlo_run` .The code should return a `OutputMoment.csv` file with moments results and `OutputCTL.csv` which returns the parameters of the user.
 
-Then to plot the result, it is only needed to run `graph.py`, that will give two graphs: `Moment.png`, which is the moment as function of the order & `Convergence.png`, which gives the parameters of the distribution.
+Then to plot the result, it is only needed to run `graph.py`, that will give two graphs: `Moment.png`, which is the moment as function of the order & `Convergence.png`, which gives the covergence parameters of the distribution.
 
 ### Prerequisites
 
 #### Input file
-The program is designed with a default file input named `DefaultNormal.dat`. The user can however build his own data file. The name of the file need to be precised before launching the code.
+The program is designed with a default file input named `DefaultNormal.dat`. The user can however build his own data file. The name of the file need to be precised before launching the code as a program argument.
 
 The input file needs to be structured this way:
 1. The size of the vector : a strictly positive integer
@@ -34,7 +34,7 @@ The following values are set by default:
 To avoid dysfunctions, a boost package is a added to the project to compute the normal function. To install this package, launch into Unix terminal: `sudo apt-get install libboost-all-dev` 
 
 The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the following classes:
-* AbstInput, UniformInput & NormalInput
+* AbstInput, InputUniform & InputNormal
 * AbstCentralLimitThm & StandardCentralLimitThm
 * Random_variable , Uniform & Normal 
 * AbstExpectation & MonteCarloExpectation
@@ -58,12 +58,11 @@ The code also contains google test files that test each error management and the
 The different test are :
 * `Uniform_test`: test the entry values of the uniform distribution (interval & vector's size), also test each function of the class.
 * `Normal_test` : test the entry values of the normal (variance, mean & vector's size), also test each function of the class.
-* `MonteCarloExpectation_test` : test if the mean computed by the monte carlo method is close enough to the mean (1e-1 error) given by the user.
+* `MonteCarloExpectation_test` : test if the mean computed by the monte carlo method is close enough to the mean (~0.1 error) given by the user.
 * `StandardCentralLimitThm_test` : test if the theorem is respected for a large vector size.
 * `Input_test` : test values entered in a desired file for the normal distribution and the uniform distribution. 
 
 ### Documentation
-* [Guide to Scientific Computing in C++] (https://link.springer.com/book/10.1007/978-1-4471-2736-9)
 * [List of probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 * [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
 * [Uniform distribution (continuous)](https://en.wikipedia.org/wiki/Uniform_distribution_(continuous))
