@@ -26,10 +26,10 @@ void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* s
     double C_alpha;
     boost::math::normal dist(0.0,1.0) ;
     C_alpha =  quantile(dist , 1- m_alpha/2.);
-    interval.push_back(expectation_sample-(C_alpha*sigma/sqrt(size_N)));
-    interval.push_back(expectation_sample+(C_alpha*sigma/sqrt(size_N)));
+    lower_bound = expectation_sample-(C_alpha*sigma/sqrt(size_N)) ;
+    upper_bound = expectation_sample+(C_alpha*sigma/sqrt(size_N)) ;
 
-    if ((true_mean >= interval[0]) && (true_mean <= interval[1])){
+    if ((true_mean >= lower_bound) && (true_mean <= upper_bound)){
         std::cout << "The central limit theorem is respected.\n"
                      "Central limit theorem finished successfully.\n"<< std::endl ;
         verification = true ;
@@ -49,5 +49,8 @@ bool StandardCentralLimitThm::is_verified() const
 
 vector<double> StandardCentralLimitThm::get_interval() const
 {
+    vector<double> interval ;
+    interval.push_back(lower_bound);
+    interval.push_back(upper_bound);
     return interval ;
 }

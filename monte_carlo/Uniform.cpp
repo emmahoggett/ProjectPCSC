@@ -68,7 +68,11 @@ Uniform :: Uniform(const int N, const double a , const double b ) : mean_uniform
         U_m.push_back(dis(gen));
     }
 }
-
+Uniform :: Uniform( Uniform* sample):
+mean_uniform(sample->get_mean()) , var_uniform(sample->get_var())
+{
+    U_m = sample->get_sample() ;
+}
 
 
 
@@ -98,4 +102,28 @@ void Uniform::set_size(const int N)
     } else{
         m_size = N;
     }
+}
+
+Random_variable* Uniform::sub_sample( const int N )
+{
+    if( N> U_m.size())
+    {
+        throw Error("VARIABLE"," N must be bigger than the size of the sample ") ;
+    } else
+    {
+        Random_variable* p_rvs(0);
+        std::vector<double> memory ;
+        int size = U_m.size() ;
+        for (int i = size-1; i >= N  ; i--) {
+            memory.push_back(U_m[i]);
+            U_m.pop_back();
+        }
+        p_rvs = new Uniform( this) ;
+        for (int i = memory.size()-1; i >= 0  ; i--) {
+
+            U_m.push_back(memory[i]);
+        }
+        return p_rvs ;
+    }
+
 }

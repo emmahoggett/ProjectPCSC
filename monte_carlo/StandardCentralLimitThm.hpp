@@ -43,7 +43,8 @@ private:
 
     
     bool verification ;
-    vector<double> interval;
+    double upper_bound ;
+    double lower_bound ;
     double m_alpha;
 
 };

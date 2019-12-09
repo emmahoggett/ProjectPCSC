@@ -21,7 +21,9 @@ class Uniform : public Random_variable {
 
 public:
 
+
     // Constructor definition
+    Uniform(){};
     /**
      * Constructor : compute a sample from a uniform U(0,1)
      * @param N : size of the sample
@@ -34,6 +36,8 @@ public:
      * @param b : upper bound of the uniform interval
      */
     Uniform(const int N, const double a , const double b );
+
+    Uniform( Uniform* sample);
 
     // Get function
     /**
@@ -57,6 +61,7 @@ public:
      */
     virtual int get_size() const {return m_size ;}
 
+    virtual Random_variable* sub_sample( const int N ) ;
 
 private:
 

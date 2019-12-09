@@ -73,7 +73,8 @@
 #include "Moment.hpp"
 
 #include "Error.hpp"
-
+#include "AbstOutput.h"
+#include "Convergence.h"
 
 
 int main(int argc, char *argv[]) {
@@ -149,5 +150,13 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-
+    Random_variable *rvs(0);
+    rvs = new Normal(10000, 2, 2);
+    AbstExpectation *methode(0);
+    methode = new MonteCarloExpectation();
+    AbstCentralLimitThm *centralLimit(0);
+    centralLimit = new StandardCentralLimitThm();
+    AbstOutput* output ;
+    output = new Convergence(centralLimit,methode,rvs,0.05);
+    output->writefile("convergence.csv");
 }

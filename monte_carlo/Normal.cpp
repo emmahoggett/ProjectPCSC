@@ -41,6 +41,11 @@ Uniform(N) ,mean_normal(mu)
         N_m.push_back( quantile(dist,U_m[i]) );
     }
 }
+Normal ::Normal( Normal* sample_) :
+mean_normal(sample_->get_mean()) , var_normal(sample_->get_var())
+{
+    N_m = sample_->get_sample() ;
+}
 
 void Normal::set_var(const double var)
 {
@@ -51,4 +56,28 @@ void Normal::set_var(const double var)
     {
         var_normal = var ;
     }
+}
+Random_variable* Normal::sub_sample( const int N )
+{
+    if( N> N_m.size())
+    {
+        throw Error("VARIABLE"," N must be bigger than the size of the sample ") ;
+    } else
+    {
+        Random_variable* p_rvs(0);
+        std::vector<double> memory ;
+        int size = N_m.size() ;
+        for (int i = size-1; i >= N  ; i--) {
+            memory.push_back(N_m[i]);
+            N_m.pop_back();
+        }
+        p_rvs = new Normal( this) ;
+        for (int i = memory.size()-1; i >= 0  ; i--) {
+
+            N_m.push_back(memory[i]);
+        }
+        return p_rvs ;
+    }
+
+
 }

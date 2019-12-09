@@ -36,5 +36,9 @@ public:
      */
     virtual int get_size() const =0 ;
 
+    virtual Random_variable* sub_sample( const int N ) = 0;
+
+
+
 };
 #endif /*RANDOM_VARIABLE_H_*/

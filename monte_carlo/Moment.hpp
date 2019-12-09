@@ -45,5 +45,7 @@ public:
      * @param order : a positive integer
      */
     void getMoment(std::ofstream &stream, const Random_variable *sample,const int order)const;
+
+
 };
 #endif /*MOMENT_HPP_*/

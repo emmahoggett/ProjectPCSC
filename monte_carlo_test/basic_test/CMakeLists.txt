@@ -19,4 +19,3 @@ target_link_libraries(runBasicMonteCarloTests gtest gtest_main monte_carlo )
 target_link_libraries(runBasicMonteCarloTests_2 monte_carlo)
 target_link_libraries(runBasicMonteCarloTests_3 gtest gtest_main monte_carlo )
 
-

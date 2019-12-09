@@ -35,6 +35,7 @@ public:
      */
     Normal(const int N , const double mu , const double var);
 
+    Normal(Normal* sample_);
     /**
      * \brief Return the normal and uniform vector.
      * @return A vector that contain the sample of the random variable.
@@ -60,6 +61,8 @@ public:
      * @return Size of the vector of the normal sample.
      */
     virtual int get_size() const {return N_m.size(); }
+
+    virtual Random_variable* sub_sample( const int N ) ;
 
 private:
     void set_var(const double var) ;
