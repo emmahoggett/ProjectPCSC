@@ -12,7 +12,7 @@ This version was designed for C++ 14 or higher and python 3.6.6 or higher.
 
 To run the model's calculation, it is only needed to execute the executable `./monte_carlo_run` .The code should return a `OutputMoment.csv` file with moments results and `OutputCTL.csv` which returns the parameters of the user.
 
-Then to plot the result, it is only needed to run `graph.py`, that will give two graphs: `Moment.png`, which is the moment as function of the order & `ConvergenceThreshold.png`, which gives the parameters of the distribution.
+Then to plot the result, it is only needed to run `graph.py`, that will give two graphs: `Moment.png`, which is the moment as function of the order & `Convergence.png`, which gives the parameters of the distribution.
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ The code also need the C++ file (`.cpp`) and prototypes (`.h`\ `.hpp`) of the fo
 * AbstCentralLimitThm & StandardCentralLimitThm
 * Random_variable , Uniform & Normal 
 * AbstExpectation & MonteCarloExpectation
-* Moment
+* AbstOutput, Moment & Convergence
 * Error
 
 All those files are in the repository `\monte_carlo`
@@ -53,7 +53,8 @@ Those two files can be found by the user into the direct repository of the proje
 
 ### Addtional content
 The code also contains google test files that test each error management. There are several executable that can be launched for this task:
-* `./runBasicMonteCarloTest` : test all error management of the code
+* `./runBasicMonteCarloTest` : test all error management of the code.
+* 
 
 ### Documentation
 * [Guide to Scientific Computing in C++] (https://link.springer.com/book/10.1007/978-1-4471-2736-9)
