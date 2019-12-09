@@ -37,9 +37,9 @@
  * - StandardCentralLimitThm : Contains methods for standard central limit theorem.
  *
  * \subsection subsec16 1.5 Output
- * - AbstOutput :
+ * - AbstOutput : Abstract class for output file.
  * - Moment : Compute the moment of sample until the order given by the user.
- * - Convergence :
+ * - Convergence : Compute the convergence of the CLT
  *
  * \subsection subsec16 1.6 Error management
  * - Error : Manage all the error that the program may encounter.
