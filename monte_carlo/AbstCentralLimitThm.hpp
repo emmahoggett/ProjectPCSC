@@ -55,7 +55,11 @@ public:
      * \brief Virtual method that return the interval of the central limit theorem.
      * @return The interval of the central limit theorem which is a vector of size 2.
      */
-    virtual vector<double> get_interval() const =0;
+    virtual vector<double> get_interval() const =0 ;
+
+    virtual void visualization(ostream &flux) const  =0 ;
+
+
     
 };
 

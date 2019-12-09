@@ -9,7 +9,9 @@
 #include "StandardCentralLimitThm.hpp"
 #include "boost/math/distributions/normal.hpp"
 
-StandardCentralLimitThm::StandardCentralLimitThm() {}
+StandardCentralLimitThm::StandardCentralLimitThm() :
+verification(false) , upper_bound(0) , lower_bound(0) , m_alpha(0.05)
+{}
 
 
 StandardCentralLimitThm::~StandardCentralLimitThm() {}
@@ -26,17 +28,14 @@ void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* s
     double C_alpha;
     boost::math::normal dist(0.0,1.0) ;
     C_alpha =  quantile(dist , 1- m_alpha/2.);
+
     lower_bound = expectation_sample-(C_alpha*sigma/sqrt(size_N)) ;
     upper_bound = expectation_sample+(C_alpha*sigma/sqrt(size_N)) ;
 
     if ((true_mean >= lower_bound) && (true_mean <= upper_bound)){
-        std::cout << "The central limit theorem is respected.\n"
-                     "Central limit theorem finished successfully.\n"<< std::endl ;
         verification = true ;
     }
     else {
-        std::cout << "The central limit theorem isn't respected.\n"
-                     "Central limit theorem finished successfully.\n"<< std::endl ;
         verification = false ;
     }
 
@@ -53,4 +52,23 @@ vector<double> StandardCentralLimitThm::get_interval() const
     interval.push_back(lower_bound);
     interval.push_back(upper_bound);
     return interval ;
+}
+void StandardCentralLimitThm::visualization(ostream &flux) const
+{
+    if( verification )
+    {
+        flux<<"The central limit theorem is respected, the confidence interval is :  \n" ;
+        flux<<"\t The upper bound is :"<<upper_bound<<"\n" ;
+        flux<<"\t The lower bound is :"<<lower_bound<<"\n" ;
+        flux<<"\t The size of the confidence interval is :"<< upper_bound - lower_bound <<"\n" ;
+
+    }
+    else
+    {
+        flux<<"The central limit theorem isn't respected, the confidence interval is :  :\n" ;
+        flux<<"\t The upper bound is :"<<upper_bound<<"\n" ;
+        flux<<"\t The lower bound is :"<<lower_bound<<"\n" ;
+        flux<<"\t The size of the confidence interval is :"<< upper_bound - lower_bound <<"\n" ;
+    }
+
 }

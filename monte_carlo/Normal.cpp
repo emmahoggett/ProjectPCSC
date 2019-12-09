@@ -61,7 +61,7 @@ Random_variable* Normal::sub_sample( const int N )
 {
     if( N> N_m.size())
     {
-        throw Error("VARIABLE"," N must be bigger than the size of the sample ") ;
+        throw Error("VARIABLE"," N must be lower than the size of the sample ") ;
     } else
     {
         Random_variable* p_rvs(0);

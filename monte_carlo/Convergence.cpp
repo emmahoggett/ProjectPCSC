@@ -41,7 +41,6 @@ void Convergence:: writefile( const char *file_name) const
         {
             Random_variable* sub_sample_ ;
             sub_sample_ = sample->sub_sample(i);
-            std::cout << sub_sample_->get_size() ;
             auto mean_mc = expectation->calculate_expectation(sub_sample_) ;
             centralLimit->calculate_CentralLimitThm(sub_sample_, mean_mc , alpha) ;
             auto bound = centralLimit->get_interval();
