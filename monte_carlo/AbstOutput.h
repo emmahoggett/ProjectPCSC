@@ -28,7 +28,7 @@ public:
     virtual ~AbstOutput() {} ;
 
     /**
-     * Abstract method that return a file.
+     * \brief Abstract method that return a file.
      * @param file_name : name of the returned file.
      */
 

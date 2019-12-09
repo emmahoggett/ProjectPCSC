@@ -39,6 +39,10 @@ public:
      */
     Normal(const int N , const double mu , const double var);
 
+    /**
+     *\brief Make a copy of the Normal variable.
+     * @param sample_ : Pointer of Normal variable, which gives a vector and the parameter of the vectors distribution.
+     */
     Normal(Normal* sample_);
     /**
      * \brief Return the normal and uniform vector.
@@ -66,6 +70,13 @@ public:
      */
     virtual int get_size() const {return N_m.size(); }
 
+    /**
+     * \brief Return the N first value of the normal and uniform vector.
+     * @param N : Size of the output vector, which is a strictly positive integer and lower then
+     * the size of the normal and uniform vector.
+     * @return A Random_variable pointer with the N first value of the normal and uniform vector. The
+     * pointer contains the same variance and mean as the normal and uniform pointer.
+     */
     virtual Random_variable* sub_sample( const int N ) ;
 
 private:

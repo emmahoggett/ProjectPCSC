@@ -58,8 +58,8 @@ public:
     virtual void calculate_CentralLimitThm(const Random_variable* sample,const double expectation_sample, const double alpha);
 
     /**
-     * \brief Visualized the central limit calculation :
-     * @param the output stream
+     * \brief Visualized the central limit calculation.
+     * @param flux : The output stream.
      */
     virtual void visualization(ostream &flux) const override ;
 

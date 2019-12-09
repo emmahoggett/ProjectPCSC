@@ -18,19 +18,26 @@
 #include "Uniform.h"
 #include "AbstOutput.h"
 /**
- *  Compute the statistical moment of different order of a random variable of a given probability distribution. The result is output in a stream that the user has precised
- *  The mean and variance are the first two statistical moments, and the third and fourth moments also provide information on the shape of the distribution.
+ *  Compute the statistical moment of different order of a random variable of a given probability distribution.
+ *  The mean and variance are the first two statistical moments, and the third and fourth moments also provide
+ *  information on the shape of the distribution.
  *  
  * \brief Compute the moment of sample until the order given by the user.
  */
 class Moment : public AbstOutput{
 public:
     /**
-     * \brief Constructor of the class Moment.
+     * \brief Constructor.
+     *
+     * Set the following variable.
+     *
+     * @param sample_ : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * distribution.
+     * @param order_ : Order of the moment, that is represented by a strictly positive integer.
      */
     Moment(Random_variable *sample_,const int order_);
     /**
-     * \brief Destructor of the class Moment.
+     * \brief Default destructor.
      */
     virtual ~Moment();
 
@@ -39,7 +46,7 @@ public:
      *
      * Then return the results into the stream.
      * The moment is computed as the sum over all the sample minus the mean of the distribution powered by the order.
-     * @param stream : Output stream of the file "OutputMoment.csv".
+     * @param stream : Output stream of the file. In `main.cpp`, the output stream is defined as `OutputMoment.csv`.
      * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @param order : A strictly positive integer, that define the number of moment computed.
