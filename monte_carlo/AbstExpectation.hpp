@@ -19,7 +19,7 @@ using namespace std;
 
 /**
  * Parent class of MonteCarloExpectation.
- * 
+ *
 * \brief Abstract expectation class.
 */
 class AbstExpectation{
@@ -52,7 +52,7 @@ public:
      */
     virtual double calculate_expectation(const Random_variable* rvs) const =0;
     /**
-     * \brief Virtual set the expectation.
+     * \brief Virtual method that set the expectation.
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      */
