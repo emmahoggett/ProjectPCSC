@@ -29,7 +29,7 @@ public:
      * @param expectation_ : Pointer of AbstExpectation, which gives the expectation computed.
      * @param sample_ : Pointer of Random_variable, which gives a vector and the parameter of the vectors
      * distribution. It should work for all child of Random_variable.
-     * @param alpha_ : The confidence interval.
+     * @param alpha_ : The confidence interval, which is float number between ]0,1[
      */
     Convergence(AbstCentralLimitThm* centralLimit_ , AbstExpectation* expectation_,Random_variable* sample_, const double alpha_);
 /**
