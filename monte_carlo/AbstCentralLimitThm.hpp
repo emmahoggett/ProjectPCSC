@@ -57,6 +57,11 @@ public:
      */
     virtual vector<double> get_interval() const =0 ;
 
+    /**
+     * \brief Abstract method that return if the Central limit is respected.
+     * @param flux : Desired output stream, where the information will be specified.
+     */
+
     virtual void visualization(ostream &flux) const  =0 ;
 
 
