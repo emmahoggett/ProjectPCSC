@@ -16,18 +16,19 @@
 #include "Random_variable.h"
 #include "Normal.h"
 #include "Uniform.h"
+#include "AbstOutput.h"
 /**
  *  Compute the statistical moment of different order of a random variable of a given probability distribution. The result is output in a stream that the user has precised
  *  The mean and variance are the first two statistical moments, and the third and fourth moments also provide information on the shape of the distribution.
  *  
  * \brief Compute the moment of sample until the order given by the user.
  */
-class Moment{
+class Moment : public AbstOutput{
 public:
     /**
      * \brief Constructor of the class Moment.
      */
-    Moment();
+    Moment(Random_variable *sample_,const int order_);
     /**
      * \brief Destructor of the class Moment.
      */
@@ -43,8 +44,12 @@ public:
      * distribution.
      * @param order : A strictly positive integer, that define the number of moment computed.
      */
-    void getMoment(std::ofstream &stream, const Random_variable *sample,const int order)const;
+    virtual void writefile(const char *file_name) const override ;
 
+private:
+
+    Random_variable* sample;
+    int order ;
 
 };
 #endif /*MOMENT_HPP_*/
