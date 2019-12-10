@@ -29,10 +29,9 @@ sns.set(style = "whitegrid")
 ax = sns.lineplot(N, convCTL['LowerBound'])
 ax = sns.lineplot(N, convCTL['UpperBound'])
 ax = sns.lineplot(N, convCTL['mcmean'])
-ax = sns.lineplot(N, convCTL['truemean'])
 
 # Add legend, title and labels
-ax.legend(['LowerBound','UpperBound', 'Mean of the vector','Desired mean'])
+ax.legend(['LowerBound','UpperBound', 'Mean of the vector'])
 ax.set(ylabel = 'Central limit mean values', xlabel= 'Size of the uniform & normal vector',
 title = 'Convergence of the central limite theorem values as a function of N')
 

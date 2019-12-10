@@ -41,7 +41,7 @@ void Convergence:: writefile( const char *file_name) const
     }
     else{
 
-         outputFile << "Index,LowerBound,UpperBound,mcmean,truemean\n";
+         outputFile << "Index,LowerBound,UpperBound,mcmean\n";
         for (int i = 1; i <= sample->get_size() ; ++i)
         {
             Random_variable* sub_sample_ ;
