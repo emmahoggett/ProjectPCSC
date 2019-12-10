@@ -49,7 +49,9 @@ public:
     virtual double getExpectation() const override;
 /**
  * \brief Compute the expectation.
-
+ *
+ * The expectation is computed with a user defined function, such that E[f(x)] is calculated
+ * by this method.
  * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
  * distribution.
  * @return Expectation of the rvs vector, which is a float number.
