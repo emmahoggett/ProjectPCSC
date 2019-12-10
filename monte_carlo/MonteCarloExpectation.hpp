@@ -40,7 +40,7 @@ public:
 
     /**
      * \brief Return the computed expectation.
-     * 
+     *
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution.
      * @return The computed expectation of the rvs vector, which is a float number.
