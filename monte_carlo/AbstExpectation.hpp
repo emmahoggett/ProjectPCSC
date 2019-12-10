@@ -66,7 +66,7 @@ public:
     void setOperator(double (*f)(double y));
     /**
      * \brief Return the value of f(x) at x.
-     * @param y : Variable in the set of f.
+     * @param y : Double value defined in the set of f.
      * @return A double that is equal to f(y).
      */
     double computeOperator(double y) const;
