@@ -8,13 +8,13 @@
 
 /*! \mainpage Monte Carlo Algorithm
  * \section introduction 0. Introduction
- *This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as
+ * This project is a familiarization of C++ use. The aim of this project is to create a Monte Carlo Algorithm as
  * modular as possible. The following goals through this project have been reached:
- *  - Implementation of random number generators with a normal
- *    & uniform probability distribution
- *  - Compute the expectation value of a user defined function
- *  - Build .csv with statistical moments
- *  - Verification of the central limit theorem
+ *  - Implementation of random number generators with a normal.
+ *    & uniform probability distribution.
+ *  - Compute the expectation value of a user defined function.
+ *  - Build `.csv` with statistical moments.
+ *  - Verification of the central limit theorem.
  *
  *
  * \section sec1 1. Structure of the code
@@ -86,7 +86,7 @@
 #include "AbstOutput.h"
 #include "Convergence.h"
 
-double f(double y) { return y*y; }
+double f(double y) { return y; }
 
 int main(int argc, char *argv[]) {
     if (argc > 2) {
