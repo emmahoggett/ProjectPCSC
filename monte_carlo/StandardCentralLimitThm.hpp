@@ -56,7 +56,7 @@ public:
      * @param expectation_sample : Float number, which is the expectation of the vector in Random variable.
      * @param alpha : Float number between ]0,1[, which correspond to the confidence interval.
      */
-    virtual void calculate_CentralLimitThm(const Random_variable* sample,const AbstExpectation* expectation, const double alpha);
+    virtual void calculate_CentralLimitThm(const Random_variable* sample,AbstExpectation* expectation, const double alpha);
 
     /**
      * \brief Visualized the central limit calculation.

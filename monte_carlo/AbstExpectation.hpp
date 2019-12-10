@@ -50,7 +50,7 @@ public:
      * distribution.
      * @return  expectation : float that correspond to the mean of values in the vector given by Random_variable.
      */
-    virtual double calculate_expectation(const Random_variable* rvs) const =0;
+    virtual double calculate_expectation(const Random_variable* rvs) =0;
     /**
      * \brief Virtual method that set the expectation.
      * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
@@ -75,11 +75,11 @@ public:
      *
      * @return A boolean that confirm if the function is set.
      */
-    bool isFunctionSet() const ;
+    virtual bool isFunctionSet() =0;
+
 
 private:
     double (*function)(double y);
-    bool is_set ;
 };
 
 #endif /*ABSTEXPECTATION_HPP_*/

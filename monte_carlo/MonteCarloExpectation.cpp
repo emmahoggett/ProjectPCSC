@@ -20,19 +20,25 @@ double MonteCarloExpectation::getExpectation() const{
     return expectation_monte_carlo ;
 }
 
-double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs) const
-{
+double MonteCarloExpectation:: calculate_expectation(const Random_variable* rvs) {
     double mean(0.);
     auto vector_sample = rvs->get_sample() ;
     for(auto vec : vector_sample)
     {
-        mean += computeOperator(vec) ;
+        mean += computeOperator(vec);
     }
     mean/=vector_sample.size();
+
     return mean ;
 }
 
 void MonteCarloExpectation:: setExpectation(const Random_variable* rvs)
 {
     expectation_monte_carlo = calculate_expectation(rvs) ;
+}
+
+bool MonteCarloExpectation::isFunctionSet()
+{
+    double u =2;
+    return (u==computeOperator(u))&&(-u==computeOperator(-u));
 }

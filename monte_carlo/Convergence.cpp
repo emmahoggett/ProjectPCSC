@@ -40,23 +40,33 @@ void Convergence:: writefile( const char *file_name) const
         throw Error("FILE", "File can't be opened");
     }
     else{
+        if(expectation->isFunctionSet()){
+            outputFile << "Index,LowerBound,UpperBound,mcmean,truemean\n";}
+        else{
+            outputFile << "Index,LowerBound,UpperBound,mcmean\n";
+        }
 
-         outputFile << "Index,LowerBound,UpperBound,mcmean\n";
         for (int i = 1; i <= sample->get_size() ; ++i)
         {
-            Random_variable* sub_sample_ ;
+
+            Random_variable* sub_sample_;
             sub_sample_ = sample->sub_sample(i);
             auto mean_mc = expectation->calculate_expectation(sub_sample_) ;
             centralLimit->calculate_CentralLimitThm(sub_sample_, expectation , alpha) ;
             auto bound = centralLimit->get_interval();
-            if(expectation->isFunctionSet())
-            {
-                outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<"\n";
-            }else{
-                auto mean = sample->get_mean() ;
+
+
+            if (expectation->isFunctionSet()){
+                auto mean = sample->get_mean();
                 outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<","<<mean<<"\n";
+
+            }else{
+                outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<"\n";
             }
-            delete sub_sample_ ;
+
+
+
+            delete sub_sample_;
         }
     }
     outputFile.close();

@@ -17,10 +17,10 @@ verification(false) , upper_bound(0) , lower_bound(0) , m_alpha(0.05) , true_mea
 
 StandardCentralLimitThm::~StandardCentralLimitThm() {}
 
-void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* sample, const AbstExpectation* expectation, const double alpha)
+void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* sample, AbstExpectation* expectation, const double alpha)
 {
     m_alpha =alpha ;
-    auto compute_mean = expectation->calculate_expectation(sample);
+    double compute_mean = expectation->calculate_expectation(sample);
     auto vec_U = sample-> get_sample();
     auto size_N = sample-> get_size() ;
     double C_alpha;

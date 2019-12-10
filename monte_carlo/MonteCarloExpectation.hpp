@@ -55,7 +55,7 @@ public:
  * distribution.
  * @return Expectation of the rvs vector, which is a float number.
  */
-    virtual double calculate_expectation(const Random_variable* rvs) const;
+    virtual double calculate_expectation(const Random_variable* rvs);
 
 /**
  * \brief Set the expectation.
@@ -63,6 +63,9 @@ public:
  * distribution.
  */
     virtual void setExpectation(const Random_variable* rvs) override ;
+
+    virtual bool isFunctionSet() override ;
+
 
 private:
     double expectation_monte_carlo;
