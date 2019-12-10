@@ -57,10 +57,24 @@ public:
      * distribution.
      */
     virtual void setExpectation(const Random_variable* rvs) = 0 ;
-
+    /**
+     * \brief Set the function that will be used to compute the expectation.
+     *
+     * This way the expectation will be equal to E[f(x)].
+     * @param f : Pointer to a function defined by the user.
+     */
     void setOperator(double (*f)(double y));
+    /**
+     * \brief Return the value of f(x) at x.
+     * @param y : Variable in the set of f.
+     * @return A double that is equal to f(y).
+     */
     double computeOperator(double y) const;
-
+    /**
+     * \brief Check if the function is set.
+     *
+     * @return A boolean that confirm if the function is set.
+     */
     bool isFunctionSet() const ;
 
 private:
