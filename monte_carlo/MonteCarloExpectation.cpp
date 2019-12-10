@@ -39,6 +39,9 @@ void MonteCarloExpectation:: setExpectation(const Random_variable* rvs)
 
 bool MonteCarloExpectation::isFunctionSet()
 {
-    double u =2;
-    return (u==computeOperator(u))&&(-u==computeOperator(-u));
+    double u = rand() % 99 + 2;
+    double v = rand() % 99 + 2;
+    bool uTrue = (u==computeOperator(u))&&(-u==computeOperator(-u));
+    bool vTrue = (v==computeOperator(v))&&(-v==computeOperator(-v));
+    return (vTrue && uTrue);
 }

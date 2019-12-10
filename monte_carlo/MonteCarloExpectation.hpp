@@ -63,6 +63,12 @@ public:
  * distribution.
  */
     virtual void setExpectation(const Random_variable* rvs) override ;
+    /**
+     * \brief Check if the probability density function f(x) = x.
+     *
+     * Take two random number between 2 and 100 and test if f(x) = x and f(-x) = -x.
+     * @return Boolean that confirm is the probability density function f(x) = x.
+     */
 
     virtual bool isFunctionSet() override ;
 
