@@ -30,6 +30,10 @@ The following values are set by default:
 
 !!Warning!! The code was designed only for uniform and normal distribution input. If another type of input is needed, add new classes to the original architecture.
 
+#### Probability Distribution Function
+The probability distribution function is a function defined at the beginning of the code. Ths function will be used later in the code to compute the expectation, such that E[X] = E[f(x)].
+To change this function, the user only need to set it into the code before running it.
+
 #### C++ Code
 To avoid dysfunctions, a boost package is a added to the project to compute the normal function. To install this package, launch into Unix terminal: `sudo apt-get install libboost-all-dev` 
 
