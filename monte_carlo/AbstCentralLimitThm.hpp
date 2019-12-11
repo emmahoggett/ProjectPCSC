@@ -20,8 +20,8 @@
 using namespace std;
 /** \brief Abstract central limit theorem class.
  *
- * Contains abstract methods to compute the check the central limit
- * theorem. Parent class of StandardCentralLimitThm.
+ * Contains abstract methods to compute and check if the the central limit
+ * theorem is respected. Parent class of StandardCentralLimitThm.
  */
 
 class AbstCentralLimitThm{
@@ -38,7 +38,7 @@ public:
 
     /**
      * \brief Virtual Central Limit Theorem method.
-     * @param sample :  Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param sample :  Pointer of Random variable, which contains a vector and the parameter of the vectors
      * distribution.
      * @param expectation_sample : Expectation of the vector that was computed with the vector.
      * @param alpha : Float number that is defined between ]0,1[ and is the confidence interval.
@@ -54,12 +54,14 @@ public:
 
     /**
      * \brief Virtual method that return the interval of the central limit theorem.
-     * @return The interval of the central limit theorem which is a vector of size 2.
+     * @return The interval of the central limit theorem which is a vector of size two.
      */
     virtual vector<double> get_interval() const =0 ;
 
     /**
-     * \brief Abstract method that return if the Central limit is respected.
+     * \brief Abstract method that return information about the CLT.
+     *
+     * These informations are for example the interval of the CLT or if the CLT is respected.
      * @param flux : Desired output stream, where the information will be specified.
      */
 

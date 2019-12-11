@@ -40,7 +40,7 @@ void Convergence:: writefile( const char *file_name) const
         throw Error("FILE", "File can't be opened");
     }
     else{
-        if(expectation->isFunctionSet()){
+        if(expectation->isFunctionLin()){
             outputFile << "Index,LowerBound,UpperBound,mcmean,truemean\n";}
         else{
             outputFile << "Index,LowerBound,UpperBound,mcmean\n";
@@ -56,7 +56,7 @@ void Convergence:: writefile( const char *file_name) const
             auto bound = centralLimit->get_interval();
 
 
-            if (expectation->isFunctionSet()){
+            if (expectation->isFunctionLin()){
                 auto mean = sample->get_mean();
                 outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<","<<mean<<"\n";
 

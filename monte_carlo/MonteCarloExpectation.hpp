@@ -70,7 +70,7 @@ public:
      * @return Boolean that confirm is the probability density function f(x) = x.
      */
 
-    virtual bool isFunctionSet() override ;
+    virtual bool isFunctionLin() override ;
 
 
 private:

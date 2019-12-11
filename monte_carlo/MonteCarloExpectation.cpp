@@ -37,7 +37,7 @@ void MonteCarloExpectation:: setExpectation(const Random_variable* rvs)
     expectation_monte_carlo = calculate_expectation(rvs) ;
 }
 
-bool MonteCarloExpectation::isFunctionSet()
+bool MonteCarloExpectation::isFunctionLin()
 {
     double u = rand() % 99 + 2;
     double v = rand() % 99 + 2;
