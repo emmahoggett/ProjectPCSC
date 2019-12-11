@@ -27,7 +27,7 @@ void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* s
     boost::math::normal dist(0.0,1.0) ;
     C_alpha =  quantile(dist , 1- m_alpha/2.);
     double sigma;
-    if( expectation->isFunctionLin())
+    if( !(expectation->isFunctionLin()))
     {
         // Approximation of the standard deviation
         double tmp(0) ;
