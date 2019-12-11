@@ -66,6 +66,10 @@ The different test are :
 * `StandardCentralLimitThm_test` : test if the theorem is respected for a large vector size.
 * `Input_test` : test values entered in a desired file for the normal distribution and the uniform distribution. 
 
+### Improvements
+In this section, we will introduce some ideas of improvements for the project:
+1. 
+
 ### Documentation
 * [List of probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 * [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
