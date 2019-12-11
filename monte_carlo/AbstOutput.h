@@ -18,10 +18,12 @@
  */
 class AbstOutput {
 public:
+
     /**
      * \brief Default constructor.
      */
     AbstOutput() {} ;
+
     /**
      * \brief Default destructor.
      */
@@ -31,7 +33,6 @@ public:
      * \brief Abstract method that return a file.
      * @param file_name : name of the returned file.
      */
-
     virtual void writefile(const char *file_name) const = 0 ;
 };
 #endif /*ABSTOUTPUT_H_*/

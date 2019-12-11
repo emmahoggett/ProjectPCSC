@@ -31,7 +31,7 @@ public:
      *
      * Set the following variable.
      *
-     * @param sample_ : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param sample_ : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
      * @param order_ : Order of the moment, that is represented by a strictly positive integer.
      */
@@ -47,7 +47,7 @@ public:
      * Then return the results into the stream.
      * The moment is computed as the sum over all the sample minus the mean of the distribution powered by the order.
      * @param stream : Output stream of the file. In `main.cpp`, the output stream is defined as `OutputMoment.csv`.
-     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param sample : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
      * @param order : A strictly positive integer, that define the number of moment computed.
      */

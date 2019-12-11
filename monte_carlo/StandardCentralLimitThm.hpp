@@ -34,10 +34,11 @@ public:
 
     /**
      * \brief Check if the central limit theorem is completed.
-     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param sample : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
      * @param expectation_sample : Float number, which is the expectation of the vector in Random variable.
-     * @param alpha : Float number between ]0,1[, which correspond to the confidence interval.
+     * @param alpha : Float number between ]0,1[, which correspond to the probability 1-alpha that the true mean is in
+     * the confidence interval
      */
     virtual bool is_verified() const ;
 
@@ -51,10 +52,11 @@ public:
      * \brief Compute the central limit parameters.
      *
      * And check if the central limit is completed or not.
-     * @param sample : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param sample : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
-     * @param expectation_sample : Float number, which is the expectation of the vector in Random variable.
-     * @param alpha : Float number between ]0,1[, which correspond to the confidence interval.
+     * @param expectation_sample : Pointer of AbstExpectation, which gives a method to compute the mean of a Random variable.
+     * @param alpha : Float number between ]0,1[, which correspond to the probability 1-alpha that the true mean is in
+     * the confidence interval
      */
     virtual void calculate_CentralLimitThm(const Random_variable* sample,AbstExpectation* expectation, const double alpha);
 

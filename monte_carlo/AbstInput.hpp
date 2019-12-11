@@ -38,10 +38,9 @@ public:
      *
      * The function can have a Random_Variable, which give to the
      * user the opportunity to build different type of vector distribution.
-     * @param pRandomVar : Pointer of Random variable, which gives a vector and the parameter of the vectors
-     * distribution.
-     * @param alpha : The confidence interval that can be precised in the file or set as default in the children of
-     * the class.
+     * @param pRandomVar : Pointer of Random variable, which contains a sample and parameters of a distribution.
+     * @param alpha : Define the probability 1-alpha that the true mean is in the confidence interval that can be
+     * precised in the file or set as default in the children of the class.
      * @param moment : Order of the moment that can be precised in the file or set as default in the children of
      * the class.
      * @param file_name : File name given by the user or that was set as default.

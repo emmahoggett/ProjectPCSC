@@ -38,10 +38,9 @@ public:
 
     /**
      * \brief Virtual Central Limit Theorem method.
-     * @param sample :  Pointer of Random variable, which contains a vector and the parameter of the vectors
-     * distribution.
-     * @param expectation_sample : Expectation of the vector that was computed with the vector.
-     * @param alpha : Float number that is defined between ]0,1[ and is the confidence interval.
+     * @param sample :  Pointer of Random variable, which contains a sample and parameters of a distribution.
+     * @param expectation_sample : Pointer of AbstExpectation, which contains a method to compute the mean of a sample.
+     * @param alpha : Float number that is defined between ]0,1[. The true mean has probability 1-alpha to be in the confidence interval.
      */
     virtual void calculate_CentralLimitThm(const Random_variable* sample, AbstExpectation* expectation, const double alpha) =0;
     /**
@@ -53,7 +52,7 @@ public:
     virtual bool is_verified() const =0;
 
     /**
-     * \brief Virtual method that return the interval of the central limit theorem.
+     * \brief Virtual method that return the confidence interval of the central limit theorem.
      * @return The interval of the central limit theorem which is a vector of size two.
      */
     virtual vector<double> get_interval() const =0 ;
@@ -61,7 +60,7 @@ public:
     /**
      * \brief Abstract method that return information about the CLT.
      *
-     * These informations are for example the interval of the CLT or if the CLT is respected.
+     * These informations are the confidence interval of the CLT, if the CLT is respected and the error
      * @param flux : Desired output stream, where the information will be specified.
      */
 

@@ -39,8 +39,8 @@ public:
      *  Each properties of variables are checked in the reading process.
      * @param pRandomVar : Pointer of Random variable, which gives a vector and the parameter of the vectors
      * distribution. It will be define as a Normal variable.
-     * @param alpha : The confidence interval that can be precised in the file. Otherwise, it is set to
-     * default: alpha = 0.05.
+     * @param alpha :  Define the probability 1-alpha that the true mean is in the confidence interval that can be precised in the file.
+     * Otherwise, it is set to default: alpha = 0.05.
      * @param moment : Order of the moment that can be precised in the file. Otherwise, it is set to
      * default: moment = 4.
      * @param file_name : File name given by the user or that was set as default: `DefaultNormal.dat`. The two last

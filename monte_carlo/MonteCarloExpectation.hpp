@@ -28,7 +28,7 @@ public:
     MonteCarloExpectation();
     /**
      * \brief Constructor: already computes the monte carlo expectation.
-     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param rvs : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
      */
 
@@ -41,7 +41,7 @@ public:
     /**
      * \brief Return the computed expectation.
      *
-     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+     * @param rvs : Pointer of Random variable, which gives a sample and the parameter of a
      * distribution.
      * @return The computed expectation of the rvs vector, which is a float number.
      */
@@ -51,7 +51,7 @@ public:
  *
  * The expectation is computed with a user defined function, such that E[f(x)] is calculated
  * by this method.
- * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
+ * @param rvs : Pointer of Random variable, which gives a sample and the parameter of a
  * distribution.
  * @return Expectation of the rvs vector, which is a float number.
  */

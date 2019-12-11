@@ -38,31 +38,27 @@ public:
     /**
      * \brief Virtual method that return the computed expectation.
      *
-     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
-     * distribution.
+     * @param rvs : Pointer of Random variable, which contains a sample and parameters of a distribution.
      * @return expectation : float that correspond to the mean of values in the vector given by Random_variable.
      */
     virtual double getExpectation() const = 0;
     /**
      * \brief Virtual method that compute expectation.
-     * Compute the expectation with variables contained into the vector.
-     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
-     * distribution.
+     * Compute the expectation of a given sample distribution .
+     * @param rvs : Pointer of Random variable, which contains a sample and parameters of a distribution.
      * @return  expectation : float that correspond to the mean of values in the vector given by Random_variable.
      */
     virtual double calculate_expectation(const Random_variable* rvs) =0;
     /**
      * \brief Virtual method that set the expectation.
-     * @param rvs : Pointer of Random variable, which gives a vector and the parameter of the vectors
-     * distribution.
+     * @param rvs : Pointer of Random variable, which contains a sample and parameters of a distribution.
      */
     virtual void setExpectation(const Random_variable* rvs) = 0 ;
     /**
      * \brief Set the function that will be used to compute the expectation.
      *
      *
-     * The function is defined by the user at the beginning of the main  and
-     * represent the probability density function.
+     * The function is defined by the user at the beginning of the main.
      * This way the expectation will be equal to E[f(x)].
      *
      * @param f : Pointer to a function defined by the user.
@@ -71,7 +67,7 @@ public:
     /**
      * \brief Return the value of f(x) at x.
      *
-     * The function f should be set by the user and represent the probability density function.
+     * The function f should be set by the user.
      * @param y : Double value defined in the set of f.
      * @return A double that is equal to f(y).
      */
