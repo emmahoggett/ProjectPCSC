@@ -39,7 +39,7 @@
  * \subsection subsec16 1.5 Output
  * - AbstOutput : Abstract class for output file.
  * - Moment : Compute the moment of sample until the order given by the user.
- * - Convergence : Compute the convergence of the CLT
+ * - Convergence : Compute the convergence of the central limit theorem.
  *
  * \subsection subsec16 1.6 Error management
  * - Error : Manage all the error that the program may encounter.
@@ -101,7 +101,7 @@ int main(int argc, char *argv[]) {
     if(argc==2){
         file_name_A = argv[1];
     }else {
-        std::cout << "The file is set as default: DefaultNormal.dat\n";
+        std::cout << "The file is set as default: \"DefaultNormal.dat\"\n";
         file_name_A = "DefaultNormal.dat";
     }
 

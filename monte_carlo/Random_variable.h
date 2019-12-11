@@ -37,7 +37,7 @@ public:
     virtual int get_size() const =0 ;
 
     /**
-     * \brief Virtual method the N first value of the vector with a given distribution.
+     * \brief Virtual method the N first values of the vector.
      * @param N : Size of the output vector, which is a strictly positive integer and lower then
      * the size of the vector.
      * @return A Random_variable pointer with the N first value of vector. The

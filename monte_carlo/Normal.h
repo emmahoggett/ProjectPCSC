@@ -53,13 +53,13 @@ public:
 
 
     /**
-     *  \brief Return the mean of the normal distribution that the sample comes from .
+     *  \brief Return the mean of the normal distribution.
      * @return Mean of the normal and uniform distribution.
      */
     virtual double get_mean() const { return mean_normal;}
 
     /**
-     * \breif Return the variance of the normal distribution that the sample comes from .
+     * \brief Return the variance of the normal distribution that the sample comes from .
      * @return Variance of the normal and uniform distribution.
      */
     virtual double get_var() const { return var_normal;}

@@ -59,7 +59,10 @@ public:
     virtual void calculate_CentralLimitThm(const Random_variable* sample,AbstExpectation* expectation, const double alpha);
 
     /**
-     * \brief Visualized the central limit calculation.
+     * \brief Return in an output stream information about the central limit theorem.
+     *
+     * This function returns the interval, if the central limit theorem is respected and the probability
+     * of the expectation to be in the interval.
      * @param flux : The output stream.
      */
     virtual void visualization(ostream &flux) const override ;
