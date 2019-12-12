@@ -42,6 +42,7 @@ void StandardCentralLimitThm::calculate_CentralLimitThm(const Random_variable* s
         auto variance = sample->get_var();
         sigma = sqrt(variance);
         true_mean_exist = true ;
+
     }
 
     lower_bound = compute_mean-(C_alpha*sigma/sqrt(size_N)) ;
