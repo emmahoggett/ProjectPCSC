@@ -68,10 +68,11 @@ The different test are :
 
 ### Improvements
 In this section, we will introduce some ideas of improvements for the project:
-1. Compute an histogram of the error between the monte carlo mean and the true mean. This should be distributed as a gaussain 
+1. Compute an histogram of the difference between the monte carlo mean and the true mean. This should be distributed as a gaussain 
 2. For a given tolerance compute a sample from a distribution such that the error between the monte carlo mean and the true mean is less than the tolerance
 3. Add different way of computing the mean like a variance reduction technique and also compute differente confidence interval like the chebyshev inequality
-4. Application to compute integral
+4. Application to compute integral for the expectation
+5. Add the delta method for the central limit theorem
 
 ### Documentation
 * [List of probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
