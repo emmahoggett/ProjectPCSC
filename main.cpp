@@ -86,7 +86,7 @@
 #include "AbstOutput.h"
 #include "Convergence.h"
 
-double f(double y) { return y; }
+double f(double y) { return y*y; }
 
 int main(int argc, char *argv[]) {
     if (argc > 2) {
@@ -123,7 +123,6 @@ int main(int argc, char *argv[]) {
 
     delete pInput;
 
-
     pExpectation = new MonteCarloExpectation;
     pExpectation->setOperator(f);
 
@@ -149,7 +148,12 @@ int main(int argc, char *argv[]) {
 
     AbstOutput* pOutput ;
     pOutput = new Convergence(pCentralLimit,pExpectation,pRandom_variable,alpha);
-    pOutput->writefile("OutputConvergence.csv");
+    try{
+        pOutput->writefile("OutputConvergence.csv");
+    }catch(Error& e){
+        e.PrintDebug();
+        return -1;
+    }
     std::cout << "The output file \"OutputConvergence.csv\" was created successfully.\n";
 
     delete pCentralLimit;
