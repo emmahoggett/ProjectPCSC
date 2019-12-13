@@ -32,6 +32,8 @@ The following values are set by default:
 
 !!Warning!! The code was designed only for uniform and normal distribution input. If another type of input is needed, add new classes to the original architecture.
 
+Be also carefull of the working directory, when the code is compiled, this one must contain your input file and the default one `DefaultNormal.dat`.
+
 #### Probability Distribution Function
 The probability distribution function is a function defined at the beginning of the code. Ths function will be used later in the code to compute the expectation, such that E[X] = E[f(x)].
 To change this function, the user only need to set it into the code before running it. The entered function has to be defined on sample range.
