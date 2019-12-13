@@ -83,6 +83,7 @@ In this section, we will introduce some ideas of improvements for the project:
 5. Add the delta method for the central limit theorem
 6. The method isFunctionLin() that cop with the true mean in the output class Convergence is not robust. The thing is that the function only deal with function f(x) = x. Moreover, the true mean can be computed for function such as f(x) = x + b.
 7. Implementation of special function that is not defined on the range of the vector sample, such as f(x) = log (x) with x ~ U[0,1].
+8. Put an indicator for the user, to show him the function used to compute the expectation.
 
 ### Documentation
 * [List of probability distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
