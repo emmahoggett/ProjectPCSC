@@ -17,8 +17,6 @@ Moment::Moment(Random_variable *sample_ , const int order_)
 Moment::~Moment()
 {
     sample = 0 ;
-    order = 0 ;
-
 }
 
 void  Moment::writefile(const char *file_name) const
@@ -37,9 +35,11 @@ void  Moment::writefile(const char *file_name) const
         auto mean = sample->get_mean();
         auto vector_sample = sample->get_sample();
         outputFile << "order,moment\n";
-        for (int i = 1; i <= order; ++i) {
+        for (int i = 1; i <= order; ++i)
+        {
             double sum = 0;
-            for (auto vec : vector_sample) {
+            for (auto vec : vector_sample)
+            {
                 sum += pow(vec - mean, i);
             }
             outputFile << i << "," << sum << "\n";

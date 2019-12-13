@@ -55,7 +55,6 @@ void Convergence:: writefile( const char *file_name) const
             centralLimit->calculate_CentralLimitThm(sub_sample_, expectation , alpha) ;
             auto bound = centralLimit->get_interval();
 
-
             if (expectation->isFunctionLin()){
                 auto mean = sample->get_mean();
                 outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<","<<mean<<"\n";
@@ -63,9 +62,6 @@ void Convergence:: writefile( const char *file_name) const
             }else{
                 outputFile<< i<<","<< bound[0] <<","<< bound[1]<<","<<mean_mc<<"\n";
             }
-
-
-
             delete sub_sample_;
         }
     }

@@ -79,5 +79,4 @@ Random_variable* Normal::sub_sample( const int N )
         return p_rvs ;
     }
 
-
 }

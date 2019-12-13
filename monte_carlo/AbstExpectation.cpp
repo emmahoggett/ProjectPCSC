@@ -13,7 +13,10 @@ double defaultfunction(double y){ return y ;}
 AbstExpectation::AbstExpectation():
 function(defaultfunction)
 {}
-AbstExpectation::~AbstExpectation() {}
+AbstExpectation::~AbstExpectation()
+{
+    function = 0 ;
+}
 
 void AbstExpectation::setOperator(double (*f)(double y)) {
     function = f;

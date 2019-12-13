@@ -14,6 +14,7 @@
 #include <string>
 #include "Error.hpp"
 #include "Random_variable.h"
+
 /** An abstract class in case if the user need to have a different type of input.
  * For example, if he wants to make an uniform distribution.
  * \brief Abstract class for input
@@ -34,7 +35,6 @@ public:
 
     /**
      * \brief Abstract function that read the file.
-     *
      *
      * The function can have a Random_Variable, which give to the
      * user the opportunity to build different type of vector distribution.
