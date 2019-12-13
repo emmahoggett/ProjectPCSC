@@ -42,6 +42,20 @@ Error.hpp
 Random_variable.h
 ../monte_carlo/Random_variable.h
 
+../monte_carlo/AbstOutput.h
+iostream
+-
+Random_variable.h
+../monte_carlo/Random_variable.h
+
+../monte_carlo/Convergence.h
+AbstOutput.h
+../monte_carlo/AbstOutput.h
+AbstCentralLimitThm.hpp
+../monte_carlo/AbstCentralLimitThm.hpp
+AbstExpectation.hpp
+../monte_carlo/AbstExpectation.hpp
+
 ../monte_carlo/Error.hpp
 string
 -
@@ -147,4 +161,8 @@ Moment.hpp
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Moment.hpp
 Error.hpp
 /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Error.hpp
+AbstOutput.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/AbstOutput.h
+Convergence.h
+/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/Convergence.h
 

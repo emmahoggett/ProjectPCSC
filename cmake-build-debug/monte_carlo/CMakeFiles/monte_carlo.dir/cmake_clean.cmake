@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/monte_carlo.dir/Uniform.cpp.o"
   "CMakeFiles/monte_carlo.dir/AbstInput.cpp.o"
   "CMakeFiles/monte_carlo.dir/InputNormal.cpp.o"
+  "CMakeFiles/monte_carlo.dir/Convergence.cpp.o"
+  "CMakeFiles/monte_carlo.dir/InputUniform.cpp.o"
   "libmonte_carlo.pdb"
   "libmonte_carlo.a"
 )

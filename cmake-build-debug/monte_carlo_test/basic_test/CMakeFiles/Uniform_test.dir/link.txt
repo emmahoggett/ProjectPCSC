@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Uniform_test.dir/Uniform_test.cpp.o  -o Uniform_test ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../monte_carlo/libmonte_carlo.a ../../lib/libgtestd.a -lpthread 

@@ -124,43 +124,82 @@ monte_carlo_run/fast:
 .PHONY : monte_carlo_run/fast
 
 #=============================================================================
-# Target rules for targets named runBasicMonteCarloTests_3
+# Target rules for targets named Input_test
 
 # Build rule for target.
-runBasicMonteCarloTests_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 runBasicMonteCarloTests_3
-.PHONY : runBasicMonteCarloTests_3
+Input_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Input_test
+.PHONY : Input_test
 
 # fast build rule for target.
-runBasicMonteCarloTests_3/fast:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build
-.PHONY : runBasicMonteCarloTests_3/fast
+Input_test/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build
+.PHONY : Input_test/fast
 
 #=============================================================================
-# Target rules for targets named runBasicMonteCarloTests
+# Target rules for targets named Normal_test
 
 # Build rule for target.
-runBasicMonteCarloTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 runBasicMonteCarloTests
-.PHONY : runBasicMonteCarloTests
+Normal_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Normal_test
+.PHONY : Normal_test
 
 # fast build rule for target.
-runBasicMonteCarloTests/fast:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build
-.PHONY : runBasicMonteCarloTests/fast
+Normal_test/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build
+.PHONY : Normal_test/fast
 
 #=============================================================================
-# Target rules for targets named runBasicMonteCarloTests_2
+# Target rules for targets named Uniform_test
 
 # Build rule for target.
-runBasicMonteCarloTests_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 runBasicMonteCarloTests_2
-.PHONY : runBasicMonteCarloTests_2
+Uniform_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Uniform_test
+.PHONY : Uniform_test
 
 # fast build rule for target.
-runBasicMonteCarloTests_2/fast:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
-.PHONY : runBasicMonteCarloTests_2/fast
+Uniform_test/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build
+.PHONY : Uniform_test/fast
+
+#=============================================================================
+# Target rules for targets named StandardCentralLimitThm_test
+
+# Build rule for target.
+StandardCentralLimitThm_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StandardCentralLimitThm_test
+.PHONY : StandardCentralLimitThm_test
+
+# fast build rule for target.
+StandardCentralLimitThm_test/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build
+.PHONY : StandardCentralLimitThm_test/fast
+
+#=============================================================================
+# Target rules for targets named runAllTests
+
+# Build rule for target.
+runAllTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runAllTests
+.PHONY : runAllTests
+
+# fast build rule for target.
+runAllTests/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
+
+#=============================================================================
+# Target rules for targets named MonteCarloExpectation_test
+
+# Build rule for target.
+MonteCarloExpectation_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MonteCarloExpectation_test
+.PHONY : MonteCarloExpectation_test
+
+# fast build rule for target.
+MonteCarloExpectation_test/fast:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build
+.PHONY : MonteCarloExpectation_test/fast
 
 #=============================================================================
 # Target rules for targets named gtest
@@ -237,9 +276,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... monte_carlo_run"
 	@echo "... edit_cache"
-	@echo "... runBasicMonteCarloTests_3"
-	@echo "... runBasicMonteCarloTests"
-	@echo "... runBasicMonteCarloTests_2"
+	@echo "... Input_test"
+	@echo "... Normal_test"
+	@echo "... Uniform_test"
+	@echo "... StandardCentralLimitThm_test"
+	@echo "... runAllTests"
+	@echo "... MonteCarloExpectation_test"
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... monte_carlo"

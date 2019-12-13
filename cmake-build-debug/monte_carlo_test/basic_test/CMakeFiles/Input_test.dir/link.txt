@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Input_test.dir/Input_test.cpp.o  -o Input_test ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../monte_carlo/libmonte_carlo.a ../../lib/libgtestd.a -lpthread 

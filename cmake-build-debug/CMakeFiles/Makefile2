@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build
 CMakeFiles/monte_carlo_run.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
 	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/depend
 	$(MAKE) -f CMakeFiles/monte_carlo_run.dir/build.make CMakeFiles/monte_carlo_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target monte_carlo_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target monte_carlo_run"
 .PHONY : CMakeFiles/monte_carlo_run.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/monte_carlo_run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/monte_carlo_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/monte_carlo_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/monte_carlo_run.dir/rule
@@ -121,16 +121,22 @@ monte_carlo_test/preinstall: monte_carlo_test/lib/googletest/preinstall
 # Directory level rules for directory monte_carlo_test/basic_test
 
 # Convenience name for "all" pass in the directory.
-monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all
-monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all
-monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all
+monte_carlo_test/basic_test/all: monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all
 
 .PHONY : monte_carlo_test/basic_test/all
 
 # Convenience name for "clean" pass in the directory.
-monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/clean
-monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/clean
-monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/clean
+monte_carlo_test/basic_test/clean: monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/clean
 
 .PHONY : monte_carlo_test/basic_test/clean
 
@@ -140,117 +146,236 @@ monte_carlo_test/basic_test/preinstall:
 .PHONY : monte_carlo_test/basic_test/preinstall
 
 #=============================================================================
-# Target rules for target monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/Input_test.dir
 
 # All Build rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/depend
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target runBasicMonteCarloTests_3"
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Input_test"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all
 
 # Include target in all.
-all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all
+all: monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 17
-	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/rule
 
 # Convenience name for target.
-runBasicMonteCarloTests_3: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/rule
+Input_test: monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/rule
 
-.PHONY : runBasicMonteCarloTests_3
-
-# clean rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/clean:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/clean
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/clean
+.PHONY : Input_test
 
 # clean rule for target.
-clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_3.dir/clean
+monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/Input_test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir
 
 # All Build rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/depend
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=18,19,20,21,22 "Built target runBasicMonteCarloTests"
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Normal_test"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all
 
 # Include target in all.
-all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all
+all: monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 20
-	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/rule
 
 # Convenience name for target.
-runBasicMonteCarloTests: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/rule
+Normal_test: monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/rule
 
-.PHONY : runBasicMonteCarloTests
-
-# clean rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/clean:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/clean
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/clean
+.PHONY : Normal_test
 
 # clean rule for target.
-clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests.dir/clean
+monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/Normal_test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir
 
 # All Build rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/depend
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target runBasicMonteCarloTests_2"
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Uniform_test"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all
 
 # Include target in all.
-all: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/all
+all: monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/all
+monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/rule
 
 # Convenience name for target.
-runBasicMonteCarloTests_2: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/rule
+Uniform_test: monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/rule
 
-.PHONY : runBasicMonteCarloTests_2
-
-# clean rule for target.
-monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/clean:
-	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/clean
-.PHONY : monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/clean
+.PHONY : Uniform_test
 
 # clean rule for target.
-clean: monte_carlo_test/basic_test/CMakeFiles/runBasicMonteCarloTests_2.dir/clean
+monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/Uniform_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir
+
+# All Build rule for target.
+monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target StandardCentralLimitThm_test"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all
+
+# Include target in all.
+all: monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/rule
+
+# Convenience name for target.
+StandardCentralLimitThm_test: monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/rule
+
+.PHONY : StandardCentralLimitThm_test
+
+# clean rule for target.
+monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/StandardCentralLimitThm_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir
+
+# All Build rule for target.
+monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33,34,35 "Built target runAllTests"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all
+
+# Include target in all.
+all: monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 23
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/rule
+
+# Convenience name for target.
+runAllTests: monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/rule
+
+.PHONY : runAllTests
+
+# clean rule for target.
+monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/build.make monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/runAllTests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir
+
+# All Build rule for target.
+monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
+monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
+monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all: monte_carlo/CMakeFiles/monte_carlo.dir/all
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/depend
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target MonteCarloExpectation_test"
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all
+
+# Include target in all.
+all: monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/rule
+
+# Convenience name for target.
+MonteCarloExpectation_test: monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/rule
+
+.PHONY : MonteCarloExpectation_test
+
+# clean rule for target.
+monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/clean:
+	$(MAKE) -f monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/build.make monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/clean
+.PHONY : monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/clean
+
+# clean rule for target.
+clean: monte_carlo_test/basic_test/CMakeFiles/MonteCarloExpectation_test.dir/clean
 
 .PHONY : clean
 
@@ -281,7 +406,7 @@ monte_carlo_test/lib/googletest/preinstall:
 monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target gtest"
 .PHONY : monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -318,7 +443,7 @@ clean: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/clean
 monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all: monte_carlo_test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/build.make monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target gtest_main"
 .PHONY : monte_carlo_test/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -373,7 +498,7 @@ monte_carlo/preinstall:
 monte_carlo/CMakeFiles/monte_carlo.dir/all:
 	$(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/depend
 	$(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15 "Built target monte_carlo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target monte_carlo"
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/all
 
 # Include target in all.
@@ -383,7 +508,7 @@ all: monte_carlo/CMakeFiles/monte_carlo.dir/all
 
 # Build rule for subdir invocation for target.
 monte_carlo/CMakeFiles/monte_carlo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 monte_carlo/CMakeFiles/monte_carlo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug/CMakeFiles 0
 .PHONY : monte_carlo/CMakeFiles/monte_carlo.dir/rule

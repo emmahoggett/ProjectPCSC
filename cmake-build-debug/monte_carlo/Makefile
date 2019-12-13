@@ -206,6 +206,33 @@ AbstInput.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/AbstInput.cpp.s
 .PHONY : AbstInput.cpp.s
 
+Convergence.o: Convergence.cpp.o
+
+.PHONY : Convergence.o
+
+# target to build an object file
+Convergence.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Convergence.cpp.o
+.PHONY : Convergence.cpp.o
+
+Convergence.i: Convergence.cpp.i
+
+.PHONY : Convergence.i
+
+# target to preprocess a source file
+Convergence.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Convergence.cpp.i
+.PHONY : Convergence.cpp.i
+
+Convergence.s: Convergence.cpp.s
+
+.PHONY : Convergence.s
+
+# target to generate assembly for a file
+Convergence.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/Convergence.cpp.s
+.PHONY : Convergence.cpp.s
+
 Error.o: Error.cpp.o
 
 .PHONY : Error.o
@@ -259,6 +286,33 @@ InputNormal.s: InputNormal.cpp.s
 InputNormal.cpp.s:
 	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputNormal.cpp.s
 .PHONY : InputNormal.cpp.s
+
+InputUniform.o: InputUniform.cpp.o
+
+.PHONY : InputUniform.o
+
+# target to build an object file
+InputUniform.cpp.o:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputUniform.cpp.o
+.PHONY : InputUniform.cpp.o
+
+InputUniform.i: InputUniform.cpp.i
+
+.PHONY : InputUniform.i
+
+# target to preprocess a source file
+InputUniform.cpp.i:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputUniform.cpp.i
+.PHONY : InputUniform.cpp.i
+
+InputUniform.s: InputUniform.cpp.s
+
+.PHONY : InputUniform.s
+
+# target to generate assembly for a file
+InputUniform.cpp.s:
+	cd /mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/cmake-build-debug && $(MAKE) -f monte_carlo/CMakeFiles/monte_carlo.dir/build.make monte_carlo/CMakeFiles/monte_carlo.dir/InputUniform.cpp.s
+.PHONY : InputUniform.cpp.s
 
 Moment.o: Moment.cpp.o
 
@@ -413,12 +467,18 @@ help:
 	@echo "... AbstInput.o"
 	@echo "... AbstInput.i"
 	@echo "... AbstInput.s"
+	@echo "... Convergence.o"
+	@echo "... Convergence.i"
+	@echo "... Convergence.s"
 	@echo "... Error.o"
 	@echo "... Error.i"
 	@echo "... Error.s"
 	@echo "... InputNormal.o"
 	@echo "... InputNormal.i"
 	@echo "... InputNormal.s"
+	@echo "... InputUniform.o"
+	@echo "... InputUniform.i"
+	@echo "... InputUniform.s"
 	@echo "... Moment.o"
 	@echo "... Moment.i"
 	@echo "... Moment.s"

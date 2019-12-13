@@ -84,6 +84,15 @@
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstInput.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/AbstOutput.h">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Convergence.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Convergence.h">
+			<Option target="monte_carlo"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Error.cpp">
 			<Option target="monte_carlo"/>
 		</Unit>
@@ -94,6 +103,12 @@
 			<Option target="monte_carlo"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputNormal.hpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputUniform.cpp">
+			<Option target="monte_carlo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/InputUniform.hpp">
 			<Option target="monte_carlo"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/pierr/Documents/GitHub/ProjectPCSC_2/monte_carlo/Moment.cpp">

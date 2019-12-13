@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Normal_test.dir/Normal_test.cpp.o  -o Normal_test ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../monte_carlo/libmonte_carlo.a ../../lib/libgtestd.a -lpthread 

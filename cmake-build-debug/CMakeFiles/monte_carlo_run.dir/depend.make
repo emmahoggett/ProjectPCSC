@@ -4,6 +4,8 @@
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/AbstCentralLimitThm.hpp
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/AbstExpectation.hpp
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/AbstInput.hpp
+CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/AbstOutput.h
+CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/Convergence.h
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/Error.hpp
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/InputNormal.hpp
 CMakeFiles/monte_carlo_run.dir/main.cpp.o: ../monte_carlo/Moment.hpp
